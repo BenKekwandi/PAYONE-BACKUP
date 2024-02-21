@@ -1,0 +1,28 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PAYONE</title>
+    <!-- Add Bootstrap 5 CSS link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>PAYONE</h1>
+        <h3>{% trans "NEW REQUEST APPLICATION" %}</h3>
+        <p>{% trans "A new prospect has requested to start using our platform" %}</p>
+        <p>{% trans "Company Name" %} : {{company_name}}</p>
+        <p>{% trans "Address" %} : {{company_address}}</p>
+        <p>{% trans "Company Contact Person (Manager)" %} : {{company_manager}}</p>
+        <p>{% trans "Date and Time" %} : {{registration_datetime}}</p>
+
+    </div>
+</body>
+
+</html>

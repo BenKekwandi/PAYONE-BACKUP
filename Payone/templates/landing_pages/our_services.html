@@ -1,0 +1,175 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+
+{% block stylePages %}
+<!-- <link rel="stylesheet" href="{% static '/css/home/our_Services.css' %}"> -->
+<link rel="stylesheet" href="{% static '/css/home/styles1.css' %}">
+
+{% endblock %}
+{% block content %}
+
+
+
+<header class="py-5">
+    <div class="container px-lg-5">
+        <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+            <div class="m-4 m-lg-5">
+                <h1 class="display-5 fw-bold">{% trans "Why PAYONE?" %}</h1>
+                <p class="fs-4">
+                    {% trans "We prioritize security, offering the utmost protection for your digital assets, giving you peace of mind in the often volatile world of cryptocurrencies." %}
+                </p>
+                <a class="btn btn-primary btn-lg" href="/application">{% trans "Join Us Now" %}</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page Content-->
+<section class="pt-4">
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-wallet2"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "Secure Services" %}</h2>
+                        <p class="mb-0">{% trans "Our top priority is the security of your digital assets. We employ cutting-edge encryption and multi-factor authentication to ensure the utmost protection for your funds and data." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-currency-exchange"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "Currency Converter" %}</h2>
+                        <p class="mb-0">{% trans "Easily convert between various cryptocurrencies and traditional fiat currencies with our intuitive currency converter, providing you with real-time exchange rates for seamless transactions." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-file-earmark-pdf-fill"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "Detailed Reports" %}</h2>
+                        <p class="mb-0">{% trans "Stay informed with comprehensive reports on your crypto portfolio, including transaction histories, account balances, and performance analytics, empowering you to make well-informed financial decisions.!" %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-box2-heart-fill"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "Friendly layout" %}</h2>
+                        <p class="mb-0">{% trans "Our user-friendly interface is designed for both beginners and experienced traders, offering an intuitive and visually pleasing layout that makes navigating the platform a breeze." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-code"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "24/7 Tech support" %} </h2>
+                        <p class="mb-0">{% trans "Count on round-the-clock technical support from our knowledgeable team of experts. Whether you have questions, encounter issues, or need assistance, we're here to provide timely and helpful solutions." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xxl-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                class="bi bi-patch-check"></i></div>
+                        <h2 class="fs-4 fw-bold">{% trans "A name you trust" %}</h2>
+                        <p class="mb-0">{% trans "We've built a reputation based on trust and reliability in the crypto industry. Join a community of users who trust our platform for their cryptocurrency trading and investment needs." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <div class="row pt-0">
+    <div class="text-center">
+        <h2><i class="bi bi-columns-gap"></i> Our Services</h2>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-hammer"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-brush"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-wrench"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-broom"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-plug"></i>
+            </div>
+            <h3>Service Heading</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+            </p>
+        </div>
+    </div>
+</div> -->
+
+
+{% endblock %}

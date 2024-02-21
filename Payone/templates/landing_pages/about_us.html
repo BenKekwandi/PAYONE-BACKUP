@@ -1,0 +1,167 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+
+{% block stylePages %}
+<link rel="stylesheet" href="{% static '/css/home/about_us.css' %}">
+{% endblock %}
+{% block content %}
+
+
+
+
+<section class="banner banner--padding" style="background-color: rgb(9, 9, 96);">
+    <div class="container">
+        <p class="h title text-white">
+            {% trans "TRANSFORMING TECHNOLOGY" %}
+        </p>
+        <span class="hs text-white">
+            {% trans "Innovative Fintech Solutions for" %}
+            <br>
+            {% trans "Businesses and Individuals" %}
+        </span>
+    </div>
+</section>
+<section class="info-banner info-banner--top mt-3">
+    <div class="info-banner__inside">
+        <div class="container--inside">
+            <div class="info-banner__title">
+                <h2 class="h2 title title--detailed text-center">
+                    <strong>{% trans "Our Company" %}</strong>
+                </h2>
+
+                <span class="text fz13 d-block mt-3 mb-3 text-center ">
+                    {% trans "At PAYONE, we believe the future of financial technology is going to be powered by blockchain technology. We’re on a mission to build a fintech ecosystem that will enable secure, instant and efficient fiat and digital asset transactions for forward thinking businesses and individuals from around the world." %}
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="text-center">
+            <img src="{%static '/img/home/icon-beginning.svg'%}" alt="At Your Location">
+            <strong class="h5 d-block mt-3 mb-3 title">{% trans "Our Beginnings" %}</strong>
+        </div>
+        <span class="text text-center" >{% trans "PAYONE was a vision of the future while Crypto and Fintech were still in their infancy. We saw their potential to revolutionize the financial industry making transactions faster, more secure and less expensive." %}
+        </span>
+    </div>
+    <div class="col-md-4  ">
+        <div class="text-center">
+            <img src="{%static '/img/home/icon-mission.svg'%}" alt="On Your Website">
+            <strong class="h5 d-block mt-3 mb-3 title">{% trans "Our Mission" %}</strong>
+        </div>
+        <span class="text text-center" >{% trans "To develop and create financial solutions and blockchain payment technologies to transform how businesses and individuals send, receive, exchange and store money." %}</span>
+
+    </div>
+    <div class="col-md-4 ">
+        <div class="text-center">
+            <img src="{%static '/img/home/icon-future.svg'%}" alt="By Message">
+            <strong class="h5 d-block mt-3 mb-3 title">{% trans "Our Future" %}</strong>
+        </div>
+        <span class="text text-center" >{% trans "Fintech and Blockchain’s future look very bright, and we plan on remaining at the forefront of this technology, creating more tools and services for everyone to use and benefit from in innovative and new ways." %}</span>
+    </div>
+</div>
+<div class="text-center mb-5 mt-5">
+    <h3 class="h2 title">{% trans "Executive Team" %}</h3>
+    <span class="text fz13 d-block mt-3 text-center">
+        {% trans " We are a progressive team of innovative and talented individuals with a collective passion, expertise and vision in the future of fintech." %}
+    </span>
+</div>
+ <!-- <div class="row ">
+    <div class="col-md-6 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee101.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div>
+
+    <div class="col-md-6 mb30 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee102.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div>
+
+    <div class="col-md-6 mb30 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee101.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div>
+
+    <div class="col-md-6 mb30 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee102.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div> -->
+    <!-- <div class="col-md-6 mb30 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee101.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div>
+
+    <div class="col-md-6 mb30 mt-5 text-center">
+        <article class="team">
+            <figure class="team__img">
+                <img src="{%static '/img/home/Employee102.svg'%}" alt="">
+            </figure>
+            <span class="team__info">
+                <strong class="team__title">Dervise Guryayli</strong>
+                <small class="team__small">Co-Founder / Chief Executive Officer</small>
+                <span class="team__text">Former Bradford &amp; Bingley Treasury Advisory Team Leader and Natwest
+                    PLC Chief Cashier, Financial Analyst, Specialist in Cash &amp; Auditing with extensive
+                    knowledge and experience gained within financial institutional environments.</span>
+            </span>
+        </article>
+    </div> -->
+
+
+<!-- </div> -->
+
+
+
+{% endblock %}

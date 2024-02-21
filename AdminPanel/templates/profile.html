@@ -1,0 +1,99 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="kt-portlet">
+
+    <div class="kt-portlet__head">
+        <div class="kt-portlet__head-label">
+            <h3 class="kt-portlet__head-title">
+                {% trans "User Account Details" %}
+            </h3>
+        </div>
+    </div>
+
+    <!--begin::Form-->
+    <form class="kt-form kt-form--label-right" id="kt_form_1">
+        <div class="kt-portlet__body">
+            <div class="kt-form__content">
+                <div class="kt-alert m-alert--icon alert alert-danger kt-hidden" role="alert" id="kt_form_1_msg">
+                    <div class="kt-alert__icon">
+                        <i class="la la-warning"></i>
+                    </div>
+                    <div class="kt-alert__text">
+                        {% trans "Oh snap! Change a few things up and try submitting again." %}
+                    </div>
+                    <div class="kt-alert__close">
+                        <button type="button" class="close" data-close="alert" aria-label="Close">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row g-4">
+                <div class="col-lg-4 col-md-9 col-sm-12">
+                    <label>{% trans "Name and Surname" %}</label>
+                    <div class='input-group'>
+                        <input type='text' class="form-control" name="date" value='{{user}}' disabled />
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="la la-user"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-9 col-sm-12">
+                    <label>{% trans "Email Address" %}</label>
+                    <div class='input-group'>
+                        <input type='text' class="form-control" name="date" value='{{email}}' placeholder="Select date"
+                            disabled />
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="la la-at"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-9 col-sm-12">
+                    <label>{% trans "Date Joined" %}</label>
+                    <div class='input-group'>
+                        <input type='text' class="form-control" name="date" value='{{date_joined}}' disabled />
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="la la-phone"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card pt-5 mt-5">
+                <div class="card-header">
+                    <h3 class="card-title">{% trans "Two Factor Authentication Code" %}</h3>
+                </div>
+                <div class="card-body">
+                    <div class="pt-5 mt-5">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?data={{qr_code}} " id="qrcode" alt=""
+                            style="width: 200px;  margin: auto; display: block;">
+                    </div>
+                    <div class="pt-5 mt-5" class="align-center">
+                        {{secret}}
+                    </div>
+                </div>
+                <div class="">
+                    <h5 class="text-center">{% trans " Use an Authenticator App to scan this QR Code" %}</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+
+    <div>
+
+
+    </div>
+</div>
+
+{% endblock content %}

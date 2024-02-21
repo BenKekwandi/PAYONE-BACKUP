@@ -1,0 +1,174 @@
+{%load static%}
+{% load i18n %}
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- begin::Head -->
+
+<head>
+  <title>Payone</title>
+  <base href="/">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+
+  <link rel="shortcut icon" href="{% static '/img/PAYONE_Emblem_100.svg' %}">
+  <!-- begin::Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+  <!-- end::Fonts -->
+  <!-- begin::Global Stylesheets Bundle(used by all pages) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="{% static '/auth/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+  <!-- end::Global Stylesheets Bundle -->
+
+  <style>
+    .change-border-color {
+      border-color: #cfd1d4;
+      transition: border-color 0.3s ease;
+    }
+
+    .change-border-color:focus {
+      border-color: #007bff;
+    }
+    
+  </style>
+</head>
+
+<body id="kt_body" class="bg-body">
+
+  <div class="d-flex flex-column flex-root">
+
+    <div class="d-flex flex-column flex-lg-row flex-column-fluid">
+
+      <div class="d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative" style="background-color: #293462">
+
+        <div class="d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y">
+
+          <div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
+
+            <a href="#" class="py-9 mb-5"><img alt="Logo" src="{% static '/img/Light_PAYONE.svg'%}"
+                class="h-60px" /></a>
+
+            <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #F0F4FF;">
+              {% trans "Welcome to the Admin Dashboard" %}</h1>
+
+            <p class="fw-bold fs-2" style="color: #F0F4FF;">
+              {% trans "The Point Where Opportunities and Security Meet."%}
+
+
+          </div>
+
+          <div
+            class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px"
+            style="background-image: url({% static '/auth/15.png' %}"></div>
+
+        </div>
+
+      </div>
+
+      <div class="d-flex flex-column flex-lg-row-fluid py-10">
+
+        <div class="d-flex flex-center flex-column flex-column-fluid">
+
+          <div class="w-lg-500px p-10 p-lg-15 mx-auto">
+
+            <form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="" method="post">
+
+              {% csrf_token %}
+              <div class="text-center mb-10">
+
+                <h1 class="text-dark mb-3">{% trans "Login to Admin Dashboard" %}</h1>
+
+              </div>
+
+              <div class="fv-row mb-10">
+
+                <label class="form-label fs-6 fw-bolder text-dark">{% trans "Email" %}</label>
+
+                <input class="form-control form-control-lg  change-border-color" type="email" name="username"
+                  class="username" autocomplete="off" required />
+
+              </div>
+
+              <div class="fv-row mb-10">
+                <div class="d-flex flex-stack mb-2">
+                  <label class="form-label fw-bolder text-dark fs-6 mb-0">{% trans "Password" %}</label>
+                  <a href="/auth/email/" class="link-primary fs-6 fw-bolder">{% trans "Reset Password ?" %}</a>
+                </div>
+                <div class="input-group">
+                  <input class="form-control form-control-lg  change-border-color " type="password" name="password"
+                    id="password" autocomplete="off" required />
+
+                  <span class="input-group-text btn btn-secondary">
+                    <i class="fas fa-eye" id="togglePassword"></i>
+                  </span>
+                </div>
+              </div>
+
+
+              <div class="text-center">
+
+                <button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5">
+                  <span class="indicator-label">{% trans "Continue" %}</span>
+                  <span class="indicator-progress">
+                    {% trans "Please wait..." %}
+                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                  </span>
+                </button>
+
+              </div>
+
+            </form>
+
+            {% for message in messages %}
+            <h3 style="color:red;">{{message}}</h3>
+            {% endfor %}
+
+          </div>
+
+        </div>
+
+        <div class="d-flex flex-center flex-wrap fs-6 p-5 pb-0">
+
+          <div class="d-flex flex-center fw-bold fs-6">
+            <div class="kt-footer__copyright">
+              2024&nbsp;&copy;&nbsp;<a href="https://www.muntek.com.tr/" target="_blank" class="kt-link">Muntek</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#togglePassword").click(function () {
+        var passwordField = $("#password");
+        var type = passwordField.attr("type");
+        if (type === "password") {
+          passwordField.attr("type", "text");
+          $("#togglePassword").removeClass("fa-eye").addClass("fa-eye-slash");
+        } else {
+          passwordField.attr("type", "password");
+          $("#togglePassword").removeClass("fa-eye-slash").addClass("fa-eye");
+        }
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>

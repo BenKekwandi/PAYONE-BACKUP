@@ -1,0 +1,257 @@
+{% extends 'landing_pages/layout.html' %}{% load static %} {% block stylePages %}{% load i18n %}
+
+<link rel="stylesheet" href="{% static '/css/home/faq.css' %}" />
+{% endblock %} {% block content %}
+
+<section class="mt-5 mb-5 entered-div">
+  <div class="inner-div">
+    <div class="faqhead">
+      <img src="{% static '/img/home/FAQs.svg' %}" alt class="img-fluid" />
+      <h1 class="text-center">{% trans "Frequently Asked Questions" %}</h1>
+    </div>
+  </div>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne"
+          aria-expanded="false"
+          aria-controls="flush-collapseOne"
+        >
+          {% trans "What is a cryptocurrency exchange?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseOne"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "A cryptocurrency exchange is a digital platform that allows users to buy, sell, and trade various cryptocurrencies like Bitcoin, Ethereum, and others." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo"
+          aria-expanded="false"
+          aria-controls="flush-collapseTwo"
+        >
+          {% trans "Is the exchange regulated?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseTwo"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Yes, our crypto exchange complies with all relevant regulations and is licensed in the jurisdictions where required." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree"
+          aria-expanded="false"
+          aria-controls="flush-collapseThree"
+        >
+          {% trans "How secure is my personal and financial information?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseThree"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "We take security seriously and employ industry-standard encryption and security measures to safeguard your data." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-headingFour"
+          aria-expanded="false"
+          aria-controls="flush-headingFour"
+        >
+          {% trans "Which cryptocurrencies can I trade on the exchange?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-headingFour"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingFour"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Our exchange supports a wide range of cryptocurrencies, including popular ones like Bitcoin, Ethereum, Ripple, and many others." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFive">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFive"
+          aria-expanded="false"
+          aria-controls="flush-collapseFive"
+        >
+          {% trans "What payment methods are accepted for buying cryptocurrencies?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseFive"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingFive"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "We accept various payment methods, including credit/debit cards, bank transfers, and sometimes, other cryptocurrencies." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingSix">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSix"
+          aria-expanded="false"
+          aria-controls="flush-collapseSix"
+        >
+          {% trans "Are there any fees for trading?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseSix"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingSix"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Yes, there are trading fees that apply to buy and sell orders. These fees may vary based on your trading volume and other factors." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingSeven">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSeven"
+          aria-expanded="false"
+          aria-controls="flush-collapseSeven"
+        >
+          {% trans "How long does it take for deposits and withdrawals to process?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseSeven"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingSeven"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Deposit and withdrawal times vary depending on the cryptocurrency and network congestion. Generally, deposits are faster, while withdrawals may take some time due to security measures." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingEight">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseEight"
+          aria-expanded="false"
+          aria-controls="flush-collapseEight"
+        >
+          {% trans "What security measures do you have in place to protect my funds?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseEight"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingEight"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "We use cold storage wallets and implement multi-factor authentication (MFA) to enhance the security of your funds. Additionally, our platform undergoes regular security audits." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingNine">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseNine"
+          aria-expanded="false"
+          aria-controls="flush-collapseNine"
+        >
+          {% trans "Do you offer customer support?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseNine"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingNine"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Yes, we have a dedicated customer support team available to assist you with any queries or issues you may have. You can reach out to them through email, live chat, or our support ticket system." %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTen">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTen"
+          aria-expanded="false"
+          aria-controls="flush-collapseTen"
+        >
+          {% trans "Is there a mobile app for the exchange?" %}
+        </button>
+      </h2>
+      <div
+        id="flush-collapseTen"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingTen"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          {% trans "Yes, we offer a mobile app for both Android and iOS devices, making it convenient for you to trade on-the-go." %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

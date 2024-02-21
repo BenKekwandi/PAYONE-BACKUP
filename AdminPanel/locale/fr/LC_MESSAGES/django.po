@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-30 13:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: templates/dashboard_main.html:87
+msgid "Companies"
+msgstr ""
+
+#: templates/dashboard_main.html:105
+msgid "Salespersons"
+msgstr ""
+
+#: templates/dashboard_main.html:123
+msgid "Managers"
+msgstr ""
+
+#: templates/dashboard_main.html:140
+msgid "Employees"
+msgstr ""
+
+#: templates/dashboard_main.html:161
+msgid "Today's Transactions"
+msgstr ""
+
+#: templates/dashboard_main.html:170
+msgid "Company"
+msgstr ""
+
+#: templates/dashboard_main.html:171
+msgid "Salesperson"
+msgstr ""
+
+#: templates/dashboard_main.html:172
+msgid "Transaction ID"
+msgstr ""
+
+#: templates/dashboard_main.html:173
+msgid "Transaction Date"
+msgstr ""
+
+#: templates/dashboard_main.html:174
+msgid "Network"
+msgstr ""
+
+#: templates/dashboard_main.html:175
+msgid "Expected Crypto Amount"
+msgstr ""
+
+#: templates/dashboard_main.html:176
+msgid "Received Crypto Amount"
+msgstr ""
+
+#: templates/dashboard_main.html:177
+msgid "Payment Amount(Without Commission)"
+msgstr ""
+
+#: templates/dashboard_main.html:178
+msgid "Commission Rate"
+msgstr ""
+
+#: templates/dashboard_main.html:179
+msgid "Commission Amount"
+msgstr ""
+
+#: templates/dashboard_main.html:180
+msgid "Total Amount(With Comission)"
+msgstr ""
+
+#: templates/dashboard_main.html:181
+msgid "Status"
+msgstr ""

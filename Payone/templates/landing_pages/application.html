@@ -1,0 +1,103 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+
+{% block stylePages %}
+<link rel="stylesheet" href="{% static '/css/home/application.css' %}">
+{% endblock %}
+{% block content %}
+
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class=" rounded shadow-lg p-4 bg-light">
+            <h2 class="text-center mb-4">{% trans "APPLICATION FORM" %}</h2>
+            <form method="post" action="" id="applicationForm">
+                {% csrf_token %}
+
+                <div class="row">
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "Company Name" %}</label>
+                        <input type="text" name="company_name" class="form-control" id="company_name"
+                            pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="35" required>
+                    </div>
+                    <div class="col mb-3">
+                        <label for="email" class="form-label">{% trans "Company Address" %}</label>
+                        <input type="text" name="company_address" pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="70"
+                            class="form-control" id="company_address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "Country" %}</label>
+                        <select type="text" name="country" pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="35"
+                            class="form-select" id="country" required></select>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "City" %}</label>
+                        <select type="text" name="city" pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="35"
+                            class="form-select" id="city" required></select>
+                    </div>
+                    <div class="col mb-3">
+                        <label for="email" class="form-label">{% trans "Postal Code" %}</label>
+                        <input type="number" name="postal_code" class="form-control" id="postal_code">
+                    </div>
+                </div>
+                
+                <div class="row">
+
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "Contact Person" %}</label>
+                        <input type="text" name="contact_person" pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="35"
+                            class="form-control" id="contact_person" required>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "Email" %}</label>
+                        <input type="email" name="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="col mb-3">
+                        <label for="phone" class="form-label">{% trans "Phone" %}</label>
+                        <input type="text" name="phone" minlength="2" maxlength="35" class="form-control" id="phone" required>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col mb-3">
+                        <label for="name" class="form-label">{% trans "Registration Number" %}</label>
+                        <input type="text" name="registration_number" maxlength="35" class="form-control"
+                            id="registration_number">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="email" class="form-label">{% trans "Website" %}</label>
+                        <input type="text" name="website" class="form-control" id="website">
+                    </div>
+                </div>
+
+                {{form}}
+
+                {% for message in messages %}
+                <h6 style="color:red;">{{message}}</h6>
+                {% endfor %}
+
+                <div class="d-grid gap-2 px-5 py-5">
+                    <button type="submit" name="Submit" id="submitBtn" class="btn btn-primary btn-lg">
+                        {% trans "Submit" %}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="{% static '/js/custom/application.js' %}"></script>
+
+
+{% endblock %}

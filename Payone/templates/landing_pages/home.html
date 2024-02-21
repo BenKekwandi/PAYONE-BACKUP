@@ -1,0 +1,177 @@
+{% extends 'landing_pages/layout.html' %}{% load static %} {% load i18n %} {% block content %}
+<!-- Home Section -->
+<div id="home" class="row mt-5">
+    <div class="headline col-lg-6 col-sm-12">
+        <h1>{% trans "Unlock the Power of Your Crypto" %}</h1>
+        <h3>
+            {% trans "Trade Your Crypto Assets with Ease and Security, Enjoying Low Commissions" %}
+        </h3>
+        <div class="CTA">
+
+            <a href="/application" class="nav-item nav-link">
+                <button type="button" href="/application" class="btn">{% trans "Let's go" %}</button>
+            </a>
+
+
+            <p>{% trans "Join the Crypto Revolution Today!, and Join the Crypto Revolution" %}</p>
+        </div>
+    </div>
+    <div class="CryptoImg col-lg-6 col-sm-12 ms-auto">
+        <img src="{% static '/img//home/on_chain.svg' %}" alt />
+    </div>
+</div>
+
+<!-- Our Services Section -->
+
+<div class="serviceslist row mt-5">
+    <div class="Featureone col-lg-4">
+        <div class="servlogo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path fill="#293462"
+                    d="M470.7 9.4c3 3.1 5.3 6.6 6.9 10.3s2.4 7.8 2.4 12.2l0 .1v0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32V109.3L310.6 214.6c-11.8 11.8-30.8 12.6-43.5 1.7L176 138.1 84.8 216.3c-13.4 11.5-33.6 9.9-45.1-3.5s-9.9-33.6 3.5-45.1l112-96c12-10.3 29.7-10.3 41.7 0l89.5 76.7L370.7 64H352c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0c8.8 0 16.8 3.6 22.6 9.3l.1 .1zM0 304c0-26.5 21.5-48 48-48H464c26.5 0 48 21.5 48 48V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V304zM48 416v48H96c0-26.5-21.5-48-48-48zM96 304H48v48c26.5 0 48-21.5 48-48zM464 416c-26.5 0-48 21.5-48 48h48V416zM416 304c0 26.5 21.5 48 48 48V304H416zm-96 80a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+            </svg>
+
+            <p>{% trans "Low-Fee Trading" %}</p>
+        </div>
+        <h4 style="text-align: justify;">
+            {% trans "Trade cryptocurrencies with confidence, knowing that our platform offers some of the lowest fees in the industry. Keep more of your profits as you explore the crypto market." %}
+        </h4>
+    </div>
+    <div class="Featureone col-lg-4">
+        <div class="servlogo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 576 512">
+                <path fill="#293462"
+                    d="M64 0C28.7 0 0 28.7 0 64V416c0 35.3 28.7 64 64 64H80l16 32h64l16-32H400l16 32h64l16-32h16c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM224 320a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-240a160 160 0 1 1 0 320 160 160 0 1 1 0-320zM480 221.3V336c0 8.8-7.2 16-16 16s-16-7.2-16-16V221.3c-18.6-6.6-32-24.4-32-45.3c0-26.5 21.5-48 48-48s48 21.5 48 48c0 20.9-13.4 38.7-32 45.3z" />
+            </svg>
+
+            <p>{% trans "Secure Wallet Services" %}</p>
+        </div>
+        <h4 style="text-align: justify;">
+            {% trans "Rest easy knowing that your digital assets are stored in the highest level of security. Our advanced wallet technology ensures your cryptocurrencies are safe from potential threats." %}
+        </h4>
+    </div>
+    <div class="Featureone col-lg-4">
+        <div class="servlogo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+                <path
+                    d="M256 48C141.1 48 48 141.1 48 256v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V256C0 114.6 114.6 0 256 0S512 114.6 512 256V400.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24H240c-26.5 0-48-21.5-48-48s21.5-48 48-48h32c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40V256c0-114.9-93.1-208-208-208zM144 208h16c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V272c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64v48c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V240c0-17.7 14.3-32 32-32h16"
+                    fill="#293462" />
+            </svg>
+
+            <p>{% trans "Local Expertise and Support" %}</p>
+        </div>
+        <h4 style="text-align: justify;"> 
+            {% trans "Experience the advantage of local expertise. Our friendly and knowledgeable team is here to assist you every step of the way, ensuring your crypto journey is smooth and successful." %}
+        </h4>
+    </div>
+</div>
+
+<div class="mt-5 mb-5">
+    <div class="currency-form">
+        <h2><i class="bi bi-currency-exchange"></i> {% trans "Currency Converter" %}</h2>
+
+        <form id="currencyForm">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="mb-3">
+                        <label for="amount" class="form-label">{% trans "Amount" %}</label>
+                        <input type="decimal" id="amount" class="form-control" required />
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="mb-3">
+                        <label for="toCurrency" class="form-label">{% trans "From" %}</label>
+                        <select id="toCurrency" class="form-select" required>
+                            <option value="TRY">TL</option>
+                            <option value="USDT">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="mb-3">
+                        <label for="fromCurrency" class="form-label">{% trans "To" %}</label>
+                        <select id="fromCurrency" class="form-select" required>
+                            <option value="">{% trans "Select The Crypto Currenc" %}</option>
+                            <option value="BTC">BTC</option>
+                            <option value="ETH">ETH</option>
+                            <option value="USDT">USDT</option>
+                            <option value="LTC">LTC</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 ms-auto">
+                    <div class="mb-0">
+                        <button type="button" id="submitBtn" class="btn btn-primary">
+                            {% trans "Convert" %}
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5" id="result"></div>
+        </form>
+    </div>
+</div>
+<!-- About Us Section -->
+
+<div class="section row mt-5">
+    <div class="content col-md-6 col-sm-12">
+        <div>
+            <h2 style="text-align: justify;">
+                {% trans "Join Us Today and Experience Confidence in Every Transaction" %}
+            </h2>
+        </div>
+        <div>
+            <h3>
+                {% trans "Fortify Your Crypto Future with Unparalleled Security" %}
+            </h3>
+        </div>
+        <div>
+            <ul>
+                <li>{% trans "Cutting-Edge Encryption" %}</li>
+                <li>{% trans "Multi-Factor Authentication" %}</li>
+                <li>{% trans "Cold Storage Solutions" %}</li>
+                <li>{% trans "24/7 Security Monitoring" %}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="image col-md-6 col-sm-12">
+        <img src="{% static '/img/home/encryption.svg'%}" alt style="width: 70%;" />
+    </div>
+</div>
+
+<div class="section row mb-5 mt-5">
+    <div class="image pb-3 col-md-6 col-sm-12">
+        <img src="{% static '/img/home/virtual_card.svg'%}" alt style="width: 70%;" />
+    </div>
+    <div class="content col-md-6 col-sm-12">
+        <div>
+            <h2>
+                {% trans "Elevate Your Crypto Experience with Our Mobile App" %}
+            </h2>
+        </div>
+        <div>
+            <h3>
+                {% trans "Join Now for Instant Access to Secure, Convenient Exchange on the Go" %}
+            </h3>
+        </div>
+        <div>
+            <ul>
+                <li>{% trans "User-Friendly Mobile App" %}</li>
+                <li>{% trans "Secure and Encrypted" %}</li>
+                <li>{% trans "Real-Time Trading" %}</li>
+                <li>{% trans "Instant Notifications" %}</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script src="{% static '/js/custom/home.js' %}"></script>
+{% endblock %}

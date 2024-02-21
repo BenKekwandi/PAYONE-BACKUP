@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 07:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: templates/secret/dashboard.html:8
+msgid "Today's Rates"
+msgstr ""
+
+#: templates/secret/history.html:32
+msgid "Transaction Start Date"
+msgstr ""
+
+#: templates/secret/history.html:33
+msgid "Transaction Received Date"
+msgstr ""
+
+#: templates/secret/history.html:34
+msgid "Expected Amount"
+msgstr ""
+
+#: templates/secret/history.html:35
+msgid "Received Amount"
+msgstr ""
+
+#: templates/secret/history.html:36 templates/secret/payment_report.html:32
+#: templates/secret/transaction_report.html:19
+msgid "Crypto Type"
+msgstr ""
+
+#: templates/secret/history.html:37
+msgid "TRY Amount"
+msgstr ""
+
+#: templates/secret/history.html:38 templates/secret/payment_report.html:33
+msgid "Network"
+msgstr ""
+
+#: templates/secret/history.html:39 templates/secret/payment_link.html:58
+msgid "Commission"
+msgstr ""
+
+#: templates/secret/history.html:40
+msgid "Status"
+msgstr ""
+
+#: templates/secret/layout.html:188
+msgid "Dashboard"
+msgstr ""
+
+#: templates/secret/layout.html:193
+msgid "Info"
+msgstr ""
+
+#: templates/secret/layout.html:222 templates/secret/layout.html:230
+msgid "Transactions"
+msgstr ""
+
+#: templates/secret/layout.html:238 templates/secret/payment_link.html:16
+msgid "Create Payment Link"
+msgstr ""
+
+#: templates/secret/layout.html:247
+msgid "Payment History"
+msgstr ""
+
+#: templates/secret/layout.html:254 templates/secret/layout.html:288
+msgid "Reports"
+msgstr ""
+
+#: templates/secret/layout.html:293
+msgid "Security"
+msgstr ""
+
+#: templates/secret/layout.html:316
+msgid "Account Info"
+msgstr ""
+
+#: templates/secret/layout.html:341
+msgid "Logout"
+msgstr ""
+
+#: templates/secret/layout.html:380
+msgid "Choose a language"
+msgstr ""
+
+#: templates/secret/login.html:40 templates/secret/otp.html:41
+msgid "Welcome to PAYONE"
+msgstr ""
+
+#: templates/secret/login.html:42
+msgid "Elevate Your Sales Journey"
+msgstr ""
+
+#: templates/secret/login.html:43 templates/secret/otp.html:44
+msgid "with great financial tools"
+msgstr ""
+
+#: templates/secret/login.html:66
+msgid "Sign In to PAYONE"
+msgstr ""
+
+#: templates/secret/login.html:72
+msgid "Email"
+msgstr ""
+
+#: templates/secret/login.html:83
+msgid "Password"
+msgstr ""
+
+#: templates/secret/login.html:85
+msgid "Forgot Password ?"
+msgstr ""
+
+#: templates/secret/login.html:97
+msgid "Continue"
+msgstr ""
+
+#: templates/secret/otp.html:43
+msgid "Discover Amazing PAYONE"
+msgstr ""
+
+#: templates/secret/otp.html:73
+msgid "Two Step Verification"
+msgstr ""
+
+#: templates/secret/otp.html:76
+msgid "Enter the verification code"
+msgstr ""
+
+#: templates/secret/otp.html:85
+msgid "Type your 6 digit security code"
+msgstr ""
+
+#: templates/secret/otp.html:104
+msgid "Verify"
+msgstr ""
+
+#: templates/secret/otp.html:105
+msgid "Please wait.."
+msgstr ""
+
+#: templates/secret/payment_link.html:29
+msgid "Select Currency"
+msgstr ""
+
+#: templates/secret/payment_link.html:31
+msgid "Select Bank Note Currency"
+msgstr ""
+
+#: templates/secret/payment_link.html:37
+msgid "Select Crypto"
+msgstr ""
+
+#: templates/secret/payment_link.html:39
+msgid "Select Crypto Currency"
+msgstr ""
+
+#: templates/secret/payment_link.html:48
+msgid "Payment Amount"
+msgstr ""
+
+#: templates/secret/payment_link.html:53
+msgid "identification"
+msgstr ""
+
+#: templates/secret/payment_link.html:66
+msgid "Calculate"
+msgstr ""
+
+#: templates/secret/payment_link.html:79
+msgid "QR Code"
+msgstr ""
+
+#: templates/secret/payment_link.html:85
+msgid "Create QR Code?"
+msgstr ""
+
+#: templates/secret/payment_link.html:89 templates/secret/qrcode.html:59
+msgid "Cancel"
+msgstr ""
+
+#: templates/secret/payment_link.html:90
+msgid "Create"
+msgstr ""
+
+#: templates/secret/payment_report.html:18
+msgid "Payment Report"
+msgstr ""
+
+#: templates/secret/payment_report.html:30
+msgid "Transaction ID"
+msgstr ""
+
+#: templates/secret/payment_report.html:31
+msgid "Amount"
+msgstr ""
+
+#: templates/secret/payment_report.html:34
+msgid "Transaction Date And Time"
+msgstr ""
+
+#: templates/secret/payment_report.html:35
+msgid "status"
+msgstr ""
+
+#: templates/secret/profile.html:11
+msgid "User Account Details"
+msgstr ""
+
+#: templates/secret/profile.html:25
+msgid "Oh snap! Change a few things up and try submitting again."
+msgstr ""
+
+#: templates/secret/profile.html:35
+msgid "Last Login date"
+msgstr ""
+
+#: templates/secret/profile.html:46
+msgid "Commission Rate"
+msgstr ""
+
+#: templates/secret/profile.html:74
+msgid "Name and Surname"
+msgstr ""
+
+#: templates/secret/profile.html:87
+msgid "Email Address"
+msgstr ""
+
+#: templates/secret/profile.html:99
+msgid "Telephone"
+msgstr ""
+
+#: templates/secret/qrcode.html:36
+msgid "Awaiting Payment"
+msgstr ""
+
+#: templates/secret/qrcode.html:62
+msgid "Return to dashboard"
+msgstr ""
+
+#: templates/secret/transaction_report.html:15
+msgid "Transaction Date"
+msgstr ""
+
+#: templates/secret/transaction_report.html:16
+msgid "Branch"
+msgstr ""
+
+#: templates/secret/transaction_report.html:17
+msgid "Cashier Transaction Number"
+msgstr ""
+
+#: templates/secret/transaction_report.html:18
+msgid "Transaction Amount"
+msgstr ""
+
+#: templates/secret/transaction_report.html:20
+msgid "Converted Amount"
+msgstr ""
+
+#: templates/secret/transaction_report.html:21
+msgid "Currency Amount"
+msgstr ""
+
+#: templates/secret/transaction_report.html:22
+msgid "Current Commission"
+msgstr ""
+
+#: templates/secret/transaction_report.html:23
+msgid "Transfered to Account"
+msgstr ""

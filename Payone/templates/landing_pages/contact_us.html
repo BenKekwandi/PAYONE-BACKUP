@@ -1,0 +1,47 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+
+{% block stylePages %}
+<link rel="stylesheet" href="{% static '/css/home/contact_us.css' %}">
+{% endblock %}
+{% block content %}
+<div class="row mb-5">
+    <div class="col-md-6 bg-image p-2" style="background-image: url({% static 'img/home/123.svg'%});"></div>
+    <div class="col-md-6 py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded shadow-lg p-4 bg-light">
+                    <h2 class="text-center mb-4">{% trans "Get in touch with us" %}</h2>
+                    <p>{% trans "To receive information on any of our products and services." %}</p>
+                    <form method="post" action="">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="name" class="form-label">{% trans "Name" %}</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">{% trans "Email" %}</label>
+                            <input type="email" name="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">{% trans "Subject" %}</label>
+                            <input type="text" name="subject" class="form-control" id="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">{% trans "Message" %}</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" name="Submit" class="btn btn-primary btn-lg">{% trans "Submit" %}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+{% endblock %}

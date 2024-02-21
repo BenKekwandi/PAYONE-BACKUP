@@ -1,0 +1,339 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+{% load privileges_tags %}
+{% block content %}
+
+
+<div class="kt-container kt-container--fluid kt-grid__item kt-grid__item--fluid">
+    <form id="applicationForm" method="post" action="" class="row g-3 needs-validation">
+        <input id="prospectId" value="{{id}}" hidden>
+        <div class="card">
+            <div class="row-cols-sm-auto">
+                <div class="card-body row">
+                    <div class="form-group">
+                        <div class="row justify-content-between mb-2">
+                            <div class="col-md-4">
+                                <label>
+                                    <h2>{% trans "Company Registration" %}</h2>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row justify-content-between mb-2">
+                    <div class="col-md-4">
+                        <label>
+                            <h3>{% trans "Company Info" %}</h3>
+                        </label>
+                    </div>
+                </div>
+                <div id="companyForm" class="row g-3 needs-validation" novalidate>
+                    {% csrf_token %}
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" pattern="^[a-zA-Z\s']+$" minlength="2"
+                                maxlength="35" id="company_name" name="company_name" placeholder="Company Name"
+                                required>
+                            <label for="company_name"> {% trans "Name" %}</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="company_address" name="company_address"
+                                pattern="^[a-zA-Z\s']+$" minlength="2" maxlength="35" placeholder="Company Address"
+                                required>
+                            <label for="company_name"> {% trans "Company Address" %}</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="phone" name="phone"
+                                minlength="2" maxlength="35" placeholder="Phone" required>
+                            <label for="phone"> {% trans "Phone Number" %}</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" name="email"
+                                maxlength="35" placeholder="email" required>
+                            <label for="email"> {% trans "Email" %}</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="contact_person" name="contact_person"
+                                 minlength="2" maxlength="35"
+                                placeholder="Company Contact Person" required>
+                            <label for="contact_person">{% trans "Company Contact Person" %}</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="business_registration_number"
+                                name="business_registration" minlength="2" maxlength="35"
+                                placeholder="Business Registration Number">
+                            <label for="business_registration">{% trans "Business Registration Number" %}</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="website" name="website" minlength="2"
+                                maxlength="35" placeholder="Website">
+                            <label for="website">{% trans "Website" %}</label>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="commission_type" name="commission_type" required>
+    
+                              </select>
+                              <label for="commission_type">{% trans "Commission Type" %}</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="decimal" class="form-control" name="commission_rate" id="commission_rate"
+                                pattern="^\d*\.?\d+$" placeholder="Comission" required>
+                            <label for="commission_rate">{% trans "Commission" %}</label>
+                            <div class="invalid-feedback" id="commission_rate-error">
+                                {% trans "Please select a valid state." %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-floating">
+                            <input type="number" class="form-control" name="account_no" id="account_no"
+                                placeholder="Bank Account Number">
+                            <label for="account_no">{% trans "Bank Account Number" %}</label>
+                            <div class="invalid-feedback" id="account_no-error">
+                                {% trans "Please Enter the Bank Account Number." %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row justify-content-between mb-2">
+                    <div class="col-md-4">
+                        <label>
+                            <h3>{% trans "Company Manager" %}</h3>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row justify-content-between mb-2">
+                        <div class="col-md-4">
+                            <label>
+                                <h5>{% trans "Manager (Company Contact Person)" %}</h5>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div id="managerForm" class="row g-3 needs-validation" novalidate>
+
+                        {% csrf_token %}
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" name="manager_name"
+                                 minlength="2" maxlength="35" placeholder="Name" >
+                                <label for="name">{% trans "Name" %}</label>
+                                <div class="invalid-feedback" id="name-error">{% trans "Please provide a valid
+                                    Name." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="surname"
+                                    minlength="2" maxlength="35" name="manager_surname" placeholder="Surname" >
+                                <label for="surname">{% trans "Surname" %}</label>
+                                <div class="invalid-feedback" id="surname-error">{% trans " Please provide a valid
+                                    Surname."
+                                    %}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="manager_email"
+                                    placeholder="Email Address" >
+                                <label for="email">{% trans "Email Address" %}</label>
+                                <div class="invalid-feedback" id="email-error">{% trans "Please provide a valid
+                                    Email." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="phone" minlength="2"
+                                    maxlength="35" name="manager_phone" placeholder="Phone Number" >
+                                <label for="phone">{% trans "Phone Number" %}</label>
+                                <div class="invalid-feedback" id="phone-error">{% trans "Please provide a valid Number." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="address"
+                                    minlength="2" maxlength="70" name="manager_address" placeholder="Address" >
+                                <label for="address">{% trans "Address" %}</label>
+                                <div class="invalid-feedback" id="address-error">{% trans "Please provide a valid Address." %}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="row justify-content-between mb-2">
+                    <div class="col-md-4">
+                        <label>
+                            <h3>{% trans "Company Salesperson" %}</h3>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row justify-content-between mb-2">
+                        <div class="col-md-4">
+                            <label>
+                                <h5>{% trans "Salesperson" %}</h5>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div id="salespersonForm1" class="row g-3 needs-validation" novalidate>
+
+                        {% csrf_token %}
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" minlength="2"
+                                    maxlength="35" name="salesperson1_name" placeholder="Name" >
+                                <label for="name">{% trans "Name" %}</label>
+                                <div class="invalid-feedback" id="name-error">{% trans "Please provide a valid Name." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="surname" name="salesperson1_surname"
+                                     minlength="2" maxlength="35" placeholder="Surname"
+                                    >
+                                <label for="surname">{% trans "Surname" %}</label>
+                                <div class="invalid-feedback" id="surname-error">{% trans " Please provide a valid Surname." %}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="salesperson1_email"
+                                    placeholder="Email Address" >
+                                <label for="email">{% trans "Email Address" %}</label>
+                                <div class="invalid-feedback" id="email-error">{% trans "Please provide a valid Email." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="phone" minlength="2"
+                                    maxlength="35" name="salesperson1_phone" placeholder="Phone Number" >
+                                <label for="phone">{% trans "Phone Number" %}</label>
+                                <div class="invalid-feedback" id="phone-error">{% trans "Please provide a valid Number." %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="address"
+                                    minlength="2" maxlength="70" name="salesperson1_address" placeholder="Address"
+                                    >
+                                <label for="address">{% trans "Address" %}</label>
+                                <div class="invalid-feedback" id="address-error">{% trans "Please provide a valid Address." %}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--div class="card">
+            <div class="card-body">
+                <div class="row justify-content-between mb-2">
+                    <div class="col-md-4">
+                        <label>
+                            <h3>{% trans "Company Files" %}</h3>
+                        </label>
+                    </div>
+                    <div id="companyFileForm" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="file" class="form-control" id="contract_file" name="contract_file">
+                                    <label for="file_upload">{% trans "Contract" %}</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="file" class="form-control" id="application_form_file"
+                                        name="application_form_file">
+                                    <label for="file_upload">{% trans "Application Form" %}</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="file" class="form-control" id="tax_file" name="tax_file">
+                                    <label for="file_upload">{% trans "Tax info" %}</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="file" class="form-control" id="other_file" name="other_file">
+                                    <label for="file_upload">{% trans "Others" %}</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div-->
+
+        <div class="form-group row p-4">
+            <button type="submit" id="submitBtn" class="btn btn-primary col-sm-3">
+                {% trans "Register" %}
+            </button>
+        </div>
+    </form>
+</div>
+
+<script src="{% static '/js/custom/application.js' %}" type="text/javascript"></script>
+
+{% endblock %}

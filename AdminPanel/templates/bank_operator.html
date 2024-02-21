@@ -1,0 +1,243 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+{% load privileges_tags %}
+{% block content %}
+<div class="kt-container kt-container--fluid kt-grid__item kt-grid__item--fluid">
+    <div class="card ">
+        <div class="row-cols-sm-auto">
+            <div class="card-body row">
+                <div class="form-group">
+                    <div class="row justify-content-between">
+                        <div class="col-md-4">
+                            <label>
+                                <h3> {% trans "Current Bank Operators" %}</h3>
+                            </label>
+                        </div>
+                        <div class="col-md-4 text-right p-3">
+                            {% if request.user|has_group:"Admin" %}
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="fas fa-user-plus  mr-2"></i>
+                                {% trans "Add New Bank Operator" %}
+                            </button>
+                            {% endif %}
+
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">{% trans "New Bank Operator" %}</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row g-3 needs-validation" method="post" novalidate>
+                                                {% csrf_token %}
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Name" required>
+                                                        <label for="name">{% trans "Name" %}</label>
+                                                        <div class="invalid-feedback" id="name-error">
+                                                            {% trans "Please provide a valid Name." %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="surname"
+                                                            name="surname" placeholder="Surname" required>
+                                                        <label for="surname">{% trans "Surname" %}</label>
+                                                        <div class="invalid-feedback" id="surname-error">
+                                                            {% trans "Please provide a valid Surname." %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Email Address" required>
+                                                        <label for="email">{% trans "Email Address" %}</label>
+                                                        <div class="invalid-feedback" id="email-error">
+                                                            {% trans "Please provide a valid Email." %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="phone" name="phone"
+                                                            placeholder="Phone Number" required>
+                                                        <label for="phone">{% trans "Phone Number" %}</label>
+                                                        <div class="invalid-feedback" id="phone-error">
+                                                            {% trans "Please provide a valid Number. " %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="address"
+                                                            name="address" placeholder="Address" required>
+                                                        <label for="address">{% trans "Address" %}</label>
+                                                        <div class="invalid-feedback" id="address-error">
+                                                            {% trans "Please provide a valid Address." %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-8 ms-auto">
+                                                    <button type="submit" id="submitBtn" class="btn btn-primary">
+                                                        {% trans "Submit" %}
+                                                    </button>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="delete" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="delete">Delete Bank Operator</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="delete">
+                                    {% csrf_token %}
+                                    <div class="card-body row">
+                                        <p class="text-left">
+                                            {% trans "Are you sure you want to delete this Bank Operator?" %}
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="form-group col-3 d-grid  ms-auto">
+                                            <button type="button" id="deleteSubmit" class="btn btn-danger">
+                                                {% trans "Delete" %}
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="editModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="editModalLabel">{% trans "Edit Bank Operator" %}</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3 needs-validation" method="put" novalidate>
+                                    {% csrf_token %}
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Name" required>
+                                            <label for="name">Name</label>
+                                            <div class="invalid-feedback" id="name-error">
+                                                {% trans "Please provide a valid Name." %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="surname" name="surname"
+                                                placeholder="Surname" required>
+                                            <label for="surname">Surname</label>
+                                            <div class="invalid-feedback" id="surname-error">
+                                                {% trans "Please provide a valid Surname." %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Email Address" required>
+                                            <label for="email">Email Address</label>
+
+                                            <div class="invalid-feedback" id="email-error">
+                                                {% trans "Please provide a valid Email." %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="phone" name="phone"
+                                                placeholder="Phone Number" required>
+                                            <label for="phone">Phone Number</label>
+                                            <div class="invalid-feedback" id="phone-error">
+                                                {% trans "Please provide a valid Number. " %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="address" name="address"
+                                                placeholder="Address" required>
+                                            <label for="address">Address</label>
+                                            <div class="invalid-feedback" id="address-error">
+                                                {% trans "Please provide a valid Address." %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 d-grid  ms-auto">
+                                        <button type="button" id="editSubmitButton" class="btn btn-primary">
+                                            {% trans "Submit" %}
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="kt-portlet__body">
+                    <table class="table table-striped- table-bordered table-hover table-checkable" id="bank_operator">
+                        <thead>
+                            <tr>
+                                <!--th>ID</th-->
+                                <th>{% trans "Name" %}</th>
+                                <th>{% trans "Surname" %}</th>
+                                <th>{% trans "Email" %} </th>
+                                <th>{% trans "Phone" %}</th>
+                                <th>{% trans "Address" %}</th>
+                                {% if request.user|has_group:"Admin" %}
+                                <th>{% trans "Actions" %}</th>
+                                {% endif %}
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{% static '/js/custom/bank_operator.js' %}" type="text/javascript"></script>
+
+{% endblock %}

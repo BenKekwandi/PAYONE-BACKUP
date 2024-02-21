@@ -1,0 +1,34 @@
+
+.card-body .bg-custome-blue {
+    background-color: #58AAFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+ .bg-custome-orange {
+    background-color: #f2a900;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+ .bg-custome-purple {
+    background-color: #716b94;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.card-body .bg-custome-green {
+    background-color: #53AE94;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.card-body .bg-custome-green-1 {
+    background-color: #408672;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.card-body .bg-custome-red {
+    background-color: #FF6969;
+    color: #FFFFFF;
+    border-radius: 10px;
+}

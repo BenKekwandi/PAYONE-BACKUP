@@ -1,0 +1,44 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PAYONE</title>
+    <!-- Add Bootstrap 5 CSS link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>PAYONE ADMIN PANEL</h1>
+        <h2 class="text-center">{{subject}}</h2>
+        <p>{% trans "A new company has been created with this info" %}</p>
+        <ul>
+            <li>
+                Company Name:{{company_name}}
+            </li>
+            <li>
+                Company Owner Name:{{owner_name}}
+            </li>
+            <li>
+                Company Email:{{email}}
+            </li>
+            <li>
+                Company Phone:{{phone}}
+            </li>
+            <li>
+                Company address:{{address}}
+            </li>
+            <li>
+                Company Commission:{{commission_rate}}
+            </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

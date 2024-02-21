@@ -1,0 +1,87 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+ {% block content %}
+
+<style>
+    .custom-background {
+        background-image: url("{% static '/img/home/partner.jpg'%}");
+        /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+        background-size: cover;
+        /* This ensures the image covers the entire div */
+        background-position: center center;
+        /* Center the image within the div */
+    }
+
+    .text-blue {
+        color: #293462;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .h1 {
+        font-size: 20px;
+        color: #293462;
+        line-height: 1.1;
+        padding: 30px 0;
+        border-bottom: solid 1px #dedede;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container mt-5">
+    <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light custom-background">
+        <div class=" p-lg-5 mx-auto my-5 ">
+            <h1 class="display-4 fw-normal text-blue"></h1>
+            <p class="lead fw-normal text-blue text-center"></p>
+        </div>
+    </div> -->
+    <div class="row mt-4 ">
+
+        <h1 class="wp-block-heading h1">
+            <div class="col-md-2 text-center "> <!-- Adjust the col-md-2 for the width of the logo -->
+                <img src="{% static '/img/home/iktisatbank-logo.svg'%}" alt="iktisad Bank Logo" class="img-fluid">
+            </div>
+        </h1>
+        <p></p>
+
+        <div class="col-md-12">
+            <p class="text-justify "> <!-- Add the text-justify class to justify the text -->
+                {% trans "Welcome to our partnership with <strong>iktisad Bank</strong>. We are proud to collaborate with iktisad Bank to provide innovative cryptocurrency trading services in North Cyprus." %}
+            </p>
+            <p class="text-justify"> <!-- Add the text-justify class to justify the text -->
+                {% trans "Leading Bank of Northern Cyprus <strong>iktisad Bank</strong>, which was established in 1990 leads the way in both private and corporate banking with branches across the country. Over the past 20 years, İktisatbank has pioneered the introduction of a number of products and services that other banks did not offer. In 2002, we introduced the Lemar Advantage Card, together with telephone banking services. In 2003, we introduced our SmartCard, the first credit card in Northern Cyprus, and also launched a network of ATM's across the country. In 2004, İktisatbank was the first to launch an internet banking facility. In 2006, we launched the first call center with banking transaction in Northern Cyprus. In that year, in response to the growing number of foreign residents on the island, İktisatbank opened an English-speaking Department at its Kyrenia branch. In 2012, the department became the Multicultural Banking Department and the service was extended to all branches in Kyrenia and Famagusta. In June of that year, a Russian-speaking representative joined the team to cater for the growing needs of other foreign nationalities." %}
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

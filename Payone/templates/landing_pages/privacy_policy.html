@@ -1,0 +1,194 @@
+{% extends 'landing_pages/layout.html' %}{% load static %}
+{% load i18n %}
+{% block content %}
+
+<style>
+    .custom-background {
+        background-image: url("{% static '/img/home/partner.jpg'%}");
+        /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+        background-size: cover;
+        /* This ensures the image covers the entire div */
+        background-position: center center;
+        /* Center the image within the div */
+    }
+
+    .text-blue {
+        color: #293462;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .h1 {
+        font-size: 20px;
+        color: #293462;
+        line-height: 1.1;
+        padding: 30px 0;
+        border-bottom: solid 1px #dedede;
+        font-weight: bold;
+    }
+    h5{
+        color: #003a5d;
+        font-weight: bold;
+        font-size: 1.563rem;
+
+    }
+
+    a {
+    color: #00b2e3;
+    text-decoration: none;
+    font-weight: 500;
+    }
+
+    .title {
+    display: block;
+    color: #003a5d;
+    font-weight: 800;
+    line-height: 1.2;
+}
+</style>
+
+<div class="container mt-5">
+
+    <div class="row mt-4 ">
+
+        <h1 class="title">{% trans "Our Privacy Statement" %}</h1>
+
+        <div class="col-md-12">
+            <p class="text-justify"> <!-- Add the text-justify class to justify the text -->
+                {% trans "The Privacy Statement below outlines Payone's procedures for gathering, utilizing, and disclosing your Personal Information. This information is obtained during your visits to our website or app, or through other means in the course of providing our products and services and managing our business operations. It addresses the following inquiries:" %}
+            </p>
+                <ul>
+                    <li>{% trans "How do we collect information about you?" %}</li>
+                    <li>{% trans "What Personal Information do we collect?" %}</li>
+                    <li>{% trans "How do we use your Personal Information?" %}</li>
+                    <li>{% trans "How do we share your Personal Information?" %}</li>
+                    <li>{% trans "How do we keep your Personal Information safe?" %}</li>
+                    <li>{% trans "How do we share your Personal Information?" %}</li>
+                    <li>{% trans "Do we transfer your Personal Information outside of Turkey?" %}</li>
+                    <li>{% trans "What are your legal data privacy rights?" %}</li>
+                    <li>{% trans "How long do we retain your Personal Information?" %}</li>
+                    <li>{% trans "How do we use your data to communicate and market to you?" %}</li>
+                    <li>{% trans "How do we make changes to this privacy statement?" %}</li>
+                    <li>{% trans "Where does this privacy statement apply?" %}</li>
+                    <li>{% trans "Who can you contact if you have further questions or requests about your privacy?" %}</li>
+                </ul>  
+            
+            <p class="text-justify">
+                {% trans "In the following statement, MUNTEK TEKNOLOJI YAZILIM ANONIM SIRKETI will be referenced as MUNTEK." %}
+            </p>
+            <br>
+            <br>
+            <h5 class="">MUNTEK</h5>
+            <p>
+                {% trans "We are part of our group of companies established as a start-up incubation center. Even though we are a young organization, we stand out with our experience in the sector with our engineer staff with more than 20 years of experience, and we develop new R&D-oriented projects in which we maintain the the start-up spirit and excitement. At the same time, we are positioned as the technology company of the group that also has investments in the field of crypto money." %}
+            </p>
+            <br>
+            <br>
+            <h5>{% trans "How do we collect Personal Information about you?" %}</h5>
+            <p>
+                {% trans "To use the services, you must open a PAYONE account. When you open an account, we will ask for contact information such as your company name, phone number, email address, and information about the organisation's official or authorised person/s. We will also ask you for information about your business activity, including the legal name of your business and company registration documents, the business's physical address, and your company's website. The information you provide during account opening must be accurate and complete, and you must notify us of any changes in such information within ten business (10) days. We may ask you for additional information (including those who signed below or otherwise accepted the Terms on behalf of the merchant) to help verify your identity and to help assess your business risk. If you do not provide us with accurate, complete, and satisfactory information, we have the right to refuse your account registration or to close your PAYONE account later. When registering with us as a customer, we ask you for detailed information, which we will use to verify your identity and protect against fraud, among other reasons discussed below." %}
+            </p>
+            <br>
+            <br>
+            <h5>{% trans "What Personal Information do we collect?" %}</h5>
+            <p>
+                {% trans "Muntek exclusively gathers the necessary Personal Information essential for delivering and maintaining our Service, as well as fulfilling our legal and regulatory responsibilities, which can differ based on our association with you. Here's a summary of the Personal Information we acquire from you or about you:" %}
+            </p>
+            <ul>
+                <li>{% trans "Data for identity verification: In order to confirm your identity, we gather details such as your name, address, phone number, email, and similar information. Additional Personal Information may be necessary for identity verification, including your date of birth, taxpayer or government identification number, or a copy of your government-issued ID. We might also procure information from third parties, both affiliated and non-affiliated, such as credit bureaus, identity verification services, and other screening services to ensure your eligibility.to use our Services, and will associate that information with the information we collected from you." %}</li>
+                <li>{% trans "Data on account activity: We gather information regarding your transactions, payments made to or by you, and your various activities on our site or Service. Additionally, we compile details about products and services you've acquired from us." %}</li>
+                <li>{% trans "Data on application usage: We might gather information about how you interact with and utilize our Service. This encompasses visits to our website, sign-up activities, and interactions related to your bank account." %}</li>
+                <li>{% trans "Device information: We gather and process data, including your internet protocol (IP) addresses, login details, browser type and version, time zone settings, and location when accessing this website or any of our software applications." %}</li>
+                <li>{% trans "Marketing information: We collect and process details about your preferences regarding marketing communication from us, including your email address, and where you may have encountered Muntek advertisements." %}</li>
+                <li>{% trans "Social media details: You have the option to grant us access to specific Personal Information stored by third parties, such as social media sites (like Facebook, Google, Twitter, etc.). The information we can access varies by site and is under your control." %}</li>
+            </ul>
+            <br>
+            <br>
+            <h5>{% trans "How do we use your Personal Information?" %}</h5>
+            <p>{% trans "Below, we've outlined some of the ways we may utilize and process your personal information, along with the legal bases we rely on for doing so. It's important to note that we might process your personal information based on more than one lawful ground, depending on the specific purpose for which we are using that data." %}</p>
+            <ul>
+                <li>{% trans "Providing our Service to you: It might be straightforward, but we require your data to ensure that Muntek services function effectively. Without your name, banking information, and other details, providing you with our exceptional products wouldn't be possible." %}</li>
+                <li>{% trans "Conducting customer services, which includes structural, governance, and compliance services, is essential for fulfilling our contractual obligations to you. This is done on the basis of our legitimate interests, as well as yours, with the aim of providing the best possible customer service." %}</li>
+                <li>{% trans "Identity verification: As a financial institution, it is crucial for us to authenticate the true identity of our members. Global regulations mandate the identification of customers, encompassing anti-corruption, anti-bribery, anti-terrorism, anti-money laundering, and other applicable laws." %}</li>
+                <li>{% trans "Executing customer services, including compliance services, is crucial for fulfilling our contractual commitments to you. Additionally, it's imperative for us to adhere to legal and regulatory requirements applicable to us, including the necessity to prevent and combat money laundering." %}</li>
+                <li>{% trans "Keeping you informed: Ensuring security and financial transparency requires us to keep you informed about your transactions and related activities at Muntek. Expect emails from us containing confirmations, invoices, technical notices, updates, security alerts, legal information, as well as support and administrative messages." %}</li>
+                <li>{% trans "Executing customer services is essential for fulfilling our contractual commitments to you. This is based on our legitimate interests, as well as yours, with the goal of delivering the best possible customer service." %}</li>
+                <li>{% trans "Providing customer services is a critical aspect, rooted in our legitimate interests and your legitimate interests, aimed at delivering optimal customer service. This also serves to protect both you and us from unlawful and unauthorized activity, ensuring compliance with legal and regulatory requirements, including the imperative to prevent and combat money laundering." %}</li>
+                <li>{% trans "Customer care: While we aim to make using our products a breeze, we understand that sometimes you need assistance. Our customer care team may occasionally require access to your account data to address any issues or answer your questions " %}</li>
+                <li>{% trans "Managing and enhancing our Service: We're keen on comprehending how our members interact with and utilize Muntek services to ensure it's the best it can be. This involves amalgamating various data types, including account, transactional, and marketing data, to analyze the effectiveness and performance of our Service." %}</li>
+                <li>{% trans "Staying in touch with you: We want to keep you informed about product updates, news, events, and promotions. If you give us the green light, we'll send you information, including personalized emails, to ensure you stay in the loop with all things Muntek." %}</li>
+                <li>{% trans "Business operations: Your personal information may be essential for our business operations, encompassing internal training and administration, legal compliance, the enforcement of our legal rights, protection of third-party rights, and involvement in business transitions such as mergers, acquisitions, or the sale of all or a portion of our assets." %}</li>
+                <li>{% trans "Optimizing our website and software applications: We aim to showcase our website and software applications and their content in the most user-friendly manner for you and your computer. This is grounded in our legitimate interests to ensure our platforms are updated, relevant, and aligned with our business outreach, operations, and marketing strategy development." %}</li>
+            </ul>
+            <br>
+            <br>
+            <h5>{% trans "How do we share your Personal Information?" %}</h5>
+            <p>{% trans "We may share your information internally among employees and contractors of the Muntek Group, especially in connection with joint activities or common undertakings with group members. This includes providing IT and system administration services and conducting management reporting." %}</p>
+            <p>{% trans "Non-disclosure to third parties: We do not sell, trade, or transfer your Personal Information to third parties, except for those assisting us in operating our Service, conducting our business, or supporting our members. We ensure that these third parties agree to maintain the confidentiality and security of this information, adhering to the same conditions and protection levels we provide to you as a member." %}</p>
+            <p>{% trans "Legal compliance and enforcement: We may release your information to certified and authorized law enforcement officials when necessary to comply with the law, enforce our terms or policies, or safeguard the rights, property, or safety of Muntek, our members, or others. For details on our engagement with law enforcement officials, you can request our guidelines by emailing: " %}<a href="mailto:legal@muntek.com.tr">legal@muntek.com.tr</a></p>
+            <p>{% trans "Ownership transfer: In the event of a sale or transfer of ownership, your data would be shared with the new owners." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "How do we keep your Personal Information safe?" %}</h5>
+            <p>{% trans "Security measures in place: We have put in place security measures to prevent your Personal Information from being accidentally lost, used or accessed in an unauthorized way, altered, or disclosed. This includes maintaining physical, electronic, and procedural safeguards, incorporating tested security technologies in accordance with applicable laws. Network safeguards such as firewalls and data encryption are utilized, along with physical access controls. Access to Personal Information is authorized only for individuals with job responsibilities requiring such access." %}</p>
+            <p>{% trans "Limited access and confidentiality: We restrict access to your Personal Information to individuals, including employees, agents, contractors, and third parties, who have a business need to know. They process your Personal Information solely based on our instructions and are bound by a duty of confidentiality. Those with access undergo careful screening, periodic reevaluation, and are obligated to maintain the confidentiality of all your Personal Information." %}</p>
+            <p>{% trans "Acknowledging security risks: It's crucial to understand that security risks exist, and no organization can unequivocally promise otherwise. Even with the most meticulously designed and implemented safeguards, bad actors may find ways to circumvent security measures." %}</p>
+        
+            <br>
+            <br>
+            <h5>{% trans "Do we transfer your Personal Information outside of Turkey ?" %}</h5>
+            <p>{% trans "Controller responsibility: Under the General Data Protection Regulation, Muntek is the controller and assumes responsibility for this website, any of our software applications, and any Personal Information provided to us through these channels. In certain processing activities, an entity within the Muntek Group may act as a data processor for another entity within the same group." %}</p>
+            <p>{% trans "International data transfers: When we transfer your Personal Information outside of Turkey, we ensure a comparable level of protection is maintained." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "What are your legal rights?" %}</h5>
+            <ul>
+                <li>{% trans "Access the Personal Information we store about you or to request a copy of it." %}</li>
+                <li>{% trans "Request that we correct inaccurate data about you." %}</li>
+                <li>{% trans "Ask us to delete or block your data, although for legal reasons we cannot always do this." %}</li>
+                <li>{% trans "Withdraw your consent to receive marketing emails." %}</li>
+                <li>{% trans "To do any of the above simply email a request to: " %}<a href="mailto:legal@muntek.com.tr">legal@muntek.com.tr</a></li>
+            </ul>
+            <p>{% trans "Indeed, under the General Data Protection Regulation, you hold a set of crucial rights concerning your Personal Information." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "How long do we retain your Personal Information?" %}</h5>
+            <p>{% trans "Absolutely, Muntek takes the necessary steps to ensure that your Personal Information is reliable for its intended use, accurate, complete, and up-to-date. It's all part of the commitment to keeping your information in good shape." %}</p>
+            <ul>
+                <li>{% trans "Exactly, we only keep your Personal Information for as long as it's needed to fulfill the purposes we collected it for. This includes meeting legal, accounting, or reporting requirements, as well as other obligations stipulated by the General Data Protection Regulation or other relevant laws. Once it's no longer necessary, rest assured, we'll securely delete it, following applicable laws and regulations." %}</li>
+                <li>{% trans "Absolutely, if you request to stop receiving marketing materials, we'll respect that. However, we'll maintain a record of your contact details and relevant information to ensure we comply with your request not to be contacted by us. It's all about respecting your preferences." %}</li>
+            </ul>
+            <p>{% trans "Just a heads up, we might hold on to your Personal Information for at least five years from the date you stop being our customer. The specific duration depends on the applicable laws or regulations in the jurisdictions where we operate." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "How do we inform you and market to you?" %}</h5>
+            <p>{% trans "Staying compliant with the law, we'll send you personalized marketing information, including emails. This information may cover product and service updates, industry news, events, activities, offers, business-related insights, personnel updates, and tips. To enhance the relevance of these communications, we might combine your Personal Information like age, transaction history, and account usage." %}</p>
+            <p>{% trans "You have the power to say mo at any time. Just hit the opt-out links on any marketing message or contact us directly (details below). Opting out won't affect Personal Information collected for specific purposes, requests, orders, events, activities, or any previous dealings with you." %}</p>
+            <p>{% trans "If you wish to unsubscribe from an email publication, simply click the 'unsubscribe' button at the bottom of the email. It may take up to [10] days for this to take effect." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "Changes to our Privacy Statement" %}</h5>
+            <p>{% trans "This version of our privacy statement was last updated on the date mentioned above. Archived historic versions are available upon request by contacting us." %}</p>
+            <p>{% trans "To ensure the accuracy and currency of the Personal Information we have about you, please keep us in the loop if there are any changes during our relationship. Keeping the information up-to-date helps us serve you better." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "Where does this Privacy Statement apply?" %}</h5>
+            <p>{% trans "This Privacy Statement covers all services provided by the Muntek Group and services on third-party sites, including advertising services. However, it doesn't extend to services with distinct privacy notices that don't integrate this Privacy Statement." %}</p>
+            <p>{% trans "Take note, this Privacy Statement doesn't govern the information practices of other companies or organizations advertising our services. It also doesn't apply to services provided by other companies or individuals, including products or sites that may include our Services or be linked from our Services." %}</p>
+            <br>
+            <br>
+            <h5>{% trans "Who can you contact?" %}</h5>
+            <p>{% trans "For any questions or concerns about the use or disclosure of your Personal Information, feel free to reach out to us using the contact information provided below. We're here to investigate and address any complaints or disputes promptly. If you have inquiries about this Privacy Statement or need to get in touch, drop us an email at: " %}<a href="mailto:legal@muntek.com.tr">legal@muntek.com.tr</a></p>
+        
+            <br>
+            <br>
+        </div>
+    </div>
+
+
+</div>
+
+
+{% endblock %}

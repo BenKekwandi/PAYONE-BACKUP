@@ -1,0 +1,170 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="csrf-token" content="{{ csrf_token }}">
+
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+  <link rel="icon" href="{% static '/img/PAYONE_Emblem_100.svg'%}" />
+
+  <!-- <link rel="stylesheet" href="{% static 'js/fonts/icomoon/style.css'%}"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--script src="{% static '/js/custom/home.js' %}"></script-->
+  {% block stylePages %}
+  {% endblock %}
+
+  <link rel="stylesheet" href="{% static '/css/home/style.css' %}" />
+  <link rel="stylesheet" href="{% static '/css/home/currency.css'%}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <title>Payone</title>
+</head>
+
+<body style="font-family: 'Poppins', sans-serif">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a href="/" class="navbar-brand ms-2">
+        <img src="{% static 'img/home/PAYONE.svg'%}" alt="PAYONE" />
+      </a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="/" class="nav-item nav-link {% if request.path == '/' %}active{% endif %}">{% trans "Home" %}</a>
+          <a href="/our-services" class="nav-item nav-link {% if request.path == '/our-services' %}active{% endif %}">
+            {%trans "Our Services" %}</a>
+          <a href="about-us" class="nav-item nav-link {% if request.path == '/about-us' %}active{% endif %}">
+            {% trans "About Us" %}</a>
+          <!--a href="our-partner" class="nav-item nav-link {% if request.path == '/our-partner' %}active{% endif %}">
+            {% trans "Our Partner" %}</a-->
+          <a href="/faq" class="nav-item nav-link {% if request.path == '/faq' %}active{% endif %}">FAQ</a>
+          <a href="/contact-us" class="nav-item nav-link {% if request.path == '/contact-us' %}active{% endif %}">
+            {%trans "Contact Us" %}</a>
+          <a href="/privacy-policy" class="nav-item nav-link {% if request.path == '/privacy-policy' %}active{% endif %}">
+            {%trans "Privacy Policy" %}</a>
+
+          <a href="/application" class="nav-item nav-link {% if request.path == '/application' %}active{% endif %}">
+            {%trans "Apply" %}
+          </a>
+          <form id="lang_form" action="" method="post">
+            {% csrf_token %}
+            <nav>
+              <a id="enLan" style="cursor: pointer;"> <img src="{% static 'img/home/GB.svg'%}" alt=""></a>
+              <span>|</span>
+              <a id="trLan" style="cursor: pointer;"><img src="{% static 'img/home/TR.svg'%}" alt=""></a>
+            </nav>
+          </form>
+          <a href="/secret" class="nav-item nav-link">
+            <button
+              style="background-color: #12006C; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 6px;">
+              {% trans "Login" %}
+            </button>
+          </a>
+
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    {% block content %}
+
+    {% endblock %}
+  </div>
+  <!-- Footer -->
+  <!-- <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class=" col-md-2 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="/" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="/our-services" class="nav-link p-0 text-muted">Our Services</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="/about-us" class="nav-link p-0 text-muted">About Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="/contact-us" class="nav-link p-0 text-muted">Contact Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="faq" class="nav-link p-0 text-muted">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div> -->
+  <div class="container bg-light ">
+    <footer class="footer-16371">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+
+            <ul class="list-unstyled nav-links mb-5">
+              <li><a href="/">{% trans "Home" %}</a></li>
+              <li><a href="/about-us">{% trans "About" %}</a></li>
+              <li><a href="/our-services">{% trans "Services" %}</a></li>
+              <li><a href="faq">FAQ</a></li>
+              <li><a href="/contact-us">{% trans "Contact" %}</a></li>
+              <li><a href="/privacy-policy">{%trans "Privacy Policy" %}</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Stay in touch</h3>
+              <ul class="list-unstyled">
+                <li class="in"><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+                <li class="fb"><a href="https://www.facebook.com/payonetr"><span
+                      class="fa-brands fa-facebook"></span></a></li>
+                <li class="tw"><a href="https://twitter.com/payonetr"><span class="fa-brands fa-twitter"></span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="copyright">
+              <span class="mb-0"><small>&copy; <a href="https://www.muntek.com.tr/" target="_blank">Muntek</a>. All Rights Reserved.</small></span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="{% static 'js/custom/layout.js' %}"></script>
+  <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

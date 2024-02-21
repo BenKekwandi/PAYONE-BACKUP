@@ -1,0 +1,1399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 10:10+0000\n"
+"PO-Revision-Date: 2024-01-26 10:11+0000\n"
+"Last-Translator: Arekan Teknoloji <arekanteknoloji@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: templates/application.html:18
+#: templates/emails/prospect_confirmation.html:18
+msgid "Company Registration"
+msgstr "Şirket Tescili"
+
+#: templates/application.html:33
+msgid "Company Info"
+msgstr "Şirket Bilgileri"
+
+#: templates/application.html:44 templates/application.html:157
+#: templates/application.html:235 templates/bank_operator.html:43
+#: templates/bank_operator.html:220 templates/companies.html:47
+#: templates/company_details.html:69 templates/company_details.html:125
+#: templates/managers.html:40 templates/managers.html:144
+#: templates/managers.html:203 templates/payone_Employee.html:43
+#: templates/payone_Employee.html:171 templates/payone_Employee.html:258
+#: templates/salespersons.html:40 templates/salespersons.html:123
+#: templates/salespersons.html:175
+msgid "Name"
+msgstr "Adı"
+
+#: templates/application.html:53 templates/companies.html:91
+#: templates/companies.html:238 templates/prospects.html:56
+#: templates/prospects.html:310
+msgid "Company Address"
+msgstr "Şirket Adresi"
+
+#: templates/application.html:61 templates/application.html:189
+#: templates/application.html:264 templates/bank_operator.html:75
+#: templates/companies.html:80 templates/companies.html:227
+#: templates/managers.html:71 templates/managers.html:174
+#: templates/payone_Employee.html:76 templates/payone_Employee.html:207
+#: templates/prospects.html:299 templates/salespersons.html:69
+#: templates/salespersons.html:204
+msgid "Phone Number"
+msgstr "Telefon"
+
+#: templates/application.html:69 templates/auth/email.html:59
+#: templates/auth/inbox.html:59 templates/auth/login.html:91
+#: templates/bank_operator.html:222 templates/companies.html:290
+#: templates/company_details.html:71 templates/managers.html:204
+#: templates/payone_Employee.html:260 templates/prospects.html:101
+#: templates/prospects.html:350 templates/salespersons.html:124
+#: templates/users.html:85
+msgid "Email"
+msgstr "E-posta"
+
+#: templates/application.html:78
+msgid "Company Contact Person"
+msgstr "Şirket İrtibat Kişisi"
+
+#: templates/application.html:86 templates/prospects.html:352
+msgid "Business Registration Number"
+msgstr "Vergi M.S Numarasi"
+
+#: templates/application.html:94 templates/prospects.html:128
+msgid "Website"
+msgstr "Web Sitesi"
+
+#: templates/application.html:103 templates/companies.html:116
+#: templates/companies.html:287 templates/dashboard_main.html:218
+#: templates/general_wallet.html:236
+#: templates/reports/managerial_reports.html:112
+msgid "Commission Type"
+msgstr "Komisyon Tipi"
+
+#: templates/application.html:110 templates/dashboard_main.html:97
+#: templates/general_wallet.html:99
+msgid "Commission"
+msgstr "Komisyon"
+
+#: templates/application.html:112 templates/companies.html:105
+#: templates/companies.html:251 templates/prospects.html:323
+msgid "Please select a valid state."
+msgstr "Lütfen Geçerli Şehir Girin."
+
+#: templates/application.html:120 templates/companies.html:128
+#: templates/companies.html:259 templates/companies.html:285
+msgid "Bank Account Number"
+msgstr "Banka Hesabı Numarası"
+
+#: templates/application.html:122
+msgid "Please Enter the Bank Account Number."
+msgstr "Lütfen Banka Hesap Numaranızı Giriniz."
+
+#: templates/application.html:135
+msgid "Company Manager"
+msgstr "Şirket Müdürü"
+
+#: templates/application.html:145
+msgid "Manager (Company Contact Person)"
+msgstr "Müdür (Şirket İrtibat Kişisi)"
+
+#: templates/application.html:168 templates/application.html:246
+#: templates/bank_operator.html:54 templates/bank_operator.html:221
+#: templates/company_details.html:70 templates/managers.html:50
+#: templates/managers.html:155 templates/payone_Employee.html:54
+#: templates/payone_Employee.html:182 templates/payone_Employee.html:259
+#: templates/salespersons.html:50 templates/salespersons.html:184
+msgid "Surname"
+msgstr "Soyadı"
+
+#: templates/application.html:178 templates/application.html:254
+#: templates/bank_operator.html:65 templates/companies.html:69
+#: templates/companies.html:216 templates/managers.html:61
+#: templates/managers.html:165 templates/payone_Employee.html:65
+#: templates/payone_Employee.html:193 templates/profile.html:48
+#: templates/prospects.html:288 templates/salespersons.html:59
+msgid "Email Address"
+msgstr "E-posta"
+
+#: templates/application.html:190 templates/application.html:265
+#: templates/companies.html:82 templates/companies.html:229
+#: templates/managers.html:72 templates/managers.html:175
+#: templates/payone_Employee.html:78 templates/prospects.html:301
+#: templates/salespersons.html:70
+msgid "Please provide a valid Number."
+msgstr "Lütfen Geçerli Numara Girin."
+
+#: templates/application.html:199 templates/application.html:275
+#: templates/bank_operator.html:86 templates/bank_operator.html:224
+#: templates/companies.html:289 templates/company_details.html:73
+#: templates/emails/prospect_confirmation.html:24 templates/managers.html:81
+#: templates/managers.html:183 templates/managers.html:206
+#: templates/payone_Employee.html:87 templates/payone_Employee.html:219
+#: templates/payone_Employee.html:262 templates/prospects.html:347
+#: templates/salespersons.html:79 templates/salespersons.html:126
+#: templates/salespersons.html:214
+msgid "Address"
+msgstr "Adres"
+
+#: templates/application.html:200 templates/application.html:276
+#: templates/bank_operator.html:88 templates/bank_operator.html:199
+#: templates/companies.html:93 templates/companies.html:240
+#: templates/managers.html:184 templates/payone_Employee.html:89
+#: templates/payone_Employee.html:106 templates/payone_Employee.html:222
+#: templates/payone_Employee.html:237 templates/prospects.html:312
+msgid "Please provide a valid Address."
+msgstr "Lütfen Adres Girin."
+
+#: templates/application.html:213
+msgid "Company Salesperson"
+msgstr "Şirket Satış Elemanı"
+
+#: templates/application.html:223 templates/company_details.html:94
+#: templates/dashboard_main.html:160 templates/dashboard_main.html:205
+#: templates/dashboard_main.html:213 templates/general_wallet.html:162
+#: templates/general_wallet.html:223 templates/general_wallet.html:231
+#: templates/reports/managerial_reports.html:42
+#: templates/reports/managerial_reports.html:104
+msgid "Salesperson"
+msgstr "Satış Sorumlusu"
+
+#: templates/application.html:236 templates/bank_operator.html:45
+#: templates/bank_operator.html:152 templates/managers.html:41
+#: templates/managers.html:146 templates/payone_Employee.html:45
+#: templates/payone_Employee.html:173 templates/salespersons.html:41
+msgid "Please provide a valid Name."
+msgstr "Lütfen Geçerli İsim Girin."
+
+#: templates/application.html:247 templates/payone_Employee.html:56
+msgid " Please provide a valid Surname."
+msgstr "Lütfen Geçerli Soyadı Girin."
+
+#: templates/application.html:255 templates/bank_operator.html:67
+#: templates/bank_operator.html:175 templates/companies.html:71
+#: templates/companies.html:218 templates/managers.html:62
+#: templates/managers.html:166 templates/payone_Employee.html:67
+#: templates/payone_Employee.html:196 templates/prospects.html:290
+#: templates/salespersons.html:60 templates/salespersons.html:195
+msgid "Please provide a valid Email."
+msgstr "Lütfen Geçerli E-posta girin."
+
+#: templates/application.html:290 templates/company_details.html:34
+msgid "Company Files"
+msgstr "Şirket Dosyaları"
+
+#: templates/application.html:299 templates/company_details.html:165
+msgid "Contract"
+msgstr "Kontrat"
+
+#: templates/application.html:306 templates/company_details.html:172
+msgid "Application Form"
+msgstr "Başvuru Formu"
+
+#: templates/application.html:312 templates/company_details.html:178
+msgid "Tax info"
+msgstr "Vergi Numarası"
+
+#: templates/application.html:318 templates/company_details.html:184
+msgid "Others"
+msgstr "Diğerleri"
+
+#: templates/application.html:331 templates/prospects.html:194
+msgid "Register"
+msgstr "Kayıt Olun"
+
+#: templates/auth/404.html:49
+msgid "Sorry!"
+msgstr "Üzgünüm!"
+
+#: templates/auth/404.html:50
+msgid "The requsted URL was not found on this server."
+msgstr "İstenen URL bu sunucuda bulunamadı."
+
+#: templates/auth/email.html:49 templates/auth/inbox.html:49
+msgid "Forgot Password ?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: templates/auth/email.html:53 templates/auth/inbox.html:53
+msgid "Enter your email to reset your password."
+msgstr "Şifrenizi sıfırlamak için e-postanızı girin."
+
+#: templates/auth/email.html:68 templates/auth/otp.html:112
+#: templates/auth/reset_otp.html:110
+msgid "Verify"
+msgstr "Doğrulama"
+
+#: templates/auth/email.html:69 templates/auth/login.html:119
+#: templates/auth/otp.html:113 templates/auth/password.html:106
+#: templates/auth/redirect.html:77 templates/auth/reset_otp.html:111
+#: templates/auth/reset_password.html:123
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+#: templates/auth/email.html:76 templates/auth/inbox.html:62
+#: templates/auth/inbox.html:70 templates/auth/otp.html:122
+msgid "Back to login"
+msgstr "Girişe geri dön"
+
+#: templates/auth/inbox.html:60
+msgid "CHECK YOUR EMAIL INBOX"
+msgstr "E-POSTA GELEN KUTUNUZU KONTROL EDIN"
+
+#: templates/auth/login.html:58
+msgid "Welcome to the Admin Dashboard"
+msgstr "Yönetici Kontrol Paneline Hoş Geldiniz"
+
+#: templates/auth/login.html:61
+msgid "The Point Where Opportunities and Security Meet."
+msgstr "Fırsatlar ve Güvenliğin Buluştuğu Nokta."
+
+#: templates/auth/login.html:85
+msgid "Login to Admin Dashboard"
+msgstr "Yönetici Olarak Giriş Yapın"
+
+#: templates/auth/login.html:100 templates/auth/password.html:80
+#: templates/auth/reset_password.html:80
+msgid "Password"
+msgstr "Şifre"
+
+#: templates/auth/login.html:101
+msgid "Reset Password ?"
+msgstr "Şifre Sıfırlama?"
+
+#: templates/auth/login.html:117 templates/auth/redirect.html:76
+msgid "Continue"
+msgstr "Devam et"
+
+#: templates/auth/otp.html:55
+msgid "Welcome to PAYONE"
+msgstr "PAYONE'a Hoş Geldiniz"
+
+#: templates/auth/otp.html:85 templates/auth/reset_otp.html:56
+msgid "Two Step Verification"
+msgstr "İki Adımlı Doğrulama"
+
+#: templates/auth/otp.html:88
+msgid "Enter the verification code"
+msgstr "Doğrulama kodunu girin"
+
+#: templates/auth/password.html:65
+msgid "Setup New Password"
+msgstr "Yeni Şifre Ayarla"
+
+#: templates/auth/password.html:69
+msgid "Have you reset your password?"
+msgstr "Şifrenizi sıfırladınız mı?"
+
+#: templates/auth/password.html:70
+msgid "Sign in"
+msgstr "Giriş yap"
+
+#: templates/auth/password.html:92 templates/auth/reset_password.html:113
+msgid "Confirm Password"
+msgstr "Şifreyi Onayla"
+
+#: templates/auth/password.html:105 templates/bank_operator.html:94
+#: templates/bank_operator.html:205 templates/companies.html:139
+#: templates/managers.html:97 templates/payone_Employee.html:244
+#: templates/prospects.html:134 templates/salespersons.html:98
+msgid "Submit"
+msgstr "Gönder"
+
+#: templates/auth/redirect.html:64
+msgid "CLick This Button To Access Your Salesperson Panel"
+msgstr "Satış Elemanı Panelinize Erişmek İçin Bu Düğmeye Tıklayın"
+
+#: templates/auth/reset_otp.html:57
+msgid ""
+"Scan the QR code using the Google Authenticator app. It will generate a 6 "
+"digit code for you to enter below."
+msgstr ""
+"Google Authenticator uygulamasını kullanarak QR kodunu tarayın. Aşağıya "
+"girmeniz için 6 haneli bir kod üretecektir."
+
+#: templates/auth/reset_otp.html:78
+msgid "GA Code"
+msgstr "GA Kodu"
+
+#: templates/auth/reset_otp.html:89
+msgid ""
+"You can download the Google Authenticator application from the links below"
+msgstr ""
+"Google Authenticator uygulamasını aşağıdaki linkler üzerinden "
+"indirebilirsiniz"
+
+#: templates/auth/reset_password.html:40
+msgid "Welcome"
+msgstr "Hoş geldiniz"
+
+#: templates/auth/reset_password.html:62
+msgid "Please Set Your Password"
+msgstr "Lütfen Şifrenizi Ayarlayın"
+
+#: templates/auth/reset_password.html:66
+msgid "Have questions ? Check out"
+msgstr "Sorularınız mı var? Göz atın"
+
+#: templates/auth/reset_password.html:122
+msgid "Create an Account"
+msgstr "Hesap Oluşturun"
+
+#: templates/bank_operator.html:14
+msgid "Current Bank Operators"
+msgstr "Mevcut Banka Operatörleri"
+
+#: templates/bank_operator.html:22
+msgid "Add New Bank Operator"
+msgstr "Yeni Banka Operatörü Ekle"
+
+#: templates/bank_operator.html:32
+msgid "New Bank Operator"
+msgstr "Yeni Banka Operatörü Ekle"
+
+#: templates/bank_operator.html:56 templates/bank_operator.html:163
+#: templates/managers.html:156 templates/payone_Employee.html:184
+#: templates/salespersons.html:185
+msgid "Please provide a valid Surname."
+msgstr "Lütfen Geçerli Bir Soyadı Girin."
+
+#: templates/bank_operator.html:77 templates/bank_operator.html:188
+#: templates/payone_Employee.html:210 templates/salespersons.html:205
+msgid "Please provide a valid Number. "
+msgstr "Lütfen Geçerli Numara Girin."
+
+#: templates/bank_operator.html:119
+msgid "Are you sure you want to delete this Bank Operator?"
+msgstr "Banka Yöneticisini Silmek İstediğinizden Emin misiniz?"
+
+#: templates/bank_operator.html:125 templates/companies.html:169
+#: templates/managers.html:122 templates/payone_Employee.html:144
+#: templates/prospects.html:164 templates/reports/daily_reports.html:37
+msgid "Delete"
+msgstr "Sil"
+
+#: templates/bank_operator.html:139
+msgid "Edit Bank Operator"
+msgstr "Banka Operatörünü Bilgilerini Düzenle"
+
+#: templates/bank_operator.html:223 templates/companies.html:288
+#: templates/company_details.html:72 templates/payone_Employee.html:261
+#: templates/prospects.html:110 templates/prospects.html:349
+#: templates/salespersons.html:125
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/bank_operator.html:226 templates/companies.html:292
+#: templates/company_details.html:127 templates/managers.html:208
+#: templates/payone_Employee.html:264 templates/prospects.html:355
+#: templates/reports/daily_reports.html:24 templates/salespersons.html:128
+msgid "Actions"
+msgstr "Aksiyon"
+
+#: templates/companies.html:15 templates/layout.html:275
+#: templates/layout.html:405
+msgid "Companies"
+msgstr "Şirketler"
+
+#: templates/companies.html:24
+msgid "Add New Company"
+msgstr "Yeni Şirket Ekleme"
+
+#: templates/companies.html:34
+msgid "New Company"
+msgstr "Yeni Şirket Ekleme"
+
+#: templates/companies.html:49 templates/companies.html:196
+#: templates/prospects.html:268
+msgid "Please provide a Valid Company Name."
+msgstr "Lütfen Geçerli Şirket Adı Girin."
+
+#: templates/companies.html:58 templates/companies.html:205
+#: templates/prospects.html:277
+msgid "Owner Full Name"
+msgstr "Yetkilinin İsimini Giriniz."
+
+#: templates/companies.html:60 templates/companies.html:207
+#: templates/prospects.html:279
+msgid "Please provide a valid Full Name."
+msgstr "Lütfen Geçerli Ad girin."
+
+#: templates/companies.html:103 templates/companies.html:249
+#: templates/prospects.html:321
+msgid "Comission"
+msgstr "Komisyon"
+
+#: templates/companies.html:118
+msgid "Please select a valid Commission Type"
+msgstr "Lütfen geçerli bir Komisyon Tipi seçin"
+
+#: templates/companies.html:130 templates/companies.html:261
+msgid "Please Enter a valid Bank Account Number"
+msgstr "Lütfen Geçerli Bir Banka Hesap Numarası girin"
+
+#: templates/companies.html:154
+msgid "Delete Company"
+msgstr "Şirketi Sil"
+
+#: templates/companies.html:163
+msgid "Are you sure you want to delete this Company?"
+msgstr "Bu Yöneticiyi Silmek İstediğinizden Emin misiniz?"
+
+#: templates/companies.html:183
+msgid "Edit Company"
+msgstr "Şirketi Düzenle"
+
+#: templates/companies.html:194 templates/companies.html:283
+#: templates/emails/prospect_confirmation.html:21 templates/prospects.html:46
+#: templates/prospects.html:266 templates/prospects.html:345
+msgid "Company Name"
+msgstr "Firma Adı"
+
+#: templates/companies.html:268 templates/company_details.html:189
+#: templates/prospects.html:330 templates/salespersons.html:222
+msgid "Update"
+msgstr "Güncelleme"
+
+#: templates/companies.html:284
+msgid "Owner Name"
+msgstr "Yetkili Adı"
+
+#: templates/companies.html:286 templates/company_details.html:103
+#: templates/dashboard_main.html:221 templates/general_wallet.html:239
+#: templates/reports/managerial_reports.html:115
+msgid "Commission Rate"
+msgstr "Komisyon Oranı"
+
+#: templates/company_details.html:16
+msgid "Company Salespersons"
+msgstr "Şirket Satış Görevlileri"
+
+#: templates/company_details.html:17
+msgid "See All Salespersons"
+msgstr "Satış Görevlileri"
+
+#: templates/company_details.html:25
+msgid "Company Transactions"
+msgstr "Şirket İşlemleri"
+
+#: templates/company_details.html:26
+msgid "See All Transactions"
+msgstr "Tüm İşlemleri Gör"
+
+#: templates/company_details.html:35
+msgid "See All Uploaded Files"
+msgstr "Yüklenen Tüm Dosyaları Gör"
+
+#: templates/company_details.html:43
+msgid "Upload Files"
+msgstr "Dosyaları Yükle"
+
+#: templates/company_details.html:44 templates/company_details.html:157
+msgid "Upload Company Files"
+msgstr "Şirket Dosyalarını Yükle"
+
+#: templates/company_details.html:61
+msgid "See All your Company Salesperons"
+msgstr "Tüm Şirket Satış Sorumlularını Görün"
+
+#: templates/company_details.html:68 templates/dashboard_main.html:151
+#: templates/dashboard_main.html:212 templates/general_wallet.html:153
+#: templates/general_wallet.html:230 templates/managers.html:91
+#: templates/managers.html:202 templates/reports/managerial_reports.html:17
+#: templates/reports/managerial_reports.html:33
+#: templates/reports/managerial_reports.html:103
+#: templates/salespersons.html:90 templates/salespersons.html:122
+msgid "Company"
+msgstr "Şirket"
+
+#: templates/company_details.html:88
+msgid "See All your Company Transactions"
+msgstr "Tüm Şirket İşlemlerinizi Görün"
+
+#: templates/company_details.html:95
+msgid "Transaction ID"
+msgstr "İşlem No:"
+
+#: templates/company_details.html:96 templates/dashboard_main.html:204
+#: templates/dashboard_main.html:211 templates/general_wallet.html:222
+#: templates/general_wallet.html:229
+msgid "Transaction Date"
+msgstr "İşlem Tarihi:"
+
+#: templates/company_details.html:97 templates/dashboard_main.html:215
+#: templates/general_wallet.html:233
+msgid "Network"
+msgstr "Ağ"
+
+#: templates/company_details.html:102
+msgid "Payment Amount(Without Commission)"
+msgstr "Ödeme Tutarı(Komisyonsuz)"
+
+#: templates/company_details.html:104 templates/dashboard_main.html:222
+#: templates/general_wallet.html:240
+msgid "Commission Amount"
+msgstr "Komisyon Tutarı (TL)"
+
+#: templates/company_details.html:105
+msgid "Total Amount(With Comission)"
+msgstr "Toplam Tutar (Komisyon dahil)"
+
+#: templates/company_details.html:106 templates/dashboard_main.html:185
+#: templates/dashboard_main.html:209 templates/dashboard_main.html:225
+#: templates/general_wallet.html:186 templates/general_wallet.html:227
+#: templates/general_wallet.html:243
+#: templates/reports/managerial_reports.html:66
+#: templates/reports/managerial_reports.html:118 templates/users.html:88
+msgid "Status"
+msgstr "Durum"
+
+#: templates/company_details.html:119
+msgid "See All your Company Files"
+msgstr "Tüm Şirket Dosyalarınızı Görüntule"
+
+#: templates/company_details.html:126 templates/reports/daily_reports.html:23
+msgid "Size"
+msgstr "Boyut"
+
+#: templates/dashboard_main.html:9 templates/dashboard_main.html:86
+#: templates/general_wallet.html:88 templates/layout.html:189
+msgid "Dashboard"
+msgstr "Günlük Gösterge Paneli"
+
+#: templates/dashboard_main.html:114 templates/general_wallet.html:116
+msgid "Total amount to be paid"
+msgstr "Odenecek Toplam Tutar"
+
+#: templates/dashboard_main.html:134
+msgid "Today's Transactions"
+msgstr "Bugünkü İşlemler"
+
+#: templates/dashboard_main.html:148 templates/dashboard_main.html:157
+#: templates/dashboard_main.html:166 templates/dashboard_main.html:178
+#: templates/dashboard_main.html:183 templates/general_wallet.html:150
+#: templates/general_wallet.html:159 templates/general_wallet.html:168
+#: templates/general_wallet.html:184
+#: templates/reports/managerial_reports.html:15
+#: templates/reports/managerial_reports.html:30
+#: templates/reports/managerial_reports.html:39
+#: templates/reports/managerial_reports.html:48
+#: templates/reports/managerial_reports.html:64
+msgid "All"
+msgstr "Hepsi"
+
+#: templates/dashboard_main.html:172 templates/general_wallet.html:174
+#: templates/reports/managerial_reports.html:54
+msgid "Coin"
+msgstr "Krypto Türü"
+
+#: templates/dashboard_main.html:179 templates/dashboard_main.html:181
+#: templates/general_wallet.html:182
+#: templates/reports/managerial_reports.html:62
+msgid "Pending"
+msgstr "Bekleyen"
+
+#: templates/dashboard_main.html:180 templates/general_wallet.html:181
+#: templates/reports/managerial_reports.html:61
+msgid "Completed"
+msgstr "Tamamlanan"
+
+#: templates/dashboard_main.html:182 templates/general_wallet.html:183
+#: templates/reports/managerial_reports.html:63
+msgid "Cancelled"
+msgstr "İptal Edildi"
+
+#: templates/dashboard_main.html:191 templates/general_wallet.html:207
+#: templates/reports/managerial_reports.html:22
+#: templates/reports/managerial_reports.html:87
+msgid "search"
+msgstr "Ara"
+
+#: templates/dashboard_main.html:195 templates/general_wallet.html:211
+#: templates/reports/managerial_reports.html:91
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: templates/dashboard_main.html:206 templates/dashboard_main.html:214
+#: templates/general_wallet.html:224 templates/general_wallet.html:232
+msgid "Reference Number"
+msgstr "Referans Numarası"
+
+#: templates/dashboard_main.html:207
+msgid "Total Amount"
+msgstr "TL Tutarı"
+
+#: templates/dashboard_main.html:208 templates/dashboard_main.html:224
+#: templates/general_wallet.html:226 templates/general_wallet.html:242
+msgid "Currency"
+msgstr "Para Birimi"
+
+#: templates/dashboard_main.html:216 templates/general_wallet.html:234
+msgid "Expected Crypto Amount"
+msgstr "Beklenen Kripto Tutarı"
+
+#: templates/dashboard_main.html:217 templates/general_wallet.html:235
+msgid "Received Crypto Amount"
+msgstr "Gelen Kripto Tutarı"
+
+#: templates/dashboard_main.html:219 templates/general_wallet.html:237
+#: templates/reports/managerial_reports.html:113
+msgid "Amount Entered"
+msgstr "Girilen Miktar"
+
+#: templates/dashboard_main.html:220 templates/general_wallet.html:238
+msgid "Amount Paid By the Purchaser"
+msgstr "Alıcı Tarafından Ödenen Tutar"
+
+#: templates/dashboard_main.html:223 templates/general_wallet.html:241
+#: templates/reports/managerial_reports.html:114
+msgid "Amount Payable to Retailer (TL)"
+msgstr "Bayiye Ödenecek Tutar (TL)"
+
+#: templates/emails/commission_rate_update.html:19
+msgid "The commission rate has been changed to"
+msgstr "Komisyon oranı şu şekilde değiştirilmiştir"
+
+#: templates/emails/new_company.html:19
+msgid "A new company has been created with this info"
+msgstr "Bu bilgilerle yeni bir şirket oluşturuldu"
+
+#: templates/emails/new_manager.html:19
+msgid "A new manager has been created with this info"
+msgstr "Bu bilgilerle yeni bir yönetici oluşturuldu"
+
+#: templates/emails/new_salesperson.html:19
+msgid "A new salesperson has been created with this info"
+msgstr "Bu bilgilerle yeni bir satış elemanı oluşturuldu"
+
+#: templates/emails/prospect_confirmation.html:20
+msgid "A new Company has been registered in the system"
+msgstr "Sisteme yeni bir Şirket kaydedildi"
+
+#: templates/emails/prospect_confirmation.html:22
+msgid "Commission_rate"
+msgstr "Komisyon_oranı"
+
+#: templates/emails/prospect_confirmation.html:23
+msgid "Company Contact Person (Manager)"
+msgstr "Şirket İrtibat Kişisi (Müdür)"
+
+#: templates/emails/prospect_confirmation.html:25
+msgid "Date and Time"
+msgstr "Tarih ve Saat"
+
+#: templates/general_wallet.html:10
+msgid "General wallet"
+msgstr "Toplam Cüzdan Durumu"
+
+#: templates/general_wallet.html:141
+msgid "Total Transactions"
+msgstr "Toplam İşlemler"
+
+#: templates/general_wallet.html:193
+#: templates/reports/managerial_reports.html:73
+msgid "Start Date"
+msgstr "Başlama Tarihi"
+
+#: templates/general_wallet.html:201
+#: templates/reports/managerial_reports.html:81
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#: templates/general_wallet.html:225
+msgid "Full Amount (TL)"
+msgstr "Tutar (TL)"
+
+#: templates/layout.html:192
+msgid "Info"
+msgstr "Bilgi"
+
+#: templates/layout.html:216 templates/layout.html:222
+msgid "System Managers"
+msgstr "Sistem Yöneticileri"
+
+#: templates/layout.html:229
+msgid "PAYONE Employees"
+msgstr "PAYONE Çalışanı"
+
+#: templates/layout.html:235
+msgid "Bank Operators"
+msgstr "BANKA Operatörü"
+
+#: templates/layout.html:263 templates/layout.html:268
+msgid "Retailers"
+msgstr "Bayiler"
+
+#: templates/layout.html:280 templates/layout.html:412
+msgid "Managers"
+msgstr "Şirket Yöneticileri"
+
+#: templates/layout.html:286 templates/layout.html:308
+#: templates/layout.html:419
+msgid "Salespersons"
+msgstr "Satış Görevlileri"
+
+#: templates/layout.html:293 templates/prospects.html:14
+msgid "Potential Customers"
+msgstr "Potansiyel Müşteriler"
+
+#: templates/layout.html:329
+msgid "General Wallet"
+msgstr "Toplam Cüzdan Durumu"
+
+#: templates/layout.html:336 templates/layout.html:367
+#: templates/layout.html:374
+msgid "Reports"
+msgstr "Raporlar"
+
+#: templates/layout.html:382 templates/reports/daily_reports.html:8
+#: templates/reports/reports.html:8
+msgid "Bank Reports"
+msgstr "Banka Raporları"
+
+#: templates/layout.html:389 templates/reports/managerial_reports.html:9
+msgid "Managerial Reports"
+msgstr "Yönetim Raporları"
+
+#: templates/layout.html:396
+msgid "System Reports"
+msgstr "Sistem Raporları"
+
+#: templates/layout.html:435
+msgid "Security"
+msgstr "Güvenlik"
+
+#: templates/layout.html:457 templates/log_history.html:72
+msgid "Log History"
+msgstr "Giriş Geçmişi"
+
+#: templates/layout.html:474 templates/users.html:71
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: templates/layout.html:501
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: templates/layout.html:553
+msgid "Choose a language"
+msgstr "Bir dil seçin"
+
+#: templates/log_history.html:16
+msgid "Number Of Attempts"
+msgstr "Denenen Giriş Sayısı"
+
+#: templates/log_history.html:33
+msgid "Successful Attempts"
+msgstr "Başarılı Girişler"
+
+#: templates/log_history.html:50
+msgid "Failed Attempts"
+msgstr "Başarısız Girişler"
+
+#: templates/log_history.html:82
+msgid "Login Date & Time"
+msgstr "Giriş Tarihi ve Saati"
+
+#: templates/log_history.html:83
+msgid "IP Address"
+msgstr "IP Adresi"
+
+#: templates/log_history.html:84 templates/prospects.html:65
+msgid "Country"
+msgstr "Ülke"
+
+#: templates/log_history.html:85
+msgid "Region"
+msgstr "Bölge"
+
+#: templates/log_history.html:86
+msgid "Current IP Status"
+msgstr "Mevcut IP Durumu"
+
+#: templates/log_history.html:87
+msgid "User Email"
+msgstr "Kullanıcı E-posta"
+
+#: templates/log_history.html:88
+msgid "User Role"
+msgstr "Görev"
+
+#: templates/log_history.html:89
+msgid "Login Status"
+msgstr "Durum"
+
+#: templates/log_history.html:90 templates/users.html:89
+msgid "Action"
+msgstr "Aksiyon"
+
+#: templates/log_history.html:104
+msgid "Blocked"
+msgstr "Bloklanmış"
+
+#: templates/log_history.html:107
+msgid "Unblocked"
+msgstr "Bloklanmamış"
+
+#: templates/log_history.html:120
+msgid "Block IP Address"
+msgstr "IP Adresini engelle"
+
+#: templates/log_history.html:123
+msgid "Unblock IP Address"
+msgstr "IP Adresi Engelini Kaldır"
+
+#: templates/log_history.html:140
+msgid "Block IP address"
+msgstr "Engellenecek İP Adresi"
+
+#: templates/log_history.html:147
+msgid "Are you sure you want to block this IP address?"
+msgstr "Bu Ip'ye engellemek İstediğinizden Emin misiniz?"
+
+#: templates/log_history.html:151
+msgid "Block IP"
+msgstr "Engellenecek İP "
+
+#: templates/log_history.html:170
+msgid "Are you sure you want to unblock this IP address?"
+msgstr "Bu Ip'ye izin vermek İstediğinizden Emin misiniz?"
+
+#: templates/log_history.html:174
+msgid "Unblock"
+msgstr "İzin Vermek"
+
+#: templates/managers.html:14
+msgid "Companies Managers"
+msgstr "Şirket Yöneticileri"
+
+#: templates/managers.html:23
+msgid "Add New Manager"
+msgstr "Yeni Yönetici Ekleme"
+
+#: templates/managers.html:31
+msgid "New Manager"
+msgstr "Yeni Yönetici "
+
+#: templates/managers.html:89 templates/payone_Employee.html:98
+#: templates/payone_Employee.html:231 templates/salespersons.html:88
+msgid "Choose..."
+msgstr "seç..."
+
+#: templates/managers.html:92
+msgid "Please choose a company."
+msgstr "Lütfen Bir Şirket Seçiniz."
+
+#: templates/managers.html:111
+msgid "Delete Manager"
+msgstr "Yöneticiyi Sil"
+
+#: templates/managers.html:118
+msgid "Are you sure you want to delete this manager?"
+msgstr "Bu Yöneticiyi Silmek İstediğinizden Emin misiniz?"
+
+#: templates/managers.html:135
+msgid "Edit Manager"
+msgstr "Yönetici Bilgisini Düzenleme"
+
+#: templates/managers.html:189
+msgid "update"
+msgstr "Güncelleme"
+
+#: templates/managers.html:205
+msgid "Cell"
+msgstr "Telefon"
+
+#: templates/payone_Employee.html:14
+msgid "Current Employees"
+msgstr "Mevcut Çalışanlar"
+
+#: templates/payone_Employee.html:22
+msgid " Add New Employee"
+msgstr "Yeni Çalışan Ekleme"
+
+#: templates/payone_Employee.html:32
+msgid "New Employee"
+msgstr "Yeni Çalışan Ekleme"
+
+#: templates/payone_Employee.html:100 templates/payone_Employee.html:232
+msgid "Accountant"
+msgstr "Muhasebeci"
+
+#: templates/payone_Employee.html:102 templates/payone_Employee.html:233
+msgid "Operator"
+msgstr "Operatör"
+
+#: templates/payone_Employee.html:104 templates/payone_Employee.html:235
+#: templates/payone_Employee.html:263
+msgid "Position"
+msgstr "Görevi"
+
+#: templates/payone_Employee.html:113
+msgid "Create"
+msgstr "Oluştur"
+
+#: templates/payone_Employee.html:128
+msgid "Delete Employee"
+msgstr "Çalışanı Sil"
+
+#: templates/payone_Employee.html:137
+msgid "Are you sure you want to delete this employee?"
+msgstr "Bu kullanıcıyı Silmek İstediğinizden Emin misiniz?"
+
+#: templates/payone_Employee.html:160
+msgid "Edit Employee"
+msgstr "Çalışanı Düzenle"
+
+#: templates/profile.html:12
+msgid "User Account Details"
+msgstr "Kullanıcı Hesabı Ayrıntıları"
+
+#: templates/profile.html:26
+msgid "Oh snap! Change a few things up and try submitting again."
+msgstr "Ah, şipşak! Birkaç şeyi değiştirin ve tekrar göndermeyi deneyin."
+
+#: templates/profile.html:36
+msgid "Name and Surname"
+msgstr "Ad ve Soyadı"
+
+#: templates/profile.html:60 templates/users.html:87
+msgid "Date Joined"
+msgstr "Katılma Tarihi"
+
+#: templates/profile.html:73
+msgid "Two Factor Authentication Code"
+msgstr "İki Faktörlü Kimlik Doğrulama Kodu"
+
+#: templates/profile.html:85
+msgid " Use an Authenticator App to scan this QR Code"
+msgstr "Bu QR Kodunu taramak için bir Authenticator Uygulaması kullanın"
+
+#: templates/prospects.html:23
+msgid "Add New Prospect"
+msgstr "Yeni Potansiyel Müşteri Ekle"
+
+#: templates/prospects.html:33
+msgid "New Prospect"
+msgstr "Yeni Beklenti"
+
+#: templates/prospects.html:74
+msgid "City"
+msgstr "Şehir"
+
+#: templates/prospects.html:83
+msgid "Postal Code"
+msgstr "Posta Kodu"
+
+#: templates/prospects.html:92 templates/prospects.html:351
+msgid "Contact Person"
+msgstr "İlgili Kişi"
+
+#: templates/prospects.html:119
+msgid "Registration Number"
+msgstr "Kayıt Numarası"
+
+#: templates/prospects.html:149
+msgid "Delete Prospect"
+msgstr "Beklentiyi Sil"
+
+#: templates/prospects.html:158
+msgid "Are you sure you want to delete this Prospect?"
+msgstr "Bu adayı silmek istediğinizden emin misiniz?"
+
+#: templates/prospects.html:178
+msgid "Register the Prospect as A Company"
+msgstr "Potansiyeli Şirket Olarak Kaydettirin"
+
+#: templates/prospects.html:188
+msgid "Are you sure you want to register this Prospect as a customer?"
+msgstr ""
+"Bu müşteri adayını müşteri olarak kaydetmek istediğinizden emin misiniz?"
+
+#: templates/prospects.html:208 templates/prospects.html:255
+msgid "Edit Prospect"
+msgstr "Beklentiyi Düzenle"
+
+#: templates/prospects.html:220
+msgid "Prospect Email Address"
+msgstr "Potansiyel E-posta Adresi"
+
+#: templates/prospects.html:228
+msgid "Subject"
+msgstr "Konu"
+
+#: templates/prospects.html:236
+msgid "Message"
+msgstr "Mesaj"
+
+#: templates/prospects.html:241 templates/users.html:195
+msgid "Send"
+msgstr "Gönder"
+
+#: templates/prospects.html:344
+msgid "Registration Date"
+msgstr "Kayıt Tarihi"
+
+#: templates/prospects.html:346
+msgid "Country/City"
+msgstr "Ülke/Şehir"
+
+#: templates/prospects.html:348
+msgid "Post Code"
+msgstr "Posta Kodu"
+
+#: templates/prospects.html:353
+msgid "website"
+msgstr "Websitesi"
+
+#: templates/reports/daily_reports.html:21
+msgid "File Name"
+msgstr "Dosya Adı"
+
+#: templates/reports/daily_reports.html:22
+msgid "File Location"
+msgstr "Dosya Konumu"
+
+#: templates/reports/daily_reports.html:35
+msgid "Download"
+msgstr "Indir"
+
+#: templates/reports/daily_reports.html:39
+msgid "TXT"
+msgstr "TXT"
+
+#: templates/reports/managerial_reports.html:102
+msgid "#"
+msgstr "#"
+
+#: templates/reports/managerial_reports.html:105
+msgid "Transaction Start Date"
+msgstr "İşlem Başlangıç Tarihi"
+
+#: templates/reports/managerial_reports.html:106
+msgid "Transaction Received Date"
+msgstr "İşlemin tamamlandığı tarih"
+
+#: templates/reports/managerial_reports.html:107
+msgid "Expected Crypto"
+msgstr "Beklenen Kripto Tutarı"
+
+#: templates/reports/managerial_reports.html:108
+#: templates/reports/managerial_reports.html:110
+#| msgid "Currency"
+msgid "Crypto Currency"
+msgstr "Kripto Birimi"
+
+#: templates/reports/managerial_reports.html:109
+msgid "Received Crypto"
+msgstr "Alınan Kripto Tutarı"
+
+#: templates/reports/managerial_reports.html:111
+#| msgid "Commission Amount"
+msgid "Incoming Amount"
+msgstr "Gelen Tutar (TL)"
+
+#: templates/reports/managerial_reports.html:116
+msgid "Commission Amount (TL)"
+msgstr "Komisyon Tutarı (TL)"
+
+#: templates/reports/managerial_reports.html:117
+msgid "Exchange Rate"
+msgstr "Anlık Kur (TL)"
+
+#: templates/reports/managerial_reports.html:138
+msgid "Are you sure you want to accept this transaction?"
+msgstr "Bu işlemi kabul etmek istediğinizden emin misiniz?"
+
+#: templates/reports/managerial_reports.html:144
+msgid "Accept"
+msgstr "Kabul et"
+
+#: templates/reports/managerial_reports.html:166
+msgid "Are you sure you want to reject this transaction?"
+msgstr "Bu işlemi reddetmek istediğinizden emin misiniz?"
+
+#: templates/reports/managerial_reports.html:172
+msgid "Reject"
+msgstr "Reddet"
+
+#: templates/reports/reports.html:22
+msgid "Date"
+msgstr "Tarihi"
+
+#: templates/reports/reports.html:23
+msgid "Elapsed Days"
+msgstr "Gecmis Günler"
+
+#: templates/reports/reports.html:24
+msgid "Numbers of Transactions"
+msgstr "İşlem Sayısı"
+
+#: templates/reports/reports.html:25
+msgid "Report Files"
+msgstr "Rapor Dosyaları"
+
+#: templates/reports/reports.html:33
+msgid "days ago"
+msgstr "Gün Once"
+
+#: templates/reports/reports.html:37
+msgid "Excel File"
+msgstr "Excel Dosyası"
+
+#: templates/reports/reports.html:39
+msgid "TXT File"
+msgstr "TXT Dosyası"
+
+#: templates/salespersons.html:14
+msgid "Current Salespersons"
+msgstr "Mevcut Satış Görevlileri"
+
+#: templates/salespersons.html:22
+msgid "Add New Sales Person"
+msgstr "Yeni Satış Elemanı Ekleme"
+
+#: templates/salespersons.html:31
+msgid "New Sales Person"
+msgstr "Yeni Satış Elemanı"
+
+#: templates/salespersons.html:103
+msgid "Loading..."
+msgstr "Yükleniyor.."
+
+#: templates/salespersons.html:142
+msgid "Delete Saleperson"
+msgstr "Satış Görevlisini Sil"
+
+#: templates/salespersons.html:149
+msgid "Are you sure you want to delete this saleperson?"
+msgstr "Bu Satış Görevlisini Silmek İstediğinizden Emin misiniz?"
+
+#: templates/salespersons.html:166
+msgid "Edit Sale Person"
+msgstr "Satış Sorumlusunu Düzenle"
+
+#: templates/users.html:16
+msgid "Total Users"
+msgstr "Toplam Kullanıcılar"
+
+#: templates/users.html:33
+msgid "Active Users"
+msgstr "Aktif kullanıcılar"
+
+#: templates/users.html:50
+msgid "Inactive Users"
+msgstr "Etkin Olmayan Kullanıcılar"
+
+#: templates/users.html:81
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: templates/users.html:82
+msgid "Role"
+msgstr "Görev"
+
+#: templates/users.html:83
+msgid "First Name"
+msgstr "Adı"
+
+#: templates/users.html:84
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: templates/users.html:86
+msgid "Last Login"
+msgstr "Son Giriş"
+
+#: templates/users.html:119 templates/users.html:146
+msgid "Deactivate"
+msgstr "Devre dışı Bırak"
+
+#: templates/users.html:122 templates/users.html:170
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: templates/users.html:125 templates/users.html:183
+msgid "Password Link"
+msgstr "Şifre Yenileme Bağlantı "
+
+#: templates/users.html:135
+msgid "Deactivate User"
+msgstr "Kullanıcıyı Devre Dışı Bırak"
+
+#: templates/users.html:142
+msgid "Are you sure you want to deactivate this User"
+msgstr "Bu Kullanıcıyı devre dışı bırakmak istediğinizden emin misiniz?"
+
+#: templates/users.html:159
+msgid "Activate User"
+msgstr "Kullanıcıyı Etkinleştir"
+
+#: templates/users.html:166
+msgid "Are you sure you want to activate this User"
+msgstr "Bu Kullanıcıyı etkinleştirmek istediğinizden emin misiniz?"
+
+#: templates/users.html:190
+msgid "Are you sure you want to send the password link to this User"
+msgstr "Şifre Yenileme Bağlantı göndermek İstediğinizden Emin misiniz?"
+
+#~ msgid "Amount with commission"
+#~ msgstr "Toplam Tutar (Komisyon dahil)"
+
+#~ msgid "Crypto Type"
+#~ msgstr "Kripto Tipi"
+
+#~ msgid "Expected Amount (TL)"
+#~ msgstr "Beklenen Tutar (TL)"
+
+#~ msgid "Product Price"
+#~ msgstr "Ürün Fiyatı"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Total Amount(With Commission) (TL)"
+#~ msgstr "Toplam Tutar (Komisyon dahil) (TL)"
+
+#, fuzzy
+#~ msgid "commission Type"
+#~ msgstr "Komisyon Tipi"
+
+#, fuzzy
+#~ msgid "Commision Type"
+#~ msgstr "Komisyon Tipi"
+
+#~ msgid "Comission Type"
+#~ msgstr "Komisyon Tipi"
+
+#~ msgid "This is bank_operator Table"
+#~ msgstr "Bu banka operatörü Tablosu"
+
+#~ msgid "This is companies Table"
+#~ msgstr "Bu şirketler tablosu"
+
+#~ msgid "This is salesperson Table"
+#~ msgstr "Bu satış elemanı tablosu"
+
+#~ msgid "This is transaction Table"
+#~ msgstr "Bu işlem Tablosu"
+
+#~ msgid "This is transactions Table"
+#~ msgstr "Bu işlem Tablosu"
+
+#~ msgid "This is log_history Table"
+#~ msgstr "Bu günlük geçmişi tablosu"
+
+#~ msgid "This is managers Table"
+#~ msgstr "Bu yöneticiler tablosu"
+
+#~ msgid "This is employees Table"
+#~ msgstr "Bu çalışanlar tablosu"
+
+#~ msgid "This is prospect Table"
+#~ msgstr "Bu prospect tablosudur"
+
+#~ msgid "This is details Table"
+#~ msgstr "Bu ayrıntılar tablosu"
+
+#~ msgid "This is daily_report_list Table"
+#~ msgstr "Bu günlük rapor listesi Tablosu"
+
+#~ msgid "Deposit History"
+#~ msgstr "Yatırım Geçmişi"
+
+#~ msgid "Transaction Date And Time"
+#~ msgstr "İşlem Tarihi ve Saati"
+
+#~ msgid "This is transactionReport Table"
+#~ msgstr "Bu işlem Rapor Tablosudur"
+
+#~ msgid "This is manager Table"
+#~ msgstr "Bu yönetici tablosu"
+
+#~ msgid "This is users Table"
+#~ msgstr "Bu kullanıcı tablosu"
+
+#~ msgid "Authentication QR Code"
+#~ msgstr "Kimlik Doğrulama QR Kodu"
+
+#~ msgid "Prospects"
+#~ msgstr "Beklentiler"
+
+#~ msgid "Verification"
+#~ msgstr "Doğrulama"
+
+#~ msgid "Two Factor Authentication Code "
+#~ msgstr "İki Faktörlü Kimlik Doğrulama Kodu"
+
+#~ msgid "Here is your QR Code"
+#~ msgstr "İşte QR Kodunuz"
+
+#~ msgid ""
+#~ "Sorry, something went wrong on our server. We are working to fix the issue."
+#~ msgstr ""
+#~ "Üzgünüz, sunucumuzda bir şeyler ters gitti. Sorunu çözmek için çalışıyoruz."
+
+#~ msgid "To kickstart your journey, please click on the link below"
+#~ msgstr "Yolculuğunuzu başlatmak için lütfen aşağıdaki bağlantıya tıklayın"
+
+#~ msgid "Confirm Your Account"
+#~ msgstr "Hesabını onayla"
+
+#~ msgid "If you encounter any issues or have questions,"
+#~ msgstr "Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa"
+
+#~ msgid "our dedicated support team is here to assist you."
+#~ msgstr "özel destek ekibimiz size yardımcı olmak için burada."
+
+#~ msgid "Feel free to reach out to them at"
+#~ msgstr "Onlara şu adresten ulaşmaktan çekinmeyin:"
+
+#~ msgid ""
+#~ "We're thrilled to have you as a part of the PAYONE community and look "
+#~ "forward to your success."
+#~ msgstr ""
+#~ "Sizi PAYONE topluluğunun bir parçası olarak aramızda görmekten heyecan "
+#~ "duyuyoruz ve başarınızı sabırsızlıkla bekliyoruz."
+
+#~ msgid "Employees"
+#~ msgstr "Çalışanlar"
+
+#~ msgid "Select the network"
+#~ msgstr "Ağ"
+
+#~ msgid "Select the company"
+#~ msgstr "Şirketi Sil"
+
+#~ msgid "Choose one"
+#~ msgstr "seç..."
+
+#~ msgid "Last 30 Days"
+#~ msgstr "Son Ay"
+
+#~ msgid "This Month"
+#~ msgstr "Bu Ay"
+
+#~ msgid "This year"
+#~ msgstr "Bu yıl"
+
+#~ msgid "History Log"
+#~ msgstr "Giriş Geçmişi"
+
+#~ msgid "Looks good!"
+#~ msgstr "İyi Görünüyor!!"
+
+#~ msgid "Lang"
+#~ msgstr "Dil"

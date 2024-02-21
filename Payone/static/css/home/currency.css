@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.order-card {
+    color: #fff;
+}
+
+.ETH {
+    background-color: #E8DCF8;
+}
+
+.BTC {
+    background-color: #FFFBE6;
+}
+
+.LTC {
+    background-color: #D9DDE8;
+}
+
+.USD {
+    background-color: #FFFFFF;
+}
+
+p {
+    color: #293462;
+    font-size: 12;
+}
+
+h6 {
+    color: #293462;
+    font-weight: bold;
+}
+
+h3 {
+    color: #293462;
+    font-size: 15;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.currency-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.currency-form .form-control {
+    height: 45px;
+}
+
+.currency-form .btn-primary {
+    width: 100%;
+    height: 45px;
+}
+
+.currency-result {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.currency-form .exchange-icon i {
+    display: inline-flex;
+    align-items: center;
+}

@@ -1,0 +1,1852 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-11 10:52+0000\n"
+"PO-Revision-Date: 2024-01-23 17:02+0000\n"
+"Last-Translator: Arekan Teknoloji <arekanteknoloji@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: templates/500.html:48 templates/auth/404.html:49
+msgid "Sorry!"
+msgstr "Üzgünüz!"
+
+#: templates/500.html:50
+msgid ""
+"Sorry, something went wrong on our server. We are working to fix the issue."
+msgstr ""
+"Üzgünüz, sunucumuzda bir şeyler ters gitti. Sorunu düzeltmek için "
+"çalışıyoruz."
+
+#: templates/auth/404.html:50
+msgid "The requsted URL was not found on this server."
+msgstr "İstenen Web URL bu sunucuda bulunamadı."
+
+#: templates/auth/email.html:49 templates/auth/inbox.html:49
+msgid "Forgot Password ?"
+msgstr "Şifrenizi Mi Unuttunuz?"
+
+#: templates/auth/email.html:53 templates/auth/inbox.html:53
+msgid "Enter your email to reset your password."
+msgstr "Şifrenizi sıfırlamak için e-postanızı girin."
+
+#: templates/auth/email.html:59 templates/auth/inbox.html:59
+#: templates/auth/login.html:79 templates/emails/contact_payone.html:20
+#: templates/landing_pages/application.html:60
+#: templates/landing_pages/contact_us.html:23 templates/secret/login.html:82
+msgid "Email"
+msgstr "E-posta"
+
+#: templates/auth/email.html:68 templates/auth/otp.html:111
+#: templates/auth/reset_otp.html:125 templates/secret/otp.html:100
+msgid "Verify"
+msgstr "Doğrulama"
+
+#: templates/auth/email.html:69 templates/auth/login.html:107
+#: templates/auth/otp.html:112 templates/auth/password.html:106
+#: templates/auth/reset_otp.html:126 templates/auth/reset_password.html:144
+msgid "Please wait..."
+msgstr "Lütfen bekleyin.."
+
+#: templates/auth/email.html:76 templates/auth/inbox.html:62
+#: templates/auth/inbox.html:70 templates/auth/otp.html:122
+msgid "Back to login"
+msgstr "Giriş kısmına geri dön"
+
+#: templates/auth/inbox.html:60
+msgid "CHECK YOUR EMAIL INBOX"
+msgstr "E-POSTA GELEN KUTUNUZU KONTROL EDİN"
+
+#: templates/auth/login.html:46
+msgid "Welcome to the Admin Dashboard"
+msgstr "Yönetici Kontrol Paneline Hoş Geldiniz"
+
+#: templates/auth/login.html:49
+msgid "The Point Where Opportunities and Security Meet."
+msgstr "Fırsatların ve Güvenliğin Buluştuğu Uygulama"
+
+#: templates/auth/login.html:73
+msgid "Login to Admin Dashboard"
+msgstr "Satış Paneline Giriş Yapın"
+
+#: templates/auth/login.html:88 templates/auth/password.html:80
+#: templates/auth/reset_password.html:93 templates/secret/login.html:89
+msgid "Password"
+msgstr "Şifre"
+
+#: templates/auth/login.html:89 templates/secret/login.html:90
+msgid "Reset Password ?"
+msgstr "Şifreyi yenile?"
+
+#: templates/auth/login.html:105 templates/secret/login.html:105
+msgid "Continue"
+msgstr "Devam Et"
+
+#: templates/auth/otp.html:54 templates/secret/login.html:55
+#: templates/secret/otp.html:41
+msgid "Welcome to PAYONE"
+msgstr "PAYONE'a hoş geldiniz"
+
+#: templates/auth/otp.html:84 templates/auth/reset_otp.html:66
+#: templates/secret/otp.html:69
+msgid "Two Step Verification"
+msgstr "İki Adımlı Doğrulama"
+
+#: templates/auth/otp.html:87 templates/secret/otp.html:72
+msgid "Enter the verification code"
+msgstr "Doğrulama Kodunu Giriniz"
+
+#: templates/auth/password.html:65
+msgid "Setup New Password"
+msgstr "Yeni Şifre Ayarla"
+
+#: templates/auth/password.html:69
+msgid "Have you reset your password?"
+msgstr "Şifrenizi sıfırladınız mı?"
+
+#: templates/auth/password.html:70
+msgid "Sign in"
+msgstr "Giriş"
+
+#: templates/auth/password.html:92 templates/auth/reset_password.html:131
+msgid "Confirm Password"
+msgstr "Şifreyi Onayla"
+
+#: templates/auth/password.html:105
+#: templates/landing_pages/application.html:90
+msgid "Submit"
+msgstr "Uygula"
+
+#: templates/auth/reset_otp.html:68
+msgid ""
+"Scan the QR code using the Google Authenticator app. It will generate a 6 "
+"digit code for you to enter below."
+msgstr ""
+"Google Authenticator uygulamasını kullanarak QR kodunu tarayın. Aşağıya "
+"girmeniz için 6 haneli bir kod üretecektir"
+
+#: templates/auth/reset_otp.html:89
+msgid "GA Code"
+msgstr "GA Kodu"
+
+#: templates/auth/reset_otp.html:102
+msgid ""
+"You can download the Google Authenticator application from the links below"
+msgstr ""
+"Google Authenticator uygulamasını aşağıdaki linkler üzerinden "
+"indirebilirsiniz"
+
+#: templates/auth/reset_password.html:53
+msgid "Welcome"
+msgstr "Hoş Geldiniz"
+
+#: templates/auth/reset_password.html:75
+msgid "Please Set Your Password"
+msgstr "Lütfen Şifrenizi Belirleyin"
+
+#: templates/auth/reset_password.html:79
+msgid "Have questions ? Check out"
+msgstr "Sorularım var? Çıkış"
+
+#: templates/auth/reset_password.html:143
+msgid "Create an Account"
+msgstr "Hesap Oluşturun"
+
+#: templates/emails/contact.html:64 templates/landing_pages/layout.html:135
+msgid "Contact"
+msgstr "Bize Ulaşın"
+
+#: templates/emails/contact_payone.html:18
+msgid "We have been contacted"
+msgstr "Bizimle iletişime geçildi"
+
+#: templates/emails/contact_payone.html:19 templates/emails/prospect.html:23
+#: templates/emails/prospect_confirmation.html:25
+msgid "Date and Time"
+msgstr "Tarih ve Saat"
+
+#: templates/emails/contact_payone.html:21
+#: templates/landing_pages/contact_us.html:19
+msgid "Name"
+msgstr "Adı"
+
+#: templates/emails/contact_payone.html:22
+#: templates/landing_pages/contact_us.html:27
+msgid "Subject"
+msgstr "Konu"
+
+#: templates/emails/contact_payone.html:23
+#: templates/landing_pages/contact_us.html:31
+msgid "Message"
+msgstr "Mesaj"
+
+#: templates/emails/prospect.html:18
+msgid "NEW REQUEST APPLICATION"
+msgstr "YENİ TALEP BAŞVURUSU"
+
+#: templates/emails/prospect.html:19
+msgid "A new prospect has requested to start using our platform"
+msgstr ""
+"Yeni bir müşteri platformumuzu kullanmaya başlamak için talepte bulundu"
+
+#: templates/emails/prospect.html:20
+#: templates/emails/prospect_confirmation.html:21
+#: templates/landing_pages/application.html:19
+msgid "Company Name"
+msgstr "Şirket Adı"
+
+#: templates/emails/prospect.html:21
+#: templates/emails/prospect_confirmation.html:24
+msgid "Address"
+msgstr "Adres"
+
+#: templates/emails/prospect.html:22
+#: templates/emails/prospect_confirmation.html:23
+msgid "Company Contact Person (Manager)"
+msgstr "Şirket İrtibat Kişisi (Müdür)"
+
+#: templates/emails/prospect_confirmation.html:18
+msgid "Company Registration"
+msgstr "Şirket Tescili"
+
+#: templates/emails/prospect_confirmation.html:20
+msgid "A new Company has been registered in the system"
+msgstr "Sisteme yeni bir Şirket kaydedildi"
+
+#: templates/emails/prospect_confirmation.html:22
+msgid "Commission_rate"
+msgstr "Komisyon_Oranı"
+
+#: templates/landing_pages/about_us.html:15
+msgid "TRANSFORMING TECHNOLOGY"
+msgstr "TEKNOLOJİK Dönüşüm"
+
+#: templates/landing_pages/about_us.html:18
+msgid "Innovative Fintech Solutions for"
+msgstr "İşletmeler ve Bireyler için"
+
+#: templates/landing_pages/about_us.html:20
+msgid "Businesses and Individuals"
+msgstr "Yenilikçi Fintech Çözümleri"
+
+#: templates/landing_pages/about_us.html:29
+msgid "Our Company"
+msgstr "Şirketimiz"
+
+#: templates/landing_pages/about_us.html:33
+msgid ""
+"At PAYONE, we believe the future of financial technology is going to be "
+"powered by blockchain technology. We’re on a mission to build a fintech "
+"ecosystem that will enable secure, instant and efficient fiat and digital "
+"asset transactions for forward thinking businesses and individuals from "
+"around the world."
+msgstr ""
+"PAYONE olarak finansal teknolojinin geleceğinin blockchain teknolojisiyle "
+"destekleneceğine inanıyoruz. Dünyanın dört bir yanından ileriyi düşünen "
+"işletmeler ve bireyler için güvenli, anında ve verimli fiat ve dijital "
+"varlık işlemlerini mümkün kılacak bir fintech ekosistemi oluşturma "
+"misyonundayız."
+
+#: templates/landing_pages/about_us.html:45
+msgid "Our Beginnings"
+msgstr "Başlangıçlarımız"
+
+#: templates/landing_pages/about_us.html:47
+msgid ""
+"PAYONE was a vision of the future while Crypto and Fintech were still in "
+"their infancy. We saw their potential to revolutionize the financial "
+"industry making transactions faster, more secure and less expensive."
+msgstr ""
+"PAYONE, Crypto ve Fintech'in henüz emekleme aşamasında olduğu bir gelecek "
+"vizyonuydu. İşlemleri daha hızlı, daha güvenli ve daha ucuz hale getirerek "
+"finans sektöründe devrim yaratma potansiyellerini gördük"
+
+#: templates/landing_pages/about_us.html:53
+msgid "Our Mission"
+msgstr "Görevlerimiz"
+
+#: templates/landing_pages/about_us.html:55
+msgid ""
+"To develop and create financial solutions and blockchain payment "
+"technologies to transform how businesses and individuals send, receive, "
+"exchange and store money."
+msgstr ""
+"İşletmelerin ve bireylerin para gönderme, alma, değiştirme ve biriktirme "
+"şeklini değiştirmek için finansal çözümler ve blok zinciri, ödeme "
+"teknolojileri geliştirmek ve oluşturmaktır."
+
+#: templates/landing_pages/about_us.html:61
+msgid "Our Future"
+msgstr "Geleceğimiz"
+
+#: templates/landing_pages/about_us.html:63
+msgid ""
+"Fintech and Blockchain’s future look very bright, and we plan on remaining "
+"at the forefront of this technology, creating more tools and services for "
+"everyone to use and benefit from in innovative and new ways."
+msgstr ""
+"Fintech ve Blockchain'in geleceği çok parlak görünüyor ve bu teknolojinin ön"
+" saflarında yer almayı, herkesin yenilikçi ve yeni yollarla kullanıp "
+"faydalanabileceği daha fazla araç ve hizmet yaratmayı planlıyoruz."
+
+#: templates/landing_pages/about_us.html:67
+msgid "Executive Team"
+msgstr "Yönetici Ekibimiz"
+
+#: templates/landing_pages/about_us.html:69
+msgid ""
+" We are a progressive team of innovative and talented individuals with a "
+"collective passion, expertise and vision in the future of fintech."
+msgstr ""
+"Kolektif bir tutkuya sahip, yenilikçi ve yetenekli bireylerden oluşan Fintech'in\n"
+"geleceğinde uzmanlık ve vizyon sahibi, ilerici bir ekibiz."
+
+#: templates/landing_pages/application.html:13
+msgid "APPLICATION FORM"
+msgstr "BAŞVURU FORMU"
+
+#: templates/landing_pages/application.html:24
+msgid "Company Address"
+msgstr "Şirket Adresi"
+
+#: templates/landing_pages/application.html:31
+msgid "Country"
+msgstr "Ülke"
+
+#: templates/landing_pages/application.html:39
+msgid "City"
+msgstr "Şehir"
+
+#: templates/landing_pages/application.html:44
+msgid "Postal Code"
+msgstr "Posta Kodu"
+
+#: templates/landing_pages/application.html:52
+msgid "Contact Person"
+msgstr "İlgili Kişi"
+
+#: templates/landing_pages/application.html:64
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/landing_pages/application.html:72
+msgid "Registration Number"
+msgstr "Vergi Numarasi"
+
+#: templates/landing_pages/application.html:77
+msgid "Website"
+msgstr "Website"
+
+#: templates/landing_pages/contact_us.html:14
+msgid "Get in touch with us"
+msgstr "Bizimle iletişime geçin"
+
+#: templates/landing_pages/contact_us.html:15
+msgid "To receive information on any of our products and services."
+msgstr "Ürün ve hizmetlerimizden herhangi biri hakkında bilgi almak için."
+
+#: templates/landing_pages/faq.html:10
+msgid "Frequently Asked Questions"
+msgstr "Sıkça Sorulan Sorular"
+
+#: templates/landing_pages/faq.html:24
+msgid "What is a cryptocurrency exchange?"
+msgstr "Kripto para borsası nedir?"
+
+#: templates/landing_pages/faq.html:34
+msgid ""
+"A cryptocurrency exchange is a digital platform that allows users to buy, "
+"sell, and trade various cryptocurrencies like Bitcoin, Ethereum, and others."
+msgstr ""
+"Kripto para borsası, kullanıcıların Bitcoin, Ethereum ve diğerleri gibi "
+"çeşitli kripto para birimlerini satın almasına, satmasına ve ticaretini "
+"yapmasına olanak tanıyan dijital bir platformdur."
+
+#: templates/landing_pages/faq.html:48
+msgid "Is the exchange regulated?"
+msgstr "Borsa belli kural veya yasalara göre idare ediliyor mu?"
+
+#: templates/landing_pages/faq.html:58
+msgid ""
+"Yes, our crypto exchange complies with all relevant regulations and is "
+"licensed in the jurisdictions where required."
+msgstr ""
+"Evet, kripto borsamız ilgili tüm düzenlemelere uygundur ve gereken yerlerde "
+"lisanslıdır."
+
+#: templates/landing_pages/faq.html:72
+msgid "How secure is my personal and financial information?"
+msgstr "Kişisel ve finansal bilgilerim ne kadar güvende?"
+
+#: templates/landing_pages/faq.html:82
+msgid ""
+"We take security seriously and employ industry-standard encryption and "
+"security measures to safeguard your data."
+msgstr ""
+"Güvenliği ciddiye alıyoruz ve verilerinizi korumak için endüstri "
+"standardında şifreleme ve güvenlik önlemleri kullanıyoruz."
+
+#: templates/landing_pages/faq.html:96
+msgid "Which cryptocurrencies can I trade on the exchange?"
+msgstr "Borsada hangi kripto para birimleriyle işlem yapabilirim?"
+
+#: templates/landing_pages/faq.html:106
+msgid ""
+"Our exchange supports a wide range of cryptocurrencies, including popular "
+"ones like Bitcoin, Ethereum, Ripple, and many others."
+msgstr ""
+"Borsamız, Bitcoin, Ethereum, Ripple ve diğerleri gibi popüler olanlar da "
+"dahil olmak üzere çok çeşitli kripto para birimlerini desteklemektedir."
+
+#: templates/landing_pages/faq.html:120
+msgid "What payment methods are accepted for buying cryptocurrencies?"
+msgstr "Kripto para satın almak için hangi ödeme yöntemleri kabul ediliyor?"
+
+#: templates/landing_pages/faq.html:130
+msgid ""
+"We accept various payment methods, including credit/debit cards, bank "
+"transfers, and sometimes, other cryptocurrencies."
+msgstr ""
+"Kredi/banka kartları, banka havaleleri ve bazen diğer kripto para birimleri "
+"dahil olmak üzere çeşitli ödeme yöntemlerini kabul ediyoruz."
+
+#: templates/landing_pages/faq.html:144
+msgid "Are there any fees for trading?"
+msgstr "Ticaret için herhangi bir ücret var mı?"
+
+#: templates/landing_pages/faq.html:154
+msgid ""
+"Yes, there are trading fees that apply to buy and sell orders. These fees "
+"may vary based on your trading volume and other factors."
+msgstr ""
+"Evet, alış ve satış emirleri için geçerli olan işlem ücretleri vardır. Bu "
+"ücretler işlem hacminize ve diğer faktörlere bağlı olarak değişiklik "
+"gösterebilir."
+
+#: templates/landing_pages/faq.html:168
+msgid "How long does it take for deposits and withdrawals to process?"
+msgstr "Para yatırma ve çekme işlemleri ne kadar sürer?"
+
+#: templates/landing_pages/faq.html:178
+msgid ""
+"Deposit and withdrawal times vary depending on the cryptocurrency and "
+"network congestion. Generally, deposits are faster, while withdrawals may "
+"take some time due to security measures."
+msgstr ""
+"Para yatırma ve çekme süreleri kripto para birimine ve ağ tıkanıklığına "
+"bağlı olarak değişir. Genel olarak para yatırma işlemleri daha hızlı "
+"gerçekleşirken, para çekme işlemleri güvenlik önlemleri nedeniyle biraz "
+"zaman alabilir."
+
+#: templates/landing_pages/faq.html:192
+msgid "What security measures do you have in place to protect my funds?"
+msgstr "Fonlarımı korumak için hangi güvenlik önlemleriniz var?"
+
+#: templates/landing_pages/faq.html:202
+msgid ""
+"We use cold storage wallets and implement multi-factor authentication (MFA) "
+"to enhance the security of your funds. Additionally, our platform undergoes "
+"regular security audits."
+msgstr ""
+"Fonlarınızın güvenliğini artırmak için soğuk depolama cüzdanları kullanıyor "
+"ve çok faktörlü kimlik doğrulama (MFA) uyguluyoruz. Ayrıca platformumuz "
+"düzenli olarak güvenlik denetimlerinden geçmektedir."
+
+#: templates/landing_pages/faq.html:216
+msgid "Do you offer customer support?"
+msgstr "Müşteri desteği sunuyor musunuz?"
+
+#: templates/landing_pages/faq.html:226
+msgid ""
+"Yes, we have a dedicated customer support team available to assist you with "
+"any queries or issues you may have. You can reach out to them through email,"
+" live chat, or our support ticket system."
+msgstr ""
+"Evet, sorularınız veya sorunlarınız konusunda size yardımcı olmaya hazır "
+"özel bir müşteri destek ekibimiz bulunmaktadır. Onlara e-posta, canlı sohbet"
+" veya destek bildirim sistemimiz aracılığıyla ulaşabilirsiniz."
+
+#: templates/landing_pages/faq.html:240
+msgid "Is there a mobile app for the exchange?"
+msgstr "İşmobil uygulaması var mı?"
+
+#: templates/landing_pages/faq.html:250
+msgid ""
+"Yes, we offer a mobile app for both Android and iOS devices, making it "
+"convenient for you to trade on-the-go."
+msgstr ""
+"Evet, hem Android hem de iOS cihazlar için anında işlem yapmanızı "
+"kolaylaştıran bir mobil uygulama sunuyoruz"
+
+#: templates/landing_pages/home.html:5
+msgid "Unlock the Power of Your Crypto"
+msgstr "Kripto Para Gücünün Kilidini Açın"
+
+#: templates/landing_pages/home.html:7
+msgid ""
+"Trade Your Crypto Assets with Ease and Security, Enjoying Low Commissions"
+msgstr ""
+"Düşük Komisyonların Keyfini Çıkararak Kripto Varlıklarınızı Kolaylık ve "
+"Güvenlikle kullanın."
+
+#: templates/landing_pages/home.html:12
+msgid "Let's go"
+msgstr "Başlayalım"
+
+#: templates/landing_pages/home.html:16
+msgid "Join the Crypto Revolution Today!, and Join the Crypto Revolution"
+msgstr "Kripto Devrimine Bugün Katılın! "
+
+#: templates/landing_pages/home.html:35
+msgid "Low-Fee Trading"
+msgstr "Düşük Komisyonlu işlemler"
+
+#: templates/landing_pages/home.html:38
+msgid ""
+"Trade cryptocurrencies with confidence, knowing that our platform offers "
+"some of the lowest fees in the industry. Keep more of your profits as you "
+"explore the crypto market."
+msgstr ""
+"Platformumuzun sektördeki en düşük ücretlerden bazılarını sunduğunu bilerek "
+"kripto para birimleriyle güvenle ticaret yapın. Kripto pazarını keşfederken "
+"kârınızın daha fazlasını koruyun."
+
+#: templates/landing_pages/home.html:48
+msgid "Secure Wallet Services"
+msgstr "Güvenli Cüzdan Hizmetleri"
+
+#: templates/landing_pages/home.html:51
+msgid ""
+"Rest easy knowing that your digital assets are stored in the highest level "
+"of security. Our advanced wallet technology ensures your cryptocurrencies "
+"are safe from potential threats."
+msgstr ""
+"Dijital varlıklarınızın en üst düzeyde güvenlikle saklandığını bilmenin "
+"içiniz rahat olsun. Gelişmiş cüzdan teknolojimiz, kripto para birimlerinizin"
+" potansiyel tehditlere karşı korunmasını sağlar."
+
+#: templates/landing_pages/home.html:62
+msgid "Local Expertise and Support"
+msgstr "Uzmanlık ve Destek Hizmetlerimiz"
+
+#: templates/landing_pages/home.html:65
+msgid ""
+"Experience the advantage of local expertise. Our friendly and knowledgeable "
+"team is here to assist you every step of the way, ensuring your crypto "
+"journey is smooth and successful."
+msgstr ""
+"Uzmanlarımız tarafından verilen destek hizmetlerimizin avantajını yaşayın. "
+"Dost canlısı ve bilgili ekibimiz, kripto yolculuğunuzun sorunsuz ve başarılı"
+" olmasını sağlamak için yolun her adımında size yardımcı olmak için "
+"buradalar."
+
+#: templates/landing_pages/home.html:72
+#: templates/landing_pages/our_services.html:46
+msgid "Currency Converter"
+msgstr "Para birimi dönüştürücüsü"
+
+#: templates/landing_pages/home.html:78
+#: templates/secret/payment_report.html:30
+msgid "Amount"
+msgstr "Miktar"
+
+#: templates/landing_pages/home.html:85
+msgid "From"
+msgstr "den"
+
+#: templates/landing_pages/home.html:97
+msgid "To"
+msgstr "Krypto"
+
+#: templates/landing_pages/home.html:99
+msgid "Select The Crypto Currenc"
+msgstr "Kripto seçin"
+
+#: templates/landing_pages/home.html:111
+msgid "Convert"
+msgstr "dönüştür"
+
+#: templates/landing_pages/home.html:127
+msgid "Join Us Today and Experience Confidence in Every Transaction"
+msgstr "Bugün Bize Katılın ve Her İşlemde Güveni Yaşayın"
+
+#: templates/landing_pages/home.html:132
+msgid "Fortify Your Crypto Future with Unparalleled Security"
+msgstr "Kripto Geleceğinizi Benzersiz Güvenlikle Güçlendirin"
+
+#: templates/landing_pages/home.html:137
+msgid "Cutting-Edge Encryption"
+msgstr "Son Teknoloji Şifrelemesi"
+
+#: templates/landing_pages/home.html:138
+msgid "Multi-Factor Authentication"
+msgstr "Çok Faktörlü Kimlik Doğrulama"
+
+#: templates/landing_pages/home.html:139
+msgid "Cold Storage Solutions"
+msgstr "Bulut Depolama Çözümleri"
+
+#: templates/landing_pages/home.html:140
+msgid "24/7 Security Monitoring"
+msgstr "7/24 Güvenlik Takibi"
+
+#: templates/landing_pages/home.html:156
+msgid "Elevate Your Crypto Experience with Our Mobile App"
+msgstr "Mobil Uygulamamızla Kripto Deneyiminizi Yükseltin"
+
+#: templates/landing_pages/home.html:161
+msgid "Join Now for Instant Access to Secure, Convenient Exchange on the Go"
+msgstr "Hemen Güvenli, Kullanışlı Değişime Anında Erişim için Şimdi Katılın"
+
+#: templates/landing_pages/home.html:166
+msgid "User-Friendly Mobile App"
+msgstr "Kullanıcı Dostu Mobil Uygulama"
+
+#: templates/landing_pages/home.html:167
+msgid "Secure and Encrypted"
+msgstr "Güvenli ve Şifreli"
+
+#: templates/landing_pages/home.html:168
+msgid "Real-Time Trading"
+msgstr "Gerçek Zamanlı İşlem"
+
+#: templates/landing_pages/home.html:169
+msgid "Instant Notifications"
+msgstr "Anlık Bildirimler"
+
+#: templates/landing_pages/layout.html:55
+#: templates/landing_pages/layout.html:131
+msgid "Home"
+msgstr "Anasayfa"
+
+#: templates/landing_pages/layout.html:57
+msgid "Our Services"
+msgstr "Hizmetlerimiz"
+
+#: templates/landing_pages/layout.html:59
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: templates/landing_pages/layout.html:61
+msgid "Our Partner"
+msgstr "İş Ortaklarımız"
+
+#: templates/landing_pages/layout.html:64
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: templates/landing_pages/layout.html:66
+#: templates/landing_pages/layout.html:136
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: templates/landing_pages/layout.html:69
+msgid "Apply"
+msgstr "Talep"
+
+#: templates/landing_pages/layout.html:82
+msgid "Login"
+msgstr "Giriş"
+
+#: templates/landing_pages/layout.html:132
+msgid "About"
+msgstr "Hakkımızda"
+
+#: templates/landing_pages/layout.html:133
+msgid "Services"
+msgstr "Hizmetler"
+
+#: templates/landing_pages/our_partner.html:51
+msgid ""
+"Welcome to our partnership with <strong>iktisad Bank</strong>. We are proud "
+"to collaborate with iktisad Bank to provide innovative cryptocurrency "
+"trading services in North Cyprus."
+msgstr ""
+"<strong>İktisad Bank</strong> ile olan ortaklığımıza hoş geldiniz. Kuzey "
+"Kıbrıs'ta yenilikçi kripto para ticareti hizmetleri sunmak için İktisad Bank"
+" ile işbirliği yapmaktan gurur duyuyoruz."
+
+#: templates/landing_pages/our_partner.html:54
+msgid ""
+"Leading Bank of Northern Cyprus <strong>iktisad Bank</strong>, which was "
+"established in 1990 leads the way in both private and corporate banking with"
+" branches across the country. Over the past 20 years, İktisatbank has "
+"pioneered the introduction of a number of products and services that other "
+"banks did not offer. In 2002, we introduced the Lemar Advantage Card, "
+"together with telephone banking services. In 2003, we introduced our "
+"SmartCard, the first credit card in Northern Cyprus, and also launched a "
+"network of ATM's across the country. In 2004, İktisatbank was the first to "
+"launch an internet banking facility. In 2006, we launched the first call "
+"center with banking transaction in Northern Cyprus. In that year, in "
+"response to the growing number of foreign residents on the island, "
+"İktisatbank opened an English-speaking Department at its Kyrenia branch. In "
+"2012, the department became the Multicultural Banking Department and the "
+"service was extended to all branches in Kyrenia and Famagusta. In June of "
+"that year, a Russian-speaking representative joined the team to cater for "
+"the growing needs of other foreign nationalities."
+msgstr ""
+"KKTC'de ilklerin bankası olan Kıbrıs <strong>İktisat Bankası</strong> Ltd. "
+"kurulduğu 1990 yılından beri, bireysel ve ticari bankacılık alanında "
+"uzmanlaşmış olup, KKTC'de faaliyet gösteren özel sermayeli yerel bankalar "
+"arasında lider konumundadır.İktisatbank mevcut bankacılık ürün ve "
+"hizmetlerini durmadan zenginleştirmeyi ilke edinmiştir. Bu felsefe ile yola "
+"çıkarak 2002 yılında kapalı devre mağaza kartı olan Lemar Advantage kartı ve"
+" Telefon Bankacılığı hizmetini KKTC’ye ilk sunan Banka olmuştur. 5 Mart 2003"
+" yılında uluslararası geçerliliği olan ilk kredi kartı olan SmartCard Kredi "
+"Kartı'nı piyasaya sunmuş, 2003 yılı içerisinde ATM Bankacılığı'nı, 2004 "
+"yılında İnternet Şubesi'ni, 2006 yılında ise Çağrı Merkezi hizmetlerini "
+"Kuzey Kıbrıs'ta hayata geçiren ilk banka konumunu almıştır."
+
+#: templates/landing_pages/our_services.html:17
+msgid "Why PAYONE?"
+msgstr "Neden PAYONE?"
+
+#: templates/landing_pages/our_services.html:19
+msgid ""
+"We prioritize security, offering the utmost protection for your digital "
+"assets, giving you peace of mind in the often volatile world of "
+"cryptocurrencies."
+msgstr ""
+"Güvenliği ön planda tutuyoruz, dijital varlıklarınız için en üst düzeyde "
+"koruma sağlıyoruz ve kripto para birimlerinin sıklıkla değişken olan "
+"dünyasında size gönül rahatlığı sağlıyoruz."
+
+#: templates/landing_pages/our_services.html:21
+msgid "Join Us Now"
+msgstr "Şimdi bize katılın"
+
+#: templates/landing_pages/our_services.html:36
+msgid "Secure Services"
+msgstr "Güvenli Hizmetlerimiz"
+
+#: templates/landing_pages/our_services.html:37
+msgid ""
+"Our top priority is the security of your digital assets. We employ cutting-"
+"edge encryption and multi-factor authentication to ensure the utmost "
+"protection for your funds and data."
+msgstr ""
+"En büyük önceliğimiz dijital varlıklarınızın güvenliğidir. Fonlarınız ve "
+"verileriniz için en üst düzeyde koruma sağlamak amacıyla son teknoloji "
+"şifreleme ve çok faktörlü kimlik doğrulama kullanıyoruz."
+
+#: templates/landing_pages/our_services.html:47
+msgid ""
+"Easily convert between various cryptocurrencies and traditional fiat "
+"currencies with our intuitive currency converter, providing you with real-"
+"time exchange rates for seamless transactions."
+msgstr ""
+"Sorunsuz işlemler için size gerçek zamanlı döviz kurları sağlayan, sezgisel "
+"para birimi dönüştürücümüzle çeşitli kripto para birimleri ve geleneksel "
+"fiat para birimleri arasında kolayca dönüşüm yapın."
+
+#: templates/landing_pages/our_services.html:56
+msgid "Detailed Reports"
+msgstr "Ayrıntılı Raporlar"
+
+#: templates/landing_pages/our_services.html:57
+msgid ""
+"Stay informed with comprehensive reports on your crypto portfolio, including"
+" transaction histories, account balances, and performance analytics, "
+"empowering you to make well-informed financial decisions.!"
+msgstr ""
+"İşlem geçmişleri, hesap bakiyeleri ve performans analizleri de dahil olmak "
+"üzere kripto portföyünüz hakkında, iyi bilgiye dayalı finansal kararlar "
+"vermenizi sağlayan kapsamlı raporlardan haberdar olun.!"
+
+#: templates/landing_pages/our_services.html:67
+msgid "Friendly layout"
+msgstr "Kolay Kullanım"
+
+#: templates/landing_pages/our_services.html:68
+msgid ""
+"Our user-friendly interface is designed for both beginners and experienced "
+"traders, offering an intuitive and visually pleasing layout that makes "
+"navigating the platform a breeze."
+msgstr ""
+"Kolay Kullanımlı arayüzümüz hem yeni başlayanlar hem de deneyimli "
+"yatırımcılar için tasarlanmış olup, platformda gezinmeyi kolaylaştıran "
+"sezgisel ve görsel olarak hoş bir düzen sunmaktadır."
+
+#: templates/landing_pages/our_services.html:77
+msgid "24/7 Tech support"
+msgstr "7/24 Teknik Destek"
+
+#: templates/landing_pages/our_services.html:78
+msgid ""
+"Count on round-the-clock technical support from our knowledgeable team of "
+"experts. Whether you have questions, encounter issues, or need assistance, "
+"we're here to provide timely and helpful solutions."
+msgstr ""
+"Bilgili uzman ekibimizin 24 saat teknik desteğine güvenin. Sorularınız "
+"varsa, sorunlarla karşılaşıyorsanız veya yardıma ihtiyacınız varsa, "
+"zamanında ve yararlı çözümler sunmak için buradayız."
+
+#: templates/landing_pages/our_services.html:87
+msgid "A name you trust"
+msgstr "Güvendiğiniz bir isim"
+
+#: templates/landing_pages/our_services.html:88
+msgid ""
+"We've built a reputation based on trust and reliability in the crypto "
+"industry. Join a community of users who trust our platform for their "
+"cryptocurrency trading and investment needs."
+msgstr ""
+"Kripto endüstrisinde güvene ve güvenilirliğe dayalı bir itibar oluşturduk. "
+"Kripto para ticareti ve yatırım ihtiyaçları için platformumuza güvenen "
+"kullanıcılardan oluşan bir topluluğa katılın."
+
+#: templates/landing_pages/privacy_policy.html:56
+msgid "Our Privacy Statement"
+msgstr "Gizlilik Sözleşmemiz"
+
+#: templates/landing_pages/privacy_policy.html:60
+msgid ""
+"The Privacy Statement below outlines Payone's procedures for gathering, "
+"utilizing, and disclosing your Personal Information. This information is "
+"obtained during your visits to our website or app, or through other means in"
+" the course of providing our products and services and managing our business"
+" operations. It addresses the following inquiries:"
+msgstr ""
+"Aşağıdaki Gizlilik Bildirimi, Payone'un Kişisel Bilgilerinizi toplama, "
+"kullanma ve ifşa etme prosedürlerini özetlemektedir. Bu bilgiler, web "
+"sitemizi veya uygulamamızı kullanmanız sırasında veya ürünlerimizi ve "
+"hizmetlerimizi sizlere sunarken ve geliştirme operasyonlarımızı yönetirken "
+"hangi yollarla elde edilir. Tüm sorulara yanıt verir:"
+
+#: templates/landing_pages/privacy_policy.html:63
+msgid "How do we collect information about you?"
+msgstr "Hakkınızda nasıl bilgi topluyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:64
+#: templates/landing_pages/privacy_policy.html:95
+msgid "What Personal Information do we collect?"
+msgstr "Hangi Kişisel Bilgileri topluyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:65
+#: templates/landing_pages/privacy_policy.html:109
+#| msgid "How secure is my personal and financial information?"
+msgid "How do we use your Personal Information?"
+msgstr "Kişisel Bilgilerinizi nasıl kullanıyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:66
+#: templates/landing_pages/privacy_policy.html:68
+#: templates/landing_pages/privacy_policy.html:127
+#| msgid "How secure is my personal and financial information?"
+msgid "How do we share your Personal Information?"
+msgstr "Kişisel Bilgilerinizi nasıl paylaşıyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:67
+#: templates/landing_pages/privacy_policy.html:134
+msgid "How do we keep your Personal Information safe?"
+msgstr "Kişisel Bilgilerinizi nasıl güvende tutuyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:69
+msgid "Do we transfer your Personal Information outside of Turkey?"
+msgstr "Kişisel Bilgilerinizi Türkiye dışına aktarıyor muyuz?"
+
+#: templates/landing_pages/privacy_policy.html:70
+msgid "What are your legal data privacy rights?"
+msgstr "Yasal veri gizliliği haklarınız nelerdir?"
+
+#: templates/landing_pages/privacy_policy.html:71
+#: templates/landing_pages/privacy_policy.html:157
+#| msgid "How secure is my personal and financial information?"
+msgid "How long do we retain your Personal Information?"
+msgstr "Kişisel Bilgilerinizi ne kadar süreyle saklıyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:72
+msgid "How do we use your data to communicate and market to you?"
+msgstr ""
+"Verilerinizi sizinle iletişim kurmak ve size pazarlama yapmak için nasıl "
+"kullanıyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:73
+msgid "How do we make changes to this privacy statement?"
+msgstr "Bu gizlilik bildiriminde nasıl değişiklik yaparız?"
+
+#: templates/landing_pages/privacy_policy.html:74
+msgid "Where does this privacy statement apply?"
+msgstr "Bu gizlilik beyanı nerede geçerlidir?"
+
+#: templates/landing_pages/privacy_policy.html:75
+msgid ""
+"Who can you contact if you have further questions or requests about your "
+"privacy?"
+msgstr ""
+"Gizliliğiniz hakkında başka sorularınız veya talepleriniz varsa kiminle "
+"iletişime geçebilirsiniz?"
+
+#: templates/landing_pages/privacy_policy.html:79
+msgid ""
+"In the following statement, MUNTEK TEKNOLOJI YAZILIM ANONIM SIRKETI will be "
+"referenced as MUNTEK."
+msgstr ""
+"Aşağıdaki açıklamalarda MUNTEK TEKNOLOJI YAZILIM ANONIM SIRKETI, MUNTEK "
+"olarak anılacaktır."
+
+#: templates/landing_pages/privacy_policy.html:85
+msgid ""
+"We are part of our group of companies established as a start-up incubation "
+"center. Even though we are a young organization, we stand out with our "
+"experience in the sector with our engineer staff with more than 20 years of "
+"experience, and we develop new R&D-oriented projects in which we maintain "
+"the the start-up spirit and excitement. At the same time, we are positioned "
+"as the technology company of the group that also has investments in the "
+"field of crypto money."
+msgstr ""
+"Start-up geliştirme merkezi olarak kurulan şirketler grubumuzun bir "
+"parçasıyız. Genç bir kuruluş olmamıza rağmen 20 yılı aşkın deneyime sahip "
+"mühendis kadromuzla sektördeki tecrübemizle öne çıkıyor, start-up ruhunu ve "
+"heyecanını sürdürdüğümüz Ar-Ge odaklı yeni projeler geliştiriyoruz. Aynı "
+"zamanda kripto para alanında da yatırımları bulunan grubun teknoloji şirketi"
+" olarak konumlanıyoruz."
+
+#: templates/landing_pages/privacy_policy.html:89
+msgid "How do we collect Personal Information about you?"
+msgstr "Hakkınızda nasıl bilgi topluyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:91
+msgid ""
+"To use the services, you must open a PAYONE account. When you open an "
+"account, we will ask for contact information such as your company name, "
+"phone number, email address, and information about the organisation's "
+"official or authorised person/s. We will also ask you for information about "
+"your business activity, including the legal name of your business and "
+"company registration documents, the business's physical address, and your "
+"company's website. The information you provide during account opening must "
+"be accurate and complete, and you must notify us of any changes in such "
+"information within ten business (10) days. We may ask you for additional "
+"information (including those who signed below or otherwise accepted the "
+"Terms on behalf of the merchant) to help verify your identity and to help "
+"assess your business risk. If you do not provide us with accurate, complete,"
+" and satisfactory information, we have the right to refuse your account "
+"registration or to close your PAYONE account later. When registering with us"
+" as a customer, we ask you for detailed information, which we will use to "
+"verify your identity and protect against fraud, among other reasons "
+"discussed below."
+msgstr ""
+"Hizmetleri kullanmak için bir PAYONE hesabı açmanız gerekir. Bir hesap "
+"açtığınızda, şirket adınız, telefon numaranız, e-posta adresiniz ve "
+"kuruluşun resmi veya yetkili kişisi / kişileri hakkında bilgi gibi iletişim "
+"bilgilerini istenmektedir. Ayrıca sizden işletmenizin yasal adı ve şirket "
+"kayıt belgeleri, işletmenin fiziksel adresi ve şirketinizin web sitesi dahil"
+" olmak üzere ticari faaliyetleriniz hakkında bilgi isteyeceğiz. Hesap "
+"açılışı sırasında verdiğiniz bilgiler doğru ve eksiksiz olmalıdır ve bu "
+"bilgilerdeki değişiklikleri on iş (10) günü içinde bize bildirmelisiniz. "
+"Kimliğinizi doğrulamaya ve iş riskinizi değerlendirmeye yardımcı olmak için "
+"sizden ek bilgiler (aşağıda imzası bulunanlar veya satıcı adına Şartları "
+"kabul edenler dahil) isteyebiliriz. Bize doğru, eksiksiz ve tatmin edici "
+"bilgiler sağlamazsanız, hesap kaydınızı reddetme veya PAYONE hesabınızı daha"
+" sonra kapatma hakkına sahibiz. Bize bir müşteri olarak kaydolurken, aşağıda"
+" tartışılan diğer nedenlerin yanı sıra kimliğinizi doğrulamak ve "
+"uygunsuzluğa karşı korumak için kullanacağımız ayrıntılı bilgileri sizden "
+"isteriz."
+
+#: templates/landing_pages/privacy_policy.html:97
+msgid ""
+"Muntek exclusively gathers the necessary Personal Information essential for "
+"delivering and maintaining our Service, as well as fulfilling our legal and "
+"regulatory responsibilities, which can differ based on our association with "
+"you. Here's a summary of the Personal Information we acquire from you or "
+"about you:"
+msgstr ""
+"Muntek, yalnızca Hizmetimizi sunmak ve sürdürmek için gerekli olan Kişisel "
+"Bilgileri toplar ve sizinle olan ilişkimize bağlı olarak farklılık "
+"gösterebilecek yasal ve düzenleyici sorumluluklarımızı yerine getirir. "
+"Sizden veya sizin hakkınızda edindiğimiz Kişisel Bilgilerin bir özeti "
+"aşağıda verilmiştir:"
+
+#: templates/landing_pages/privacy_policy.html:100
+msgid ""
+"Data for identity verification: In order to confirm your identity, we gather"
+" details such as your name, address, phone number, email, and similar "
+"information. Additional Personal Information may be necessary for identity "
+"verification, including your date of birth, taxpayer or government "
+"identification number, or a copy of your government-issued ID. We might also"
+" procure information from third parties, both affiliated and non-affiliated,"
+" such as credit bureaus, identity verification services, and other screening"
+" services to ensure your eligibility.to use our Services, and will associate"
+" that information with the information we collected from you."
+msgstr ""
+"Kimlik doğrulama için veriler: Kimliğinizi doğrulamak için adınız, adresiniz, telefon numaranız, e-postanız ve benzer bilgiler gibi ayrıntıları toplarız. Kimlik doğrulaması için doğum tarihiniz, vergi mükellefi veya devlet kimlik numaranız veya devlet tarafından verilen kimliğinizin bir kopyası gibi ek Kişisel Bilgiler gerekli olabilir.\n"
+"Ayrıca, Hizmetlerimizi kullanmaya uygunluğunuzu sağlamak için kredi kontrol ofisleri, kimlik doğrulama hizmetleri ve diğer tarama hizmetleri gibi hem bağlı hem de bağlı olmayan üçüncü taraflardan bilgi temin edebiliriz ve bu bilgileri sizden topladığımız bilgilerle ilişkilendiririz."
+
+#: templates/landing_pages/privacy_policy.html:101
+msgid ""
+"Data on account activity: We gather information regarding your transactions,"
+" payments made to or by you, and your various activities on our site or "
+"Service. Additionally, we compile details about products and services you've"
+" acquired from us."
+msgstr ""
+"Hesap etkinliğine ilişkin veriler: İşlemleriniz, size veya sizin "
+"tarafınızdan yapılan ödemeler ve sitemiz veya Hizmetimizdeki çeşitli "
+"faaliyetleriniz hakkında bilgi toplarız. Ayrıca, bizden edindiğiniz ürün ve "
+"hizmetlerle ilgili ayrıntıları derleriz."
+
+#: templates/landing_pages/privacy_policy.html:102
+msgid ""
+"Data on application usage: We might gather information about how you "
+"interact with and utilize our Service. This encompasses visits to our "
+"website, sign-up activities, and interactions related to your bank account."
+msgstr ""
+"Uygulama kullanımına ilişkin veriler: Hizmetimizle nasıl etkileşim "
+"kurduğunuz ve Hizmetimizi nasıl kullandığınız hakkında bilgi toplayabiliriz."
+" Bu, web sitemize yapılan ziyaretleri, kayıt faaliyetlerini ve banka "
+"hesabınızla ilgili etkileşimleri kapsar."
+
+#: templates/landing_pages/privacy_policy.html:103
+msgid ""
+"Device information: We gather and process data, including your internet "
+"protocol (IP) addresses, login details, browser type and version, time zone "
+"settings, and location when accessing this website or any of our software "
+"applications."
+msgstr ""
+"Cihaz bilgileri: Bu web sitesine veya yazılım uygulamalarımızdan herhangi "
+"birine erişirken internet protokolü (IP) adresleriniz, oturum açma "
+"bilgileriniz, tarayıcı türü ve sürümü, saat dilimi ayarları ve konum dahil "
+"olmak üzere verileri toplar ve işleriz."
+
+#: templates/landing_pages/privacy_policy.html:104
+msgid ""
+"Marketing information: We collect and process details about your preferences"
+" regarding marketing communication from us, including your email address, "
+"and where you may have encountered Muntek advertisements."
+msgstr ""
+"Pazarlama bilgileri: E-posta adresiniz ve Muntek reklamlarıyla nerede "
+"karşılaşmış olabileceğiniz de dahil olmak üzere, bizden gelen pazarlama "
+"iletişimine ilişkin tercihleriniz hakkındaki ayrıntıları toplar ve işleriz."
+
+#: templates/landing_pages/privacy_policy.html:105
+msgid ""
+"Social media details: You have the option to grant us access to specific "
+"Personal Information stored by third parties, such as social media sites "
+"(like Facebook, Google, Twitter, etc.). The information we can access varies"
+" by site and is under your control."
+msgstr ""
+"Sosyal medya bilgileri: Sosyal medya siteleri (Facebook, Google, Twitter "
+"vb.) gibi üçüncü taraflarca depolanan belirli Kişisel Bilgilere erişmemize "
+"izin verme seçeneğiniz vardır. Erişebileceğimiz bilgiler siteye göre değişir"
+" ve sizin kontrolünüz altındadır."
+
+#: templates/landing_pages/privacy_policy.html:110
+msgid ""
+"Below, we've outlined some of the ways we may utilize and process your "
+"personal information, along with the legal bases we rely on for doing so. "
+"It's important to note that we might process your personal information based"
+" on more than one lawful ground, depending on the specific purpose for which"
+" we are using that data."
+msgstr ""
+"Aşağıda, kişisel bilgilerinizi kullanabileceğimiz ve işleyebileceğimiz "
+"yollardan bazılarını, bunu yaparken dayandığımız yasal dayanaklarla birlikte"
+" özetledik. Kişisel bilgilerinizi, bu verileri kullandığımız özel amaca "
+"bağlı olarak birden fazla yasal zemine dayanarak işleyebileceğimizi "
+"unutmamak önemlidir."
+
+#: templates/landing_pages/privacy_policy.html:112
+msgid ""
+"Providing our Service to you: It might be straightforward, but we require "
+"your data to ensure that Muntek services function effectively. Without your "
+"name, banking information, and other details, providing you with our "
+"exceptional products wouldn't be possible."
+msgstr ""
+"Size Hizmetimizi Sağlamak: Web uygulaması ve mobil olarak olmaktadır, ancak "
+"Muntek hizmetlerinin etkili bir şekilde çalışmasını sağlamak için "
+"verilerinize ihtiyacımız var. Adınız, banka bilgileriniz ve diğer "
+"ayrıntılarınız olmadan, size geliştirdiğimiz ürünlerimizi sunmak mümkün "
+"olmaktadır."
+
+#: templates/landing_pages/privacy_policy.html:113
+msgid ""
+"Conducting customer services, which includes structural, governance, and "
+"compliance services, is essential for fulfilling our contractual obligations"
+" to you. This is done on the basis of our legitimate interests, as well as "
+"yours, with the aim of providing the best possible customer service."
+msgstr ""
+"Yapısal, yönetişim ve uyum hizmetlerini içeren müşteri hizmetlerini "
+"yürütmek, size karşı sözleşmeden doğan yükümlülüklerimizi yerine getirmek "
+"için gereklidir. Bu, mümkün olan en iyi müşteri hizmetini sunmak amacıyla "
+"bizim ve sizin meşru menfaatlerimiz temelinde yapılır."
+
+#: templates/landing_pages/privacy_policy.html:114
+msgid ""
+"Identity verification: As a financial institution, it is crucial for us to "
+"authenticate the true identity of our members. Global regulations mandate "
+"the identification of customers, encompassing anti-corruption, anti-bribery,"
+" anti-terrorism, anti-money laundering, and other applicable laws."
+msgstr ""
+"Kimlik doğrulama: Bir finans kurumu olarak, üyelerimizin gerçek kimliklerini"
+" doğrulamak bizim için çok önemlidir. Küresel düzenlemeler, yolsuzlukla "
+"mücadele, rüşvetle mücadele, terörle mücadele, kara para aklamayla mücadele "
+"ve diğer geçerli yasaları kapsayacak şekilde müşterilerin kimliklerinin "
+"tespit edilmesini zorunlu kılmaktadır."
+
+#: templates/landing_pages/privacy_policy.html:115
+msgid ""
+"Executing customer services, including compliance services, is crucial for "
+"fulfilling our contractual commitments to you. Additionally, it's imperative"
+" for us to adhere to legal and regulatory requirements applicable to us, "
+"including the necessity to prevent and combat money laundering."
+msgstr ""
+"Uyum hizmetleri de dahil olmak üzere müşteri hizmetlerini yürütmek, size "
+"karşı sözleşmeden doğan taahhütlerimizi yerine getirmek için çok önemlidir. "
+"Ayrıca, kara para aklamayı önleme ve bununla mücadele etme gerekliliği de "
+"dahil olmak üzere, bizim için geçerli olan yasal ve düzenleyici "
+"gerekliliklere uymak bizim için zorunludur."
+
+#: templates/landing_pages/privacy_policy.html:116
+msgid ""
+"Keeping you informed: Ensuring security and financial transparency requires "
+"us to keep you informed about your transactions and related activities at "
+"Muntek. Expect emails from us containing confirmations, invoices, technical "
+"notices, updates, security alerts, legal information, as well as support and"
+" administrative messages."
+msgstr ""
+"Sizi bilgilendirmek: Güvenlik ve finansal şeffaflığı sağlamak, sizi "
+"Muntek'teki işlemleriniz ve ilgili faaliyetleriniz hakkında "
+"bilgilendirmemizi gerektirir. Bizden onaylar, faturalar, teknik bildirimler,"
+" güncellemeler, güvenlik uyarıları, yasal bilgilerin yanı sıra destek ve "
+"idari mesajlar içeren e-postalar gönderelecektir."
+
+#: templates/landing_pages/privacy_policy.html:117
+msgid ""
+"Executing customer services is essential for fulfilling our contractual "
+"commitments to you. This is based on our legitimate interests, as well as "
+"yours, with the goal of delivering the best possible customer service."
+msgstr ""
+"Müşteri hizmetlerini yürütmek, size karşı sözleşmeden doğan taahhütlerimizi "
+"yerine getirmek için esastır. Bu, mümkün olan en iyi müşteri hizmetini "
+"sunmak amacıyla bizim ve sizin meşru menfaatlerimize dayanmaktadır."
+
+#: templates/landing_pages/privacy_policy.html:118
+msgid ""
+"Providing customer services is a critical aspect, rooted in our legitimate "
+"interests and your legitimate interests, aimed at delivering optimal "
+"customer service. This also serves to protect both you and us from unlawful "
+"and unauthorized activity, ensuring compliance with legal and regulatory "
+"requirements, including the imperative to prevent and combat money "
+"laundering."
+msgstr ""
+"Müşteri hizmetleri sunmak, meşru menfaatlerimize ve sizin meşru "
+"menfaatlerinize dayanan ve en iyi müşteri hizmetini sunmayı amaçlayan kritik"
+" bir husustur. Bu aynı zamanda hem sizi hem de bizi yasa dışı ve yetkisiz "
+"faaliyetlerden korumaya hizmet eder ve kara para aklamayı önleme ve bununla "
+"mücadele etme zorunluluğu da dahil olmak üzere yasal ve düzenleyici "
+"gerekliliklere uyulmasını sağlar."
+
+#: templates/landing_pages/privacy_policy.html:119
+msgid ""
+"Customer care: While we aim to make using our products a breeze, we "
+"understand that sometimes you need assistance. Our customer care team may "
+"occasionally require access to your account data to address any issues or "
+"answer your questions "
+msgstr ""
+"Müşteri hizmetleri: Ürünlerimizi her geçen gün daha kolay kullanılmasını "
+"hedeflerken, bazen yardıma ihtiyaç duyduğunuzu anlıyoruz. Müşteri hizmetleri"
+" ekibimiz, herhangi bir sorunu ele almak veya sorularınızı yanıtlamak için "
+"zaman zaman hesap verilerinize ve sizinle iletişime geçmek isteyebilir."
+
+#: templates/landing_pages/privacy_policy.html:120
+msgid ""
+"Managing and enhancing our Service: We're keen on comprehending how our "
+"members interact with and utilize Muntek services to ensure it's the best it"
+" can be. This involves amalgamating various data types, including account, "
+"transactional, and marketing data, to analyze the effectiveness and "
+"performance of our Service."
+msgstr ""
+"Hizmetimizi yönetmek ve geliştirmek: Üyelerimizin Muntek hizmetleriyle nasıl"
+" etkileşime girdiğini ve bu hizmetlerden nasıl faydalandığını anlayarak "
+"hizmetlerimizin en iyi şekilde olmasını sağlamak istiyoruz. Bu, Hizmetimizin"
+" etkinliğini ve performansını analiz etmek için hesap, işlem ve pazarlama "
+"verileri dahil olmak üzere çeşitli veri türlerini birleştirmeyi içerir."
+
+#: templates/landing_pages/privacy_policy.html:121
+msgid ""
+"Staying in touch with you: We want to keep you informed about product "
+"updates, news, events, and promotions. If you give us the green light, we'll"
+" send you information, including personalized emails, to ensure you stay in "
+"the loop with all things Muntek."
+msgstr ""
+"Sizinle iletişimde kalmak: Ürün güncellemeleri, haberler, etkinlikler ve "
+"promosyonlar hakkında sizi bilgilendirmek istiyoruz.Muntek ile ilgili her "
+"şeyden haberdar olmanızı sağlamak için kişiselleştirilmiş e-postalar da "
+"dahil olmak üzere size bilgi göndereceğiz."
+
+#: templates/landing_pages/privacy_policy.html:122
+msgid ""
+"Business operations: Your personal information may be essential for our "
+"business operations, encompassing internal training and administration, "
+"legal compliance, the enforcement of our legal rights, protection of third-"
+"party rights, and involvement in business transitions such as mergers, "
+"acquisitions, or the sale of all or a portion of our assets."
+msgstr ""
+"Ticari faaliyetler: Kişisel bilgileriniz, dahili eğitim ve yönetim, yasal "
+"uyumluluk, yasal haklarımızın uygulanması, üçüncü taraf haklarının korunması"
+" ve birleşme, devralma veya varlıklarımızın tamamının veya bir kısmının "
+"satışı gibi iş geçişlerine katılımı kapsayan ticari faaliyetlerimiz için "
+"gerekli olabilir."
+
+#: templates/landing_pages/privacy_policy.html:123
+msgid ""
+"Optimizing our website and software applications: We aim to showcase our "
+"website and software applications and their content in the most user-"
+"friendly manner for you and your computer. This is grounded in our "
+"legitimate interests to ensure our platforms are updated, relevant, and "
+"aligned with our business outreach, operations, and marketing strategy "
+"development."
+msgstr ""
+"Web sitemizi ve yazılım uygulamalarımızı optimize etmek: Web sitemizi ve "
+"yazılım uygulamalarımızı ve içeriklerini siz ve bilgisayarınız için en "
+"kullanıcı dostu şekilde sergilemeyi amaçlıyoruz. Bu, platformlarımızın "
+"güncel, ilgili ve iş erişimimiz, operasyonlarımız ve pazarlama stratejisi "
+"geliştirmemizle uyumlu olmasını sağlamak için meşru menfaatlerimize "
+"dayanmaktadır."
+
+#: templates/landing_pages/privacy_policy.html:128
+msgid ""
+"We may share your information internally among employees and contractors of "
+"the Muntek Group, especially in connection with joint activities or common "
+"undertakings with group members. This includes providing IT and system "
+"administration services and conducting management reporting."
+msgstr ""
+"Bilgilerinizi, özellikle grup üyeleriyle ortak faaliyetler veya ortak "
+"teşebbüslerle bağlantılı olarak, Muntek Group çalışanları  arasında dahili "
+"olarak paylaşabiliriz. Bu, IT ekibi ve sistem yönetimi hizmetlerinin "
+"sağlanmasını ve yönetim raporlamasının yürütülmesini içerir."
+
+#: templates/landing_pages/privacy_policy.html:129
+msgid ""
+"Non-disclosure to third parties: We do not sell, trade, or transfer your "
+"Personal Information to third parties, except for those assisting us in "
+"operating our Service, conducting our business, or supporting our members. "
+"We ensure that these third parties agree to maintain the confidentiality and"
+" security of this information, adhering to the same conditions and "
+"protection levels we provide to you as a member."
+msgstr ""
+"Üçüncü taraflara ifşa etmeme: Kişisel Bilgilerinizi, Hizmetimizi "
+"işletmemize, işimizi yürütmemize veya üyelerimizi desteklememize yardımcı "
+"olanlar dışında üçüncü taraflara satmıyor, takas etmiyor veya aktarmıyoruz. "
+"Bu üçüncü tarafların, bir üye olarak size sağladığımız aynı koşullara ve "
+"koruma seviyelerine bağlı kalarak bu bilgilerin gizliliğini ve güvenliğini "
+"korumayı kabul etmelerini sağlıyoruz."
+
+#: templates/landing_pages/privacy_policy.html:130
+msgid ""
+"Legal compliance and enforcement: We may release your information to "
+"certified and authorized law enforcement officials when necessary to comply "
+"with the law, enforce our terms or policies, or safeguard the rights, "
+"property, or safety of Muntek, our members, or others. For details on our "
+"engagement with law enforcement officials, you can request our guidelines by"
+" emailing: "
+msgstr ""
+"Yasal uyum ve uygulama: Yasalara uymak, şartlarımızı veya politikalarımızı "
+"uygulamak veya Muntek'in, üyelerimizin veya başkalarının haklarını, "
+"mülkiyetini veya güvenliğini korumak için gerekli olduğunda bilgilerinizi "
+"sertifikalı ve yetkili kolluk kuvvetlerine verebiliriz. Kolluk kuvvetleri "
+"ile etkileşimimiz hakkında ayrıntılar için legal@muntek.com.tr adresine "
+"e-posta göndererek yönergelerimizi talep edebilirsiniz."
+
+#: templates/landing_pages/privacy_policy.html:131
+msgid ""
+"Ownership transfer: In the event of a sale or transfer of ownership, your "
+"data would be shared with the new owners."
+msgstr ""
+"Mülkiyet devri: Bir satış veya mülkiyet devri durumunda verileriniz yeni "
+"sahiplerle paylaşılacaktır."
+
+#: templates/landing_pages/privacy_policy.html:135
+msgid ""
+"Security measures in place: We have put in place security measures to "
+"prevent your Personal Information from being accidentally lost, used or "
+"accessed in an unauthorized way, altered, or disclosed. This includes "
+"maintaining physical, electronic, and procedural safeguards, incorporating "
+"tested security technologies in accordance with applicable laws. Network "
+"safeguards such as firewalls and data encryption are utilized, along with "
+"physical access controls. Access to Personal Information is authorized only "
+"for individuals with job responsibilities requiring such access."
+msgstr ""
+"Güvenlik önlemleri yürürlükte: Kişisel Bilgilerinizin yanlışlıkla "
+"kaybolmasını, yetkisiz bir şekilde kullanılmasını veya erişilmesini, "
+"değiştirilmesini veya ifşa edilmesini önlemek için güvenlik önlemleri aldık."
+" Bu, yürürlükteki yasalara uygun olarak test edilmiş güvenlik "
+"teknolojilerini içeren fiziksel, elektronik ve prosedürel korumaların "
+"sürdürülmesini içerir. Güvenlik duvarları ve veri şifreleme gibi ağ güvenlik"
+" önlemlerinin yanı sıra fiziksel erişim kontrolleri de kullanılmaktadır. "
+"Kişisel Bilgilere erişim sadece iş sorumlulukları bu erişimi gerektiren "
+"bireyler için yetkilendirilmiştir."
+
+#: templates/landing_pages/privacy_policy.html:136
+msgid ""
+"Limited access and confidentiality: We restrict access to your Personal "
+"Information to individuals, including employees, agents, contractors, and "
+"third parties, who have a business need to know. They process your Personal "
+"Information solely based on our instructions and are bound by a duty of "
+"confidentiality. Those with access undergo careful screening, periodic "
+"reevaluation, and are obligated to maintain the confidentiality of all your "
+"Personal Information."
+msgstr ""
+"Sınırlı erişim ve gizlilik: Kişisel Bilgilerinize erişimi, çalışanlar, "
+"temsilciler, yükleniciler ve üçüncü taraflar dahil olmak üzere, iş gereği "
+"bilmesi gereken kişilerle sınırlandırırız. Bu kişiler Kişisel Bilgilerinizi "
+"yalnızca bizim talimatlarımıza göre işlerler ve gizlilik yükümlülüğü "
+"altındadırlar. Erişimi olanlar dikkatli bir taramadan, periyodik yeniden "
+"değerlendirmeden geçer ve tüm Kişisel Bilgilerinizin gizliliğini korumakla "
+"yükümlüdür."
+
+#: templates/landing_pages/privacy_policy.html:137
+msgid ""
+"Acknowledging security risks: It's crucial to understand that security risks"
+" exist, and no organization can unequivocally promise otherwise. Even with "
+"the most meticulously designed and implemented safeguards, bad actors may "
+"find ways to circumvent security measures."
+msgstr ""
+"Güvenlik risklerini kabul etmek: Güvenlik risklerinin var olduğunu anlamak "
+"çok önemlidir ve hiçbir kuruluş bunun aksini kesin olarak iddia edemez. En "
+"titiz şekilde tasarlanmış ve uygulanmış güvenlik önlemlerinde bile, kötü "
+"aktörler güvenlik önlemlerini atlatmanın yollarını bulabilir."
+
+#: templates/landing_pages/privacy_policy.html:141
+msgid "Do we transfer your Personal Information outside of Turkey ?"
+msgstr "Kişisel Bilgilerinizi Türkiye dışına aktarıyor muyuz?"
+
+#: templates/landing_pages/privacy_policy.html:142
+msgid ""
+"Controller responsibility: Under the General Data Protection Regulation, "
+"Muntek is the controller and assumes responsibility for this website, any of"
+" our software applications, and any Personal Information provided to us "
+"through these channels. In certain processing activities, an entity within "
+"the Muntek Group may act as a data processor for another entity within the "
+"same group."
+msgstr ""
+"Denetleyici sorumluluğu: Genel Veri Koruma Yönetmeliği kapsamında, Muntek "
+"kontrolördür ve bu web sitesi, yazılım uygulamalarımız ve bu kanallar "
+"aracılığıyla bize sağlanan tüm Kişisel Bilgilerin sorumluluğunu üstlenir. "
+"Belirli işleme faaliyetlerinde, Muntek Grup içindeki bir kuruluş, aynı grup "
+"içindeki başka bir kuruluş için veri işleyici olarak hareket edebilir."
+
+#: templates/landing_pages/privacy_policy.html:143
+msgid ""
+"International data transfers: When we transfer your Personal Information "
+"outside of Turkey, we ensure a comparable level of protection is maintained."
+msgstr ""
+"Uluslararası veri transferleri: Kişisel Bilgilerinizi Türkiye dışına "
+"aktardığımızda, karşılaştırılabilir bir koruma düzeyinin sürdürülmesini "
+"sağlarız"
+
+#: templates/landing_pages/privacy_policy.html:146
+msgid "What are your legal rights?"
+msgstr "Yasal haklarınız nelerdir?"
+
+#: templates/landing_pages/privacy_policy.html:148
+msgid ""
+"Access the Personal Information we store about you or to request a copy of "
+"it."
+msgstr ""
+"Hakkınızda sakladığımız Kişisel Bilgilere erişmek veya bir kopyasını talep "
+"etmek."
+
+#: templates/landing_pages/privacy_policy.html:149
+msgid "Request that we correct inaccurate data about you."
+msgstr " Hakkınızdaki yanlış verileri düzeltmemizi talep edin."
+
+#: templates/landing_pages/privacy_policy.html:150
+msgid ""
+"Ask us to delete or block your data, although for legal reasons we cannot "
+"always do this."
+msgstr ""
+"Verilerinizi silmemizi veya engellememizi isteyebilir, ancak yasal "
+"nedenlerden dolayı bunu her zaman yapamayız."
+
+#: templates/landing_pages/privacy_policy.html:151
+msgid "Withdraw your consent to receive marketing emails."
+msgstr "Pazarlama e-postaları almak için verdiğiniz izni geri çekebilirsiniz."
+
+#: templates/landing_pages/privacy_policy.html:152
+msgid "To do any of the above simply email a request to: "
+msgstr ""
+"Yukarıdakilerden herhangi birini yapmak için şu adrese bir istek e-postası "
+"göndermeniz yeterlidir: legal@muntek.com.tr"
+
+#: templates/landing_pages/privacy_policy.html:154
+msgid ""
+"Indeed, under the General Data Protection Regulation, you hold a set of "
+"crucial rights concerning your Personal Information."
+msgstr ""
+"Gerçekten de, Genel Veri Koruma Yönetmeliği kapsamında, Kişisel "
+"Bilgilerinizle ilgili tüm hakklara sahipsiniz."
+
+#: templates/landing_pages/privacy_policy.html:158
+msgid ""
+"Absolutely, Muntek takes the necessary steps to ensure that your Personal "
+"Information is reliable for its intended use, accurate, complete, and up-to-"
+"date. It's all part of the commitment to keeping your information in good "
+"shape."
+msgstr ""
+"Kesinlikle, Müntek Kişisel Bilgilerinizin kullanım amacı için güvenilir, "
+"doğru, eksiksiz ve güncel olmasını sağlamak için gerekli adımları atar. Tüm "
+"bunlar, bilgilerinizi iyi durumda tutma taahhüdümüzün bir parçasıdır."
+
+#: templates/landing_pages/privacy_policy.html:160
+msgid ""
+"Exactly, we only keep your Personal Information for as long as it's needed "
+"to fulfill the purposes we collected it for. This includes meeting legal, "
+"accounting, or reporting requirements, as well as other obligations "
+"stipulated by the General Data Protection Regulation or other relevant laws."
+" Once it's no longer necessary, rest assured, we'll securely delete it, "
+"following applicable laws and regulations."
+msgstr ""
+"Tam olarak, Kişisel Bilgilerinizi yalnızca topladığımız amaçları yerine "
+"getirmek için gerekli olduğu sürece saklarız. Bu, yasal, muhasebe veya "
+"raporlama gerekliliklerinin yanı sıra Genel Veri Koruma Yönetmeliği veya "
+"diğer ilgili yasalar tarafından öngörülen diğer yükümlülüklerin "
+"karşılanmasını da içerir. Artık gerekli olmadığında, geçerli yasa ve "
+"yönetmeliklere uygun olarak güvenli bir şekilde sileceğimizden emin "
+"olabilirsiniz."
+
+#: templates/landing_pages/privacy_policy.html:161
+msgid ""
+"Absolutely, if you request to stop receiving marketing materials, we'll "
+"respect that. However, we'll maintain a record of your contact details and "
+"relevant information to ensure we comply with your request not to be "
+"contacted by us. It's all about respecting your preferences."
+msgstr ""
+"Kesinlikle, pazarlama materyallerini almayı durdurmayı talep edebilirsiniz, "
+"buna saygı duyarız. Ancak, bizimle iletişime geçilmemesi talebinize "
+"uyduğumuzdan emin olmak için iletişim bilgilerinizin ve ilgili bilgilerin "
+"kaydını tutacağız. Her şey tercihlerinize saygı duymakla ilgilidir."
+
+#: templates/landing_pages/privacy_policy.html:163
+msgid ""
+"Just a heads up, we might hold on to your Personal Information for at least "
+"five years from the date you stop being our customer. The specific duration "
+"depends on the applicable laws or regulations in the jurisdictions where we "
+"operate."
+msgstr ""
+"Sadece bir uyarı, Kişisel Bilgilerinizi müşterimiz olmayı bıraktığınız "
+"tarihten itibaren en az beş yıl boyunca saklayabiliriz. Belirli süre, "
+"faaliyet gösterdiğimiz yargı bölgelerinde yürürlükte olan yasa veya "
+"yönetmeliklere bağlıdır."
+
+#: templates/landing_pages/privacy_policy.html:166
+msgid "How do we inform you and market to you?"
+msgstr "Sizi nasıl bilgilendiriyor ve size nasıl pazarlıyoruz?"
+
+#: templates/landing_pages/privacy_policy.html:167
+msgid ""
+"Staying compliant with the law, we'll send you personalized marketing "
+"information, including emails. This information may cover product and "
+"service updates, industry news, events, activities, offers, business-related"
+" insights, personnel updates, and tips. To enhance the relevance of these "
+"communications, we might combine your Personal Information like age, "
+"transaction history, and account usage."
+msgstr ""
+"Yasalara uygun olarak, size e-postalar da dahil olmak üzere "
+"kişiselleştirilmiş pazarlama bilgileri göndereceğiz. Bu bilgiler ürün ve "
+"hizmet güncellemeleri, sektör haberleri, etkinlikler, faaliyetler, "
+"teklifler, işle ilgili içgörüler, personel güncellemeleri ve ipuçlarını "
+"kapsayabilir. Bu iletişimlerin alaka düzeyini artırmak için yaş, işlem "
+"geçmişi ve hesap kullanımı gibi Kişisel Bilgilerinizi birleştirebiliriz."
+
+#: templates/landing_pages/privacy_policy.html:168
+msgid ""
+"You have the power to say mo at any time. Just hit the opt-out links on any "
+"marketing message or contact us directly (details below). Opting out won't "
+"affect Personal Information collected for specific purposes, requests, "
+"orders, events, activities, or any previous dealings with you."
+msgstr ""
+"İstediğiniz zaman mail isteme  hakkına sahipsiniz. Sadece herhangi bir "
+"pazarlama mesajındaki vazgeçme bağlantılarına basın veya doğrudan bizimle "
+"iletişime geçin (ayrıntılar aşağıda). Vazgeçmek, belirli amaçlar, talepler, "
+"siparişler, etkinlikler, faaliyetler veya sizinle olan önceki ilişkiler için"
+" toplanan Kişisel Bilgileri etkilemeyecektir."
+
+#: templates/landing_pages/privacy_policy.html:169
+msgid ""
+"If you wish to unsubscribe from an email publication, simply click the "
+"'unsubscribe' button at the bottom of the email. It may take up to [10] days"
+" for this to take effect."
+msgstr ""
+"Bir e-posta yayınının aboneliğinden çıkmak istiyorsanız, e-postanın "
+"altındaki 'abonelikten çık' düğmesine tıklamanız yeterlidir. Bu işlemin "
+"yürürlüğe girmesi [10] gün kadar sürebilir."
+
+#: templates/landing_pages/privacy_policy.html:172
+msgid "Changes to our Privacy Statement"
+msgstr "Gizlilik Beyanımızdaki Değişiklikler"
+
+#: templates/landing_pages/privacy_policy.html:173
+msgid ""
+"This version of our privacy statement was last updated on the date mentioned"
+" above. Archived historic versions are available upon request by contacting "
+"us."
+msgstr ""
+"Bu sürüm en son yukarıda belirtilen tarihte güncellendi ve tarihi sürümler "
+"arşivlendi ve bizimle iletişime geçerek edinilebilir."
+
+#: templates/landing_pages/privacy_policy.html:174
+msgid ""
+"To ensure the accuracy and currency of the Personal Information we have "
+"about you, please keep us in the loop if there are any changes during our "
+"relationship. Keeping the information up-to-date helps us serve you better."
+msgstr ""
+"Hakkınızda sahip olduğumuz Kişisel Bilgilerin doğruluğunu ve güncelliğini "
+"sağlamak için, ilişkimiz sırasında herhangi bir değişiklik olması durumunda "
+"lütfen bizi bilgilendirin. Bilgileri güncel tutmak size daha iyi hizmet "
+"vermemize yardımcı olur."
+
+#: templates/landing_pages/privacy_policy.html:177
+msgid "Where does this Privacy Statement apply?"
+msgstr "Bu Gizlilik Bildirimi nerede geçerlidir?"
+
+#: templates/landing_pages/privacy_policy.html:178
+msgid ""
+"This Privacy Statement covers all services provided by the Muntek Group and "
+"services on third-party sites, including advertising services. However, it "
+"doesn't extend to services with distinct privacy notices that don't "
+"integrate this Privacy Statement."
+msgstr ""
+"Bu Gizlilik Bildirimi, Muntek Group tarafından sağlanan tüm hizmetleri ve "
+"reklam hizmetleri de dahil olmak üzere üçüncü taraf sitelerdeki hizmetleri "
+"kapsar. Ancak, bu Gizlilik Bildirimini entegre etmeyen farklı gizlilik "
+"bildirimlerine sahip hizmetleri kapsamaz."
+
+#: templates/landing_pages/privacy_policy.html:179
+msgid ""
+"Take note, this Privacy Statement doesn't govern the information practices "
+"of other companies or organizations advertising our services. It also "
+"doesn't apply to services provided by other companies or individuals, "
+"including products or sites that may include our Services or be linked from "
+"our Services."
+msgstr ""
+"Bu Gizlilik Bildiriminin, hizmetlerimizin reklamını yapan diğer şirket veya "
+"kuruluşların bilgi uygulamalarını yönetmediğini unutmayın. Ayrıca, "
+"Hizmetlerimizi içerebilecek veya Hizmetlerimizden bağlantı verilebilecek "
+"ürünler veya siteler dahil olmak üzere diğer şirketler veya bireyler "
+"tarafından sağlanan hizmetler için de geçerli değildir."
+
+#: templates/landing_pages/privacy_policy.html:182
+#| msgid "Thank you for contacting us!"
+msgid "Who can you contact?"
+msgstr ""
+"Gizliliğiniz hakkında başka sorularınız veya talepleriniz varsa kiminle "
+"iletişime geçebilirsiniz?"
+
+#: templates/landing_pages/privacy_policy.html:183
+msgid ""
+"For any questions or concerns about the use or disclosure of your Personal "
+"Information, feel free to reach out to us using the contact information "
+"provided below. We're here to investigate and address any complaints or "
+"disputes promptly. If you have inquiries about this Privacy Statement or "
+"need to get in touch, drop us an email at: "
+msgstr ""
+"Kişisel Bilgilerinizin kullanımı veya ifşası ile ilgili her türlü soru veya "
+"endişeniz için, aşağıda verilen iletişim bilgilerini kullanarak bize "
+"ulaşmaktan çekinmeyin. Her türlü şikayet veya anlaşmazlığı derhal araştırmak"
+" ve ele almak için buradayız. Bu Gizlilik Bildirimi hakkında sorularınız "
+"varsa veya iletişime geçmeniz gerekiyorsa, bize legal@muntek.com.tr "
+"adresinden bir e-posta gönderin."
+
+#: templates/secret/dashboard.html:8
+msgid "Today's Rates"
+msgstr "Anlık Oranlar"
+
+#: templates/secret/history.html:19 templates/secret/layout.html:244
+msgid "Payment History"
+msgstr "Hesap Geçmişi"
+
+#: templates/secret/history.html:26
+msgid "This is a History Table"
+msgstr "Bu bir Tarih Tablosudur"
+
+#: templates/secret/history.html:31
+msgid "Reference Number"
+msgstr "Referans Numarası"
+
+#: templates/secret/history.html:32
+msgid "Transaction Start Date"
+msgstr "İşlem Başlangıç Tarihi"
+
+#: templates/secret/history.html:33
+msgid "Transaction Received Date"
+msgstr "İşlemin Alındığı Tarih"
+
+#: templates/secret/history.html:34
+msgid "Expected Crypto"
+msgstr "Beklenen Kripto Tutarı"
+
+#: templates/secret/history.html:35
+msgid "Received Crypto"
+msgstr "Gelen Kripto Tutarı"
+
+#: templates/secret/history.html:36 templates/secret/payment_report.html:31
+#: templates/secret/transaction_report.html:19
+msgid "Crypto Type"
+msgstr "Kripto Tipi"
+
+#: templates/secret/history.html:37
+msgid "Expected Amount"
+msgstr "Beklenen Tutar (TL)"
+
+#: templates/secret/history.html:38
+#| msgid "Expected Amount"
+msgid "Receivable Amount"
+msgstr "Alacak Tutar (TL)"
+
+#: templates/secret/history.html:39
+msgid "Unpaid Amount"
+msgstr "Eksik Ödenen Tutar (TL)"
+
+#: templates/secret/history.html:40
+msgid "Exchange Rate"
+msgstr "Anlık Kur (TL)"
+
+#: templates/secret/history.html:41 templates/secret/payment_report.html:32
+msgid "Network"
+msgstr "Ağ"
+
+#: templates/secret/history.html:42 templates/secret/payment_link.html:73
+msgid "Service Fee"
+msgstr "Hizmet Bedeli"
+
+#: templates/secret/history.html:43
+msgid "Status"
+msgstr "Durum"
+
+#: templates/secret/layout.html:190
+msgid "Dashboard"
+msgstr "Günlük Gösterge Paneli"
+
+#: templates/secret/layout.html:195
+msgid "Info"
+msgstr "Bilgi"
+
+#: templates/secret/layout.html:215 templates/secret/payment_link.html:16
+msgid "Create Payment Link"
+msgstr "Ödeme için Link Oluştur"
+
+#: templates/secret/layout.html:250 templates/secret/layout.html:284
+msgid "Reports"
+msgstr "Raporlar"
+
+#: templates/secret/layout.html:289
+msgid "Security"
+msgstr "Güvenlik"
+
+#: templates/secret/layout.html:312
+msgid "Account Info"
+msgstr "Hesap bilgisi"
+
+#: templates/secret/layout.html:337
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: templates/secret/layout.html:380
+msgid "Choose a language"
+msgstr "Bir dil seçin"
+
+#: templates/secret/login.html:77
+msgid "Sign In to PAYONE"
+msgstr "Satış Paneline Giriş Yapın"
+
+#: templates/secret/otp.html:81
+msgid "Type your 6 digit security code"
+msgstr "6 Haneli Güvenlik Kodunuzu Yazın"
+
+#: templates/secret/otp.html:101
+msgid "Please wait.."
+msgstr "Lütfen bekleyin.."
+
+#: templates/secret/payment_link.html:29
+msgid "Select Currency"
+msgstr "Para Birimi"
+
+#: templates/secret/payment_link.html:36
+msgid "Select Crypto"
+msgstr "Kripto Birimini seçin"
+
+#: templates/secret/payment_link.html:38
+msgid "Select Crypto Currency"
+msgstr "Kripto seçin"
+
+#: templates/secret/payment_link.html:47
+msgid "Select Network"
+msgstr "Ağ Seçiniz"
+
+#: templates/secret/payment_link.html:49
+msgid "Select Crypto Network"
+msgstr "Kripto Ağını Seçin"
+
+#: templates/secret/payment_link.html:57
+msgid "Payment Amount"
+msgstr "Ödeme Tutarı (TL)"
+
+#: templates/secret/payment_link.html:97
+msgid "Calculate"
+msgstr "Hesapla"
+
+#: templates/secret/payment_link.html:102
+#: templates/secret/payment_link.html:121
+msgid "Create QR Code?"
+msgstr "QR Kodu oluşturulsun mu?"
+
+#: templates/secret/payment_link.html:115
+msgid "QR Code"
+msgstr "Kare Kod"
+
+#: templates/secret/payment_link.html:125 templates/secret/qrcode.html:82
+msgid "Cancel"
+msgstr "İptal "
+
+#: templates/secret/payment_link.html:126
+msgid "Create"
+msgstr "Oluştur"
+
+#: templates/secret/payment_report.html:18
+msgid "Payment Report"
+msgstr "Ödeme Raporu"
+
+#: templates/secret/payment_report.html:25
+msgid "This is Payments Report Table"
+msgstr "Bu Ödemeler Rapor Tablosu"
+
+#: templates/secret/payment_report.html:29
+msgid "Transaction ID"
+msgstr "İşlem ID"
+
+#: templates/secret/payment_report.html:33
+msgid "Transaction Date And Time"
+msgstr "İşlem Tarihi ve Saati"
+
+#: templates/secret/payment_report.html:34
+msgid "status"
+msgstr "Durum"
+
+#: templates/secret/profile.html:11
+msgid "User Account Details"
+msgstr "Kullanıcı Hesabı Detayları"
+
+#: templates/secret/profile.html:25
+msgid "Oh snap! Change a few things up and try submitting again."
+msgstr "Tekrar Göndermeyi Deneyin."
+
+#: templates/secret/profile.html:36
+msgid "Last Login date"
+msgstr "Son Giriş Tarihi"
+
+#: templates/secret/profile.html:51
+msgid "Commission Rate"
+msgstr "Komisyon Oranı"
+
+#: templates/secret/profile.html:70
+msgid "Name and Surname"
+msgstr "Adı Ve Soyadı"
+
+#: templates/secret/profile.html:83
+msgid "Email Address"
+msgstr "E-posta"
+
+#: templates/secret/profile.html:95
+msgid "Telephone"
+msgstr "Telefon"
+
+#: templates/secret/qrcode.html:39
+msgid "Successful Payment"
+msgstr "Başarılı Ödeme"
+
+#: templates/secret/qrcode.html:43
+msgid "Awaiting Payment"
+msgstr "Bekleyen Ödeme"
+
+#: templates/secret/qrcode.html:47
+msgid "Canceled Payment"
+msgstr "İptal Edilen Ödeme"
+
+#: templates/secret/qrcode.html:86
+msgid "Return to dashboard"
+msgstr "Gösterge Paneline dönüş"
+
+#: templates/secret/transaction_report.html:15
+msgid "Transaction Date"
+msgstr "İşlem Tarihi "
+
+#: templates/secret/transaction_report.html:16
+msgid "Branch"
+msgstr "Şube"
+
+#: templates/secret/transaction_report.html:17
+msgid "Cashier Transaction Number"
+msgstr "Kasiyer İşlem Numarası"
+
+#: templates/secret/transaction_report.html:18
+msgid "Transaction Amount"
+msgstr "İşlem tutarı"
+
+#: templates/secret/transaction_report.html:20
+msgid "Converted Amount"
+msgstr "Dönüştürülen Tutar"
+
+#: templates/secret/transaction_report.html:21
+msgid "Currency Amount"
+msgstr "Döviz Tutarı"
+
+#: templates/secret/transaction_report.html:22
+msgid "Current Commission"
+msgstr "Mevcut Komisyon"
+
+#: templates/secret/transaction_report.html:23
+msgid "Transfered to Account"
+msgstr "Hesaba Aktarıldı"
+
+#~ msgid "Amount Payable to Retailer"
+#~ msgstr "Bayiye Ödenecek Tutar (TL)"
+
+#~ msgid "Today's Transactions"
+#~ msgstr "Bugünkü İşlemler"
+
+#, fuzzy
+#~ msgid "APPLICATION REQUEST CONFIRMATION"
+#~ msgstr "IŞLEM ONAYI"
+
+#~ msgid "TRANSACTION CONFIRMATION"
+#~ msgstr "IŞLEM ONAYI"
+
+#~ msgid "has been received for"
+#~ msgstr "için alındı"
+
+#~ msgid "The Transaction has been succesfully completed"
+#~ msgstr "İşlem başarıyla tamamlanmıştır"
+
+#~ msgid "Here is your QR Code"
+#~ msgstr "QR Kodunuz"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "TRY Amount"
+#~ msgstr "TL Tutarı"
+
+#~ msgid "Commission"
+#~ msgstr "Komisyon"
+
+#~ msgid "Select Bank Note Currency"
+#~ msgstr "Para Birimini Seçin"
+
+#~ msgid "Elevate Your Sales Journey"
+#~ msgstr "Satış Yolculuğunuzu Yükseltin"
+
+#~ msgid "with great financial tools"
+#~ msgstr "Finansal Araçlarla"
+
+#~ msgid "Discover Amazing PAYONE"
+#~ msgstr "PAYONE'u keşfedin"
